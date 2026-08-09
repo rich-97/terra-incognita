@@ -1,7 +1,10 @@
-# Modpack de Minecraft 1.20.1 (Forge)
+# Terra Incognita
 
-Modpack personal de **95 mods** para Minecraft **1.20.1** con **Forge**.
-Enfoque: exploración, estructuras, mobs y calidad de vida. Sin tech/automatización.
+> *«…y de aquí en adelante, tierra desconocida.»*
+
+Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 95 mods que rehacen
+el mundo vanilla entero — cada estructura, las tres dimensiones y buena parte de los mobs.
+Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los `.jar`** — guarda la lista con versión, URL y hash de cada mod
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
@@ -23,7 +26,7 @@ Este repo **no contiene los `.jar`** — guarda la lista con versión, URL y has
 
 ```bash
 git clone <URL-DE-ESTE-REPO>
-cd minecraft-modpack
+cd terra-incognita
 python3 sync.py
 ```
 
