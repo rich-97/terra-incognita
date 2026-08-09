@@ -2,27 +2,28 @@
 
 > *«…y de aquí en adelante, tierra desconocida.»*
 
-Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 95 mods que rehacen
+Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 97 mods que rehacen
 el mundo vanilla entero — cada estructura, las tres dimensiones y buena parte de los mobs.
 Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
-Este repo **no contiene los `.jar`** — guarda la lista con versión, URL y hash de cada mod
+Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-271 MB, los diffs muestran exactamente qué mod cambió, y nadie redistribuye mods ajenos.
+292 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 95 (89 automáticos + 6 manuales) |
+| **Mods** | 97 (100 automáticos + 6 manuales) |
+| **Resource packs** | 9 |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~271 MB solo en mods |
+| **Peso en disco** | ~292 MB |
 
 ---
 
 ## Instalación
 
-### 1. Descargar los mods
+### 1. Descargar todo
 
 ```bash
 git clone <URL-DE-ESTE-REPO>
@@ -30,8 +31,8 @@ cd terra-incognita
 python3 sync.py
 ```
 
-Descarga los 89 mods de Modrinth en `./mods`, verificando el SHA1 de cada uno.
-Si ya los tenías, solo baja lo que cambió.
+Descarga los mods en `./mods` y los resource packs en `./resourcepacks`, verificando el
+SHA1 de cada archivo. Si ya los tenías, solo baja lo que cambió.
 
 ### 2. Los 6 mods que faltan
 
@@ -48,14 +49,20 @@ No están en Modrinth, hay que bajarlos a mano de CurseForge y ponerlos en `./mo
 
 **TLauncher**
 1. Instalá **Forge 1.20.1** desde el propio launcher.
-2. Copiá el contenido de `mods/` a `~/Library/Application Support/minecraft/mods`
-   (Windows: `%APPDATA%\.minecraft\mods`).
+2. Copiá `mods/` y `resourcepacks/` a `~/Library/Application Support/minecraft/`
+   (Windows: `%APPDATA%\.minecraft\`).
 3. Asignale 6–8 GB de RAM en Configuración → Java.
 
 **CurseForge App / Prism / MultiMC / Modrinth App**
 1. Creá una instancia de Minecraft 1.20.1 con Forge.
-2. Abrí la carpeta de la instancia y copiá `mods/` adentro.
+2. Abrí la carpeta de la instancia y copiá `mods/` y `resourcepacks/` adentro.
 3. Subí la RAM a 6–8 GB en las opciones de la instancia.
+
+### 4. Activar los resource packs
+
+Los resource packs se descargan pero **no se activan solos**. Dentro del juego:
+Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faithful abajo**
+(es la base) y los específicos arriba.
 
 ---
 
@@ -178,10 +185,12 @@ No están en Modrinth, hay que bajarlos a mano de CurseForge y ponerlos en `./mo
 
 ### 📚 Librerías y dependencias
 
-*No aportan contenido: otros mods los necesitan para funcionar.* — **16 mods**
+*No aportan contenido: otros mods los necesitan para funcionar.* — **18 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
+| [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features) | Permite modelos de entidad personalizados (CEM) sin OptiFine. Lo necesitan Fresh Animations y Better Dogs. | Modrinth · cliente |
+| [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Permite texturas de entidad variables y emisivas (CET) sin OptiFine. Va de la mano con EMF. | Modrinth · cliente |
 | [CERBON's API](https://modrinth.com/mod/cerbons-api) | Librería de los mods de CERBON (Enhanced Boss Bars). | Modrinth |
 | [Citadel](https://modrinth.com/mod/citadel) | Librería de Ice and Fire y otros mods de Alex. | Modrinth |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | Librería de pantallas de configuración. | Modrinth |
@@ -198,6 +207,27 @@ No están en Modrinth, hay que bajarlos a mano de CurseForge y ponerlos en `./mo
 | [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) | Librería de todos los mods de Fuzs (los 'Easy*', tooltips, etc). | Modrinth |
 | [Resourceful Config](https://modrinth.com/mod/resourceful-config) | Librería de configuración multiplataforma. | Modrinth |
 | [YUNG's API](https://modrinth.com/mod/yungs-api) | Librería de todos los mods de YUNG. | Modrinth |
+
+---
+
+## Resource packs
+
+Los 9 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
+
+| Resource pack | Qué hace |
+|---|---|
+| [Better Dogs](https://modrinth.com/resourcepack/better-dogs) | Razas de perro reales para los lobos domesticados, cada una con su textura. |
+| [Eclectic Trove (Legendary Tooltips)](https://modrinth.com/resourcepack/eclectic-trove-legendary-tooltips) | Marcos de tooltip para Legendary Tooltips, uno por nivel de rareza. |
+| [Enhanced Boss Bars](https://modrinth.com/resourcepack/enhanced-boss-bars) | Texturas para el mod Enhanced Boss Bars: una barra distinta por jefe. |
+| [Faithful 32x](https://modrinth.com/resourcepack/faithful-32x) | Las texturas vanilla al doble de resolución, respetando el estilo original. La base sobre la que van los demás. |
+| [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) | Animaciones nuevas para todos los mobs vanilla: giran la cabeza, parpadean, reaccionan. Cambia muchísimo cómo se siente el mundo. |
+| [Icon Xaero's](https://modrinth.com/resourcepack/icon-xaeros) | Iconos propios para las entidades y waypoints del minimapa de Xaero's. |
+| [Ore Variants](https://modrinth.com/resourcepack/ore-variants) | Cada mineral se ve distinto según la piedra en la que está (piedra, deepslate, nether). |
+| [RAY's 3D Rails](https://modrinth.com/resourcepack/rays-3d-rails) | Rieles con modelo 3D en vez de calcomanías planas en el suelo. |
+| [xali's Bushy Leaves](https://modrinth.com/resourcepack/xalis-bushy-leaves) | Hojas más frondosas y con volumen: los árboles dejan de verse planos. |
+
+> **Fresh Animations y Better Dogs necesitan EMF + ETF**, que ya están incluidos en los mods.
+> Son el reemplazo de OptiFine en Forge — sin ellos los packs se instalan pero no hacen nada.
 
 ---
 
@@ -220,6 +250,8 @@ Para actualizar un mod, editá su entrada en `mods.json` (`version_number`, `url
 
 - Todo el pack es **Forge 1.20.1**. Antes de agregar un mod, confirmá que su página
   liste `Forge` y `1.20.1` — si no, no carga.
+- En los resource packs mirá el `pack_format`: **15** es 1.20–1.20.1. Uno más nuevo o
+  más viejo suele cargar igual, pero Minecraft te avisa y puede faltar alguna textura.
 - Los mods marcados **· cliente** no hacen falta en el servidor.
 - Las librerías no aportan contenido: si sacás el mod que las usa, se pueden sacar también.
 - Ice and Fire, AmbientSounds y The Bumblezone son los tres jars más pesados del pack.

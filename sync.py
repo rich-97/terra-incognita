@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
-"""Descarga/actualiza los mods del pack en ./mods verificando SHA1. Solo stdlib.
+"""Descarga/actualiza mods y resource packs del pack, verificando SHA1. Solo stdlib.
 
   python3 sync.py            descarga lo que falte o esté corrupto
-  python3 sync.py --prune    además borra jars de ./mods que no están en mods.json
+  python3 sync.py --prune    además borra lo que ya no está en mods.json
   python3 sync.py --verify   solo re-verifica hashes, no descarga nada
 
-ponytail: 60 líneas en vez de packwiz porque el pack es 100% Modrinth salvo 6 mods.
+ponytail: 70 líneas en vez de packwiz porque el pack es 100% Modrinth salvo 6 mods.
 Si algún día hace falta exportar .mrpack o meter CurseForge de verdad -> usar packwiz.
 """
 import hashlib, json, pathlib, sys, urllib.request
 
 ROOT = pathlib.Path(__file__).parent
-MODS = ROOT / "mods"
-UA = {"User-Agent": "minecraft-modpack-sync/1.0"}
+DEST = {"mod": "mods", "resourcepack": "resourcepacks"}
+UA = {"User-Agent": "terra-incognita-sync/1.0"}
 
 
 def sha1(path):
@@ -28,11 +28,12 @@ def main(argv):
     rows = json.loads((ROOT / "mods.json").read_text())
     wanted = {r["filename"]: r for r in rows if r.get("url")}
     manual = [r for r in rows if not r.get("url")]
-    MODS.mkdir(exist_ok=True)
+    for d in DEST.values():
+        (ROOT / d).mkdir(exist_ok=True)
 
     ok = bad = new = 0
     for name, r in sorted(wanted.items()):
-        dest = MODS / name
+        dest = ROOT / DEST[r.get("type", "mod")] / name
         if dest.exists() and sha1(dest) == r["sha1_remote"]:
             ok += 1
             continue
@@ -52,7 +53,8 @@ def main(argv):
         dest.write_bytes(data)
         new += 1
 
-    strays = [p for p in MODS.glob("*.jar") if p.name not in wanted]
+    strays = [p for d in DEST.values() for p in (ROOT / d).iterdir()
+              if p.is_file() and p.name not in wanted and p.name != ".DS_Store"]
     for p in strays:
         if prune:
             print(f"  borrando sobrante  {p.name}")

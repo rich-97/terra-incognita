@@ -1,5 +1,6 @@
-# Los mods se descargan con sync.py, nunca se commitean
+# Mods y resource packs se descargan con sync.py, nunca se commitean
 mods/
+resourcepacks/
 *.jar
 *.zip
 

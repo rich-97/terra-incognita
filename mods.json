@@ -44,7 +44,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/Y3a9lWnU/versions/DeFz1p58/AdLods-1.20.1-8.1.12.0-build.2294.jar",
     "sha1_remote": "854e53de4c33c21735efe526f3579a84ec39503e",
-    "filename": "AdLods-1.20.1-8.1.12.0-build.2294.jar"
+    "filename": "AdLods-1.20.1-8.1.12.0-build.2294.jar",
+    "type": "mod"
   },
   {
     "file": "AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar",
@@ -90,7 +91,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/fM515JnW/versions/AuLdtrBY/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
     "sha1_remote": "87ea0cd8ec56763185ee0db09eec7c676969e4da",
-    "filename": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar"
+    "filename": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+    "type": "mod"
   },
   {
     "file": "ApothicAttributes-1.20.1-1.3.7.jar",
@@ -128,7 +130,8 @@
     "url": "https://cdn.modrinth.com/data/DGaH8Rh0/versions/fwL9CWGd/ApothicAttributes-1.20.1-1.3.7.jar",
     "source_url": "https://github.com/Shadows-of-Fire/Apothic-Attributes",
     "sha1_remote": "1dc0744d17f0861fe6b067798d39abce9d8e0e86",
-    "filename": "ApothicAttributes-1.20.1-1.3.7.jar"
+    "filename": "ApothicAttributes-1.20.1-1.3.7.jar",
+    "type": "mod"
   },
   {
     "file": "appleskin-forge-mc1.20.1-2.5.1.jar",
@@ -165,7 +168,8 @@
     "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar",
     "source_url": "https://github.com/squeek502/AppleSkin",
     "sha1_remote": "81919356f84eab14258db98924b66c3c38e372b1",
-    "filename": "appleskin-forge-mc1.20.1-2.5.1.jar"
+    "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
+    "type": "mod"
   },
   {
     "file": "ArmorStatues-v8.0.6-1.20.1-Forge.jar",
@@ -202,7 +206,8 @@
     "url": "https://cdn.modrinth.com/data/bbGCtEvb/versions/Oa75lUzE/ArmorStatues-v8.0.6-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/armorstatues",
     "sha1_remote": "dbeb8229973c26d233b4bdf21ed6a4aa6b3ebd55",
-    "filename": "ArmorStatues-v8.0.6-1.20.1-Forge.jar"
+    "filename": "ArmorStatues-v8.0.6-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "BagOfHolding-v8.0.2-1.20.1-Forge.jar",
@@ -239,7 +244,8 @@
     "url": "https://cdn.modrinth.com/data/qbqWvc0D/versions/VJB3Xxae/BagOfHolding-v8.0.2-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/bagofholding",
     "sha1_remote": "0d998f80425c4b38d56d17439bdf2176b6242d24",
-    "filename": "BagOfHolding-v8.0.2-1.20.1-Forge.jar"
+    "filename": "BagOfHolding-v8.0.2-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
@@ -278,7 +284,8 @@
     "url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/XkYduFuv/BetterThirdPerson-Forge-1.20-1.9.0.jar",
     "source_url": null,
     "sha1_remote": "0b0a3ff3b244fa191b3f9580547071dee46f7276",
-    "filename": "BetterThirdPerson-Forge-1.20-1.9.0.jar"
+    "filename": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
+    "type": "mod"
   },
   {
     "file": "BOMD-Forge-1.20.1-1.1.2.jar",
@@ -325,7 +332,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/hFUzfDsn/versions/2Kw4xPhp/BOMD-Forge-1.20.1-1.1.2.jar",
     "sha1_remote": "232eb28172423cde46e8e1f038c670a01471fa92",
-    "filename": "BOMD-Forge-1.20.1-1.1.2.jar"
+    "filename": "BOMD-Forge-1.20.1-1.1.2.jar",
+    "type": "mod"
   },
   {
     "file": "bygonenether-1.3.2-1.20.x.jar",
@@ -363,7 +371,8 @@
     "url": "https://cdn.modrinth.com/data/kt3BLgXB/versions/RA38ax2z/bygonenether-1.3.2-1.20.x.jar",
     "source_url": "https://github.com/izofar/bygone-nether",
     "sha1_remote": "529e31d2877b87a8bf006f590513a33ab6b73171",
-    "filename": "bygonenether-1.3.2-1.20.x.jar"
+    "filename": "bygonenether-1.3.2-1.20.x.jar",
+    "type": "mod"
   },
   {
     "file": "carryon-forge-1.20.1-2.1.2.7.jar",
@@ -402,7 +411,8 @@
     "url": "https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar",
     "source_url": "https://github.com/Tschipp/CarryOn",
     "sha1_remote": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
-    "filename": "carryon-forge-1.20.1-2.1.2.7.jar"
+    "filename": "carryon-forge-1.20.1-2.1.2.7.jar",
+    "type": "mod"
   },
   {
     "file": "CerbonsAPI-Forge-1.20.1-1.1.0.jar",
@@ -440,7 +450,8 @@
     "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/XWZQbKsr/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
     "source_url": "https://github.com/CERBON-MODS/CERBONs-API",
     "sha1_remote": "83cccb66e679d72345a5194e4ca520f647bc97e6",
-    "filename": "CerbonsAPI-Forge-1.20.1-1.1.0.jar"
+    "filename": "CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+    "type": "mod"
   },
   {
     "file": "citadel-2.4.1-1.20.jar",
@@ -477,7 +488,8 @@
     "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/l54hCYzm/citadel-2.4.1-1.20.jar",
     "source_url": "https://github.com/Alex-the-666/Citadel",
     "sha1_remote": "41dcebfac08ca4ecf102a9a91a5c80d843861228",
-    "filename": "citadel-2.4.1-1.20.jar"
+    "filename": "citadel-2.4.1-1.20.jar",
+    "type": "mod"
   },
   {
     "file": "cloth-config-11.1.118-forge.jar",
@@ -514,7 +526,8 @@
     "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/nr1znv5v/cloth-config-11.1.118-forge.jar",
     "source_url": "https://github.com/shedaniel/ClothConfig/",
     "sha1_remote": "c46ca3fba95691873a765f4e79750c615f33e446",
-    "filename": "cloth-config-11.1.118-forge.jar"
+    "filename": "cloth-config-11.1.118-forge.jar",
+    "type": "mod"
   },
   {
     "file": "CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
@@ -551,7 +564,8 @@
     "url": "https://cdn.modrinth.com/data/2gq0ALnz/versions/5zfJEMhM/CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
     "source_url": "https://github.com/TheCBProject/CodeChickenLib",
     "sha1_remote": "66c614b047414e3cfcd69ff7f001b7033c5813c6",
-    "filename": "CodeChickenLib-1.20.1-4.4.0.528-universal.jar"
+    "filename": "CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+    "type": "mod"
   },
   {
     "file": "comforts-forge-6.4.0+1.20.1.jar",
@@ -590,7 +604,8 @@
     "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar",
     "source_url": "https://github.com/illusivesoulworks/comforts",
     "sha1_remote": "e7b9fe89566bb1ee013e33745f22f309f679536e",
-    "filename": "comforts-forge-6.4.0+1.20.1.jar"
+    "filename": "comforts-forge-6.4.0+1.20.1.jar",
+    "type": "mod"
   },
   {
     "file": "corpse-1.20.1-1.0.9.jar",
@@ -644,7 +659,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/7fc0hJN6/corpse-forge-1.20.1-1.0.23.jar",
     "sha1_remote": "78a776f057588a84a86c57dbe376b9b26f69f2c4",
-    "filename": "corpse-forge-1.20.1-1.0.23.jar"
+    "filename": "corpse-forge-1.20.1-1.0.23.jar",
+    "type": "mod"
   },
   {
     "file": "Craftable_Elytra[REMASTERED][2.2]1.20.1.jar",
@@ -660,7 +676,8 @@
     "source": "curseforge",
     "search_query": "craftable_elytra_remastered",
     "search_hits": [],
-    "title": "Craftable Elytra [REMASTERED]"
+    "title": "Craftable Elytra [REMASTERED]",
+    "type": "mod"
   },
   {
     "file": "CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
@@ -697,7 +714,8 @@
     "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/GhnBaKkx/CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
     "source_url": "https://github.com/CreativeMD/CreativeCore",
     "sha1_remote": "d911909099b38896a8753dd3c44f1bb3a2a345ad",
-    "filename": "CreativeCore_FORGE_v2.11.33_mc1.20.1.jar"
+    "filename": "CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
+    "type": "mod"
   },
   {
     "file": "creeperoverhaul-3.0.2-forge.jar",
@@ -735,7 +753,8 @@
     "url": "https://cdn.modrinth.com/data/MI1LWe93/versions/Ap1DSAzz/creeperoverhaul-3.0.2-forge.jar",
     "source_url": "https://github.com/bonsaistudi0s/Creeper-Overhaul",
     "sha1_remote": "01e3275d3eb586c953ac786b1afee6e473eef947",
-    "filename": "creeperoverhaul-3.0.2-forge.jar"
+    "filename": "creeperoverhaul-3.0.2-forge.jar",
+    "type": "mod"
   },
   {
     "file": "cristellib-1.1.5-forge.jar",
@@ -773,7 +792,8 @@
     "url": "https://cdn.modrinth.com/data/cl223EMc/versions/amI1oyGG/cristellib-1.1.5-forge.jar",
     "source_url": "https://github.com/Cristelknight999/Cristel-Lib",
     "sha1_remote": "8a43951083ea9096a91f81757004465f4afc7cab",
-    "filename": "cristellib-1.1.5-forge.jar"
+    "filename": "cristellib-1.1.5-forge.jar",
+    "type": "mod"
   },
   {
     "file": "deeperdarker-forge-1.20.1-1.2.1.jar",
@@ -811,7 +831,8 @@
     "url": "https://cdn.modrinth.com/data/fnAffV0n/versions/tqPSIRGd/deeperdarker-forge-1.20.1-1.2.1.jar",
     "source_url": "https://github.com/KyaniteMods/DeeperAndDarker",
     "sha1_remote": "b7cd826ae029ad99234501abefef37fc6f3e57d8",
-    "filename": "deeperdarker-forge-1.20.1-1.2.1.jar"
+    "filename": "deeperdarker-forge-1.20.1-1.2.1.jar",
+    "type": "mod"
   },
   {
     "file": "DiagonalFences-v8.1.4-1.20.1-Forge.jar",
@@ -848,7 +869,8 @@
     "url": "https://cdn.modrinth.com/data/IKARgflD/versions/yHaWLo5t/DiagonalFences-v8.1.4-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/diagonalfences",
     "sha1_remote": "5abeea128e46f76e0ed1694591d27272ef2ccf3a",
-    "filename": "DiagonalFences-v8.1.4-1.20.1-Forge.jar"
+    "filename": "DiagonalFences-v8.1.4-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
@@ -887,7 +909,8 @@
     "url": "https://cdn.modrinth.com/data/6FtRfnLg/versions/VH8QpKA5/do_a_barrel_roll-forge-3.5.6%2B1.20.1.jar",
     "source_url": "https://codeberg.org/enjarai/do-a-barrel-roll",
     "sha1_remote": "08b58bfbdf20660bdc5a0c4a0b088f7d89f40a38",
-    "filename": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar"
+    "filename": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+    "type": "mod"
   },
   {
     "file": "DungeonsArise-1.20.x-2.1.58-release.jar",
@@ -930,7 +953,8 @@
     "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/6hQpx5Tc/DungeonsArise-1.20.x-2.1.58-release.jar",
     "source_url": null,
     "sha1_remote": "30b4520e4fab40a6bb6153a2c72e34bcb721f0a5",
-    "filename": "DungeonsArise-1.20.x-2.1.58-release.jar"
+    "filename": "DungeonsArise-1.20.x-2.1.58-release.jar",
+    "type": "mod"
   },
   {
     "file": "DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
@@ -971,7 +995,8 @@
     "url": "https://cdn.modrinth.com/data/ZsrrjDbP/versions/Ak226ElN/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
     "source_url": null,
     "sha1_remote": "0390b912cc5534bbe0f01853337d777453ca08de",
-    "filename": "DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar"
+    "filename": "DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+    "type": "mod"
   },
   {
     "file": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
@@ -1008,7 +1033,8 @@
     "url": "https://cdn.modrinth.com/data/OZBR5JT5/versions/4pRdDqEb/EasyAnvils-v8.0.2-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/easyanvils",
     "sha1_remote": "d44a8b549b27713a92d59148729bf374ff3e25f0",
-    "filename": "EasyAnvils-v8.0.2-1.20.1-Forge.jar"
+    "filename": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "EasyEmerald-Forge-1.20.1-1.5.8.jar",
@@ -1054,7 +1080,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/6thPP07v/versions/rpWaDLmj/Easy%20Emerald-1.20.1-3.4.1-%5BFORGE%5D.jar",
     "sha1_remote": "368320998d3473f3720c970ece828cae5842f83c",
-    "filename": "Easy Emerald-1.20.1-3.4.1-[FORGE].jar"
+    "filename": "Easy Emerald-1.20.1-3.4.1-[FORGE].jar",
+    "type": "mod"
   },
   {
     "file": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
@@ -1090,7 +1117,8 @@
     "url": "https://cdn.modrinth.com/data/9hx3AbJM/versions/W2xPEG9I/EasyMagic-v8.0.1-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/easymagic",
     "sha1_remote": "9bfb5d63ac2e03ecdab8755c968ffa25b799469b",
-    "filename": "EasyMagic-v8.0.1-1.20.1-Forge.jar"
+    "filename": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
@@ -1127,7 +1155,8 @@
     "url": "https://cdn.modrinth.com/data/gA5euN8S/versions/BG9Ajkjd/EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/easyshulkerboxes",
     "sha1_remote": "c5245255c422afa2d627e89bbbf4a2f1d5d721e8",
-    "filename": "EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar"
+    "filename": "EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "EchoChest-v8.0.0-1.20.1-Forge.jar",
@@ -1163,7 +1192,8 @@
     "url": "https://cdn.modrinth.com/data/m3pkVbY8/versions/aQcerSRS/EchoChest-v8.0.0-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/echochest",
     "sha1_remote": "0644ed14ee92c6976cdf16ef797eab676dffee19",
-    "filename": "EchoChest-v8.0.0-1.20.1-Forge.jar"
+    "filename": "EchoChest-v8.0.0-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
@@ -1199,7 +1229,8 @@
     "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/1cLzn1rF/EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/effectinsights",
     "sha1_remote": "88c15335c1b1a03e22ed7cbf62d511f6dd0e6877",
-    "filename": "EffectDescriptions-v8.0.2-1.20.1-Forge.jar"
+    "filename": "EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "EnchantingInfuser-v8.0.3-1.20.1-Forge.jar",
@@ -1250,7 +1281,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/ePv85y52/versions/UIJtaBTP/EnchantingInfuser-v8.0.3-1.20.1-Forge.jar",
     "sha1_remote": "f3821c8e9f5f597a54b9d1009eb38572b17ffe72",
-    "filename": "EnchantingInfuser-v8.0.3-1.20.1-Forge.jar"
+    "filename": "EnchantingInfuser-v8.0.3-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
@@ -1287,7 +1319,8 @@
     "url": "https://cdn.modrinth.com/data/BbrHg80P/versions/pTEnM5jC/EnderStorage-1.20.1-2.11.0.188-universal.jar",
     "source_url": "https://github.com/TheCBProject/EnderStorage",
     "sha1_remote": "19a4935881634bdb98aad4aba6e548b13ffaded7",
-    "filename": "EnderStorage-1.20.1-2.11.0.188-universal.jar"
+    "filename": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
+    "type": "mod"
   },
   {
     "file": "enhanced_boss_bars-1.20.1-1.0.0.jar",
@@ -1333,7 +1366,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/J5bVsBt9/versions/7JEVgmIp/enhanced_boss_bars-1.20.1-1.0.0.jar",
     "sha1_remote": "5836d3059dc19a9f12a505455693a8c790365596",
-    "filename": "enhanced_boss_bars-1.20.1-1.0.0.jar"
+    "filename": "enhanced_boss_bars-1.20.1-1.0.0.jar",
+    "type": "mod"
   },
   {
     "file": "exposure-1.20.1-1.7.5-forge.jar",
@@ -1372,7 +1406,8 @@
     "url": "https://cdn.modrinth.com/data/hB899VmG/versions/vNOYdEJg/exposure-1.20.1-1.7.5-forge.jar",
     "source_url": "https://github.com/mortuusars/Exposure",
     "sha1_remote": "206f0ccd6b2c42ce6d7bc61e83a613102a519818",
-    "filename": "exposure-1.20.1-1.7.5-forge.jar"
+    "filename": "exposure-1.20.1-1.7.5-forge.jar",
+    "type": "mod"
   },
   {
     "file": "Fallingleaves-1.20-2.1.0-beta.1.jar",
@@ -1409,7 +1444,8 @@
     "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/eTqAeXTY/Fallingleaves-1.20-2.1.0-beta.1.jar",
     "source_url": "https://github.com/Cheaterpaul/fallingleaves",
     "sha1_remote": "566b2a16a0ce30fbe714ae5f8c816f7d6f008eda",
-    "filename": "Fallingleaves-1.20-2.1.0-beta.1.jar"
+    "filename": "Fallingleaves-1.20-2.1.0-beta.1.jar",
+    "type": "mod"
   },
   {
     "file": "ForgeEndertech-1.20.1-11.1.10.2-build.2294.jar",
@@ -1445,7 +1481,8 @@
     "url": "https://cdn.modrinth.com/data/EgS8gGp8/versions/4ZVDiGQG/ForgeEndertech-1.20.1-11.1.10.2-build.2294.jar",
     "source_url": null,
     "sha1_remote": "0b3498a265e94f9a2c8f9fa8879038fd57a73d19",
-    "filename": "ForgeEndertech-1.20.1-11.1.10.2-build.2294.jar"
+    "filename": "ForgeEndertech-1.20.1-11.1.10.2-build.2294.jar",
+    "type": "mod"
   },
   {
     "file": "framework-forge-1.20.1-0.7.6.jar",
@@ -1474,7 +1511,8 @@
         "title": "Voidless Framework"
       }
     ],
-    "title": "Framework (MrCrayfish)"
+    "title": "Framework (MrCrayfish)",
+    "type": "mod"
   },
   {
     "file": "friendsandfoes-forge-mc1.20.1-2.0.15.jar",
@@ -1512,7 +1550,8 @@
     "url": "https://cdn.modrinth.com/data/BOCJKD49/versions/v1IiVObC/friendsandfoes-forge-mc1.20.1-2.0.15.jar",
     "source_url": "https://github.com/Faboslav/friends-and-foes",
     "sha1_remote": "47bdce9a3102eece13338f058033485a4d6b3daf",
-    "filename": "friendsandfoes-forge-mc1.20.1-2.0.15.jar"
+    "filename": "friendsandfoes-forge-mc1.20.1-2.0.15.jar",
+    "type": "mod"
   },
   {
     "file": "From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar",
@@ -1552,7 +1591,8 @@
     "url": "https://cdn.modrinth.com/data/p1WH6sHr/versions/JTd3TFcc/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar",
     "source_url": "https://github.com/LunarEclipseStudios/From-The-Fog/",
     "sha1_remote": "8508868b645b4c8bcdfef1437f0278173eaadbbb",
-    "filename": "From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar"
+    "filename": "From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar",
+    "type": "mod"
   },
   {
     "file": "GatewaysToEternity-1.20.1-4.2.5.jar",
@@ -1606,7 +1646,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/8OIeAukW/versions/5xh4aALL/GatewaysToEternity-1.20.1-4.2.6.jar",
     "sha1_remote": "ed2158bade0615c90d50474e2cbf0b32b5eeee61",
-    "filename": "GatewaysToEternity-1.20.1-4.2.6.jar"
+    "filename": "GatewaysToEternity-1.20.1-4.2.6.jar",
+    "type": "mod"
   },
   {
     "file": "geckolib-forge-1.20.1-4.2.3.jar",
@@ -1645,7 +1686,8 @@
     "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/ISrpRn5q/geckolib-forge-1.20.1-4.2.3.jar",
     "source_url": "https://github.com/bernie-g/geckolib",
     "sha1_remote": "8dd742eae684867bec07fa61bf18abd8b3551577",
-    "filename": "geckolib-forge-1.20.1-4.2.3.jar"
+    "filename": "geckolib-forge-1.20.1-4.2.3.jar",
+    "type": "mod"
   },
   {
     "file": "Gobber2-Forge-1.20.1-2.8.9.jar",
@@ -1661,7 +1703,8 @@
     "source": "curseforge",
     "search_query": "Gobber 2",
     "search_hits": [],
-    "title": "Gobber 2"
+    "title": "Gobber 2",
+    "type": "mod"
   },
   {
     "file": "goblintraders-forge-1.20.1-1.9.3.jar",
@@ -1677,7 +1720,8 @@
     "source": "curseforge",
     "search_query": "Goblin Traders",
     "search_hits": [],
-    "title": "Goblin Traders"
+    "title": "Goblin Traders",
+    "type": "mod"
   },
   {
     "file": "HangGlider-v8.0.1-1.20.1-Forge.jar",
@@ -1715,7 +1759,8 @@
     "url": "https://cdn.modrinth.com/data/uHWrqYcS/versions/kVfMYM11/HangGlider-v8.0.1-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/hangglider",
     "sha1_remote": "e4a5deeb545db6853ae4d668d0751228e641fc61",
-    "filename": "HangGlider-v8.0.1-1.20.1-Forge.jar"
+    "filename": "HangGlider-v8.0.1-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "HeldItemTooltips-v8.0.0-1.20.1-Forge.jar",
@@ -1751,7 +1796,8 @@
     "url": "https://cdn.modrinth.com/data/3wWtgZGB/versions/KTwi0wP7/HeldItemTooltips-v8.0.0-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/helditemtooltips",
     "sha1_remote": "a022976a33affa5a16e0d98b3f112a1276b407c9",
-    "filename": "HeldItemTooltips-v8.0.0-1.20.1-Forge.jar"
+    "filename": "HeldItemTooltips-v8.0.0-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "HorseExpert-v8.1.1-1.20.1-Forge.jar",
@@ -1788,7 +1834,8 @@
     "url": "https://cdn.modrinth.com/data/24CSPS1E/versions/HlwDHWL1/HorseExpert-v8.1.1-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/horseexpert",
     "sha1_remote": "84585fe2422165be38aa54cdedc1d39264a693a5",
-    "filename": "HorseExpert-v8.1.1-1.20.1-Forge.jar"
+    "filename": "HorseExpert-v8.1.1-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "iceandfire-2.1.13-1.20.1-beta-4.jar",
@@ -1827,7 +1874,8 @@
     "url": "https://cdn.modrinth.com/data/LVnvHVBp/versions/5f9S3HF9/iceandfire-2.1.13-1.20.1-beta-4.jar",
     "source_url": "https://github.com/AlexModGuy/Ice_and_Fire",
     "sha1_remote": "38a3a731a90713e3744385d7a44524e11378dac0",
-    "filename": "iceandfire-2.1.13-1.20.1-beta-4.jar"
+    "filename": "iceandfire-2.1.13-1.20.1-beta-4.jar",
+    "type": "mod"
   },
   {
     "file": "Iceberg-1.20.1-forge-1.1.13.jar",
@@ -1864,7 +1912,8 @@
     "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/hri3ka9m/Iceberg-1.20.1-forge-1.1.13.jar",
     "source_url": "https://github.com/AHilyard/Iceberg/",
     "sha1_remote": "5b32cfdf834309685d7deb70657b1bb32ae9ee58",
-    "filename": "Iceberg-1.20.1-forge-1.1.13.jar"
+    "filename": "Iceberg-1.20.1-forge-1.1.13.jar",
+    "type": "mod"
   },
   {
     "file": "IllagerInvasion-v8.0.5-1.20.1-Forge.jar",
@@ -1902,7 +1951,8 @@
     "url": "https://cdn.modrinth.com/data/jSV9w0J5/versions/wPqH0RfQ/IllagerInvasion-v8.0.5-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/illagerinvasion",
     "sha1_remote": "f67428fe42b83f441fba39aaf18c7ad119fb054b",
-    "filename": "IllagerInvasion-v8.0.5-1.20.1-Forge.jar"
+    "filename": "IllagerInvasion-v8.0.5-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "Incendium_1.20.x_v5.3.5.jar",
@@ -1948,7 +1998,8 @@
     "url": "https://cdn.modrinth.com/data/ZVzW5oNS/versions/uUqarp2H/Incendium_1.20.x_v5.3.5.jar",
     "source_url": "https://github.com/Stardust-Labs-MC/Incendium",
     "sha1_remote": "484556937b1b2dde2682144e7953e79bff717104",
-    "filename": "Incendium_1.20.x_v5.3.5.jar"
+    "filename": "Incendium_1.20.x_v5.3.5.jar",
+    "type": "mod"
   },
   {
     "file": "jeed-1.20-2.2.2.jar",
@@ -1984,7 +2035,8 @@
     "url": "https://cdn.modrinth.com/data/EO27GKs1/versions/UsKXS9eh/jeed-1.20-2.2.2.jar",
     "source_url": "https://github.com/MehVahdJukaar/JustEnoughEffectDescriptions",
     "sha1_remote": "18c40ddddf67692aab4ec47bb8c383e06c0ed63c",
-    "filename": "jeed-1.20-2.2.2.jar"
+    "filename": "jeed-1.20-2.2.2.jar",
+    "type": "mod"
   },
   {
     "file": "jei-1.20.1-forge-15.10.0.30.jar",
@@ -2021,7 +2073,8 @@
     "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/r4VxyVNu/jei-1.20.1-forge-15.10.0.30.jar",
     "source_url": "https://github.com/mezz/JustEnoughItems",
     "sha1_remote": "30599acb49c84157c60cd5400b66f22ff7e90641",
-    "filename": "jei-1.20.1-forge-15.10.0.30.jar"
+    "filename": "jei-1.20.1-forge-15.10.0.30.jar",
+    "type": "mod"
   },
   {
     "file": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
@@ -2060,7 +2113,8 @@
     "url": "https://cdn.modrinth.com/data/atHH8NyV/versions/JhxD2e6J/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
     "source_url": "https://github.com/AHilyard/LegendaryTooltips/",
     "sha1_remote": "7d83a56572d333ea352706872f565b8b8537085c",
-    "filename": "LegendaryTooltips-1.20.1-forge-1.4.5.jar"
+    "filename": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+    "type": "mod"
   },
   {
     "file": "moonlight-1.20-2.6.3-forge.jar",
@@ -2096,7 +2150,8 @@
     "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/JXolKGKT/moonlight-1.20-2.6.3-forge.jar",
     "source_url": "https://github.com/MehVahdJukaar/Moonlight/tree/multi-loader",
     "sha1_remote": "f75e0fcb27a1fccd5040dbc48dc2f2c624fbf127",
-    "filename": "moonlight-1.20-2.6.3-forge.jar"
+    "filename": "moonlight-1.20-2.6.3-forge.jar",
+    "type": "mod"
   },
   {
     "file": "MoreBows-1.0.13+1.20.x.forge.jar",
@@ -2135,7 +2190,8 @@
     "url": "https://cdn.modrinth.com/data/CkMS2Yh3/versions/2xmHvaN5/MoreBows-1.0.13%2B1.20.x.forge.jar",
     "source_url": "https://github.com/NeRdTheNed/More-bows",
     "sha1_remote": "5d80cda6be87a51cab49c53b1fb741eb6b726458",
-    "filename": "MoreBows-1.0.13+1.20.x.forge.jar"
+    "filename": "MoreBows-1.0.13+1.20.x.forge.jar",
+    "type": "mod"
   },
   {
     "file": "mysticaloaktree-1.20-1.11.jar",
@@ -2171,7 +2227,8 @@
     "url": "https://cdn.modrinth.com/data/eUma2vmY/versions/u2rYyWU1/mysticaloaktree-1.20-1.11.jar",
     "source_url": "https://github.com/MehVahdJukaar/mysticaloaktree-multi",
     "sha1_remote": "56dfd68a726f5d0d75e47d2518021e4a7e81b943",
-    "filename": "mysticaloaktree-1.20-1.11.jar"
+    "filename": "mysticaloaktree-1.20-1.11.jar",
+    "type": "mod"
   },
   {
     "file": "NetherChested-v8.0.3-1.20.1-Forge.jar",
@@ -2207,7 +2264,8 @@
     "url": "https://cdn.modrinth.com/data/bHJp2GRg/versions/tVFcuxZG/NetherChested-v8.0.3-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/netherchested",
     "sha1_remote": "c5c1a26f8ad6d1822515f0327f253fc4973a810d",
-    "filename": "NetherChested-v8.0.3-1.20.1-Forge.jar"
+    "filename": "NetherChested-v8.0.3-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
@@ -2243,7 +2301,8 @@
     "url": "https://cdn.modrinth.com/data/ZX66K16c/versions/LojgSWbd/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/pickupnotifier",
     "sha1_remote": "378cc9730d1f11cd4c50add96263baccacdb4942",
-    "filename": "PickUpNotifier-v8.0.0-1.20.1-Forge.jar"
+    "filename": "PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "Placebo-1.20.1-8.6.3.jar",
@@ -2279,7 +2338,8 @@
     "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/6SkuAGoz/Placebo-1.20.1-8.6.3.jar",
     "source_url": "https://github.com/Shadows-of-Fire/Placebo",
     "sha1_remote": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
-    "filename": "Placebo-1.20.1-8.6.3.jar"
+    "filename": "Placebo-1.20.1-8.6.3.jar",
+    "type": "mod"
   },
   {
     "file": "Prism-1.20.1-forge-1.0.3.jar",
@@ -2317,7 +2377,8 @@
     "url": "https://cdn.modrinth.com/data/1OE8wbN0/versions/eXlUYTX6/Prism-1.20.1-forge-1.0.3.jar",
     "source_url": "https://github.com/AHilyard/Prism/",
     "sha1_remote": "4984c81a687d37132bd95e1298d718f62e618472",
-    "filename": "Prism-1.20.1-forge-1.0.3.jar"
+    "filename": "Prism-1.20.1-forge-1.0.3.jar",
+    "type": "mod"
   },
   {
     "file": "PuzzlesLib-v8.1.21-1.20.1-Forge.jar",
@@ -2353,7 +2414,8 @@
     "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/z0kHAGDv/PuzzlesLib-v8.1.21-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/puzzleslib",
     "sha1_remote": "ed83455065193f0630450830c11ecd738ec231f9",
-    "filename": "PuzzlesLib-v8.1.21-1.20.1-Forge.jar"
+    "filename": "PuzzlesLib-v8.1.21-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "resourcefulconfig-forge-1.20-2.0.0.jar",
@@ -2389,7 +2451,8 @@
     "url": "https://cdn.modrinth.com/data/M1953qlQ/versions/n3yQ9KKD/resourcefulconfig-forge-1.20-2.0.0.jar",
     "source_url": "https://github.com/Team-Resourceful/Resourceful-Config",
     "sha1_remote": "50866f3a26bc56694a77f9720474bcb912c509bf",
-    "filename": "resourcefulconfig-forge-1.20-2.0.0.jar"
+    "filename": "resourcefulconfig-forge-1.20-2.0.0.jar",
+    "type": "mod"
   },
   {
     "file": "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar",
@@ -2410,7 +2473,8 @@
         "title": "Create: Sky Village"
       }
     ],
-    "title": "Sky Villages"
+    "title": "Sky Villages",
+    "type": "mod"
   },
   {
     "file": "sophisticatedbackpacks-1.20.1-3.20.5.1044.jar",
@@ -2463,7 +2527,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/OHm5UnEF/sophisticatedbackpacks-1.20.1-3.24.63.2049.jar",
     "sha1_remote": "a2a0dcde667a05fb979ad6e9f2d7eb90b5db84e5",
-    "filename": "sophisticatedbackpacks-1.20.1-3.24.63.2049.jar"
+    "filename": "sophisticatedbackpacks-1.20.1-3.24.63.2049.jar",
+    "type": "mod"
   },
   {
     "file": "sophisticatedcore-1.20.1-0.6.22.611.jar",
@@ -2509,7 +2574,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/WJLeMmI3/sophisticatedcore-1.20.1-1.3.75.2231.jar",
     "sha1_remote": "1b322710ac11b3565976ae44684f220f207b9bec",
-    "filename": "sophisticatedcore-1.20.1-1.3.75.2231.jar"
+    "filename": "sophisticatedcore-1.20.1-1.3.75.2231.jar",
+    "type": "mod"
   },
   {
     "file": "SpartanWeaponry-1.20.1-forge-3.1.3-all.jar",
@@ -2547,7 +2613,8 @@
     "url": "https://cdn.modrinth.com/data/icU5P2Mk/versions/h2sutQWT/SpartanWeaponry-1.20.1-forge-3.1.3-all.jar",
     "source_url": "https://github.com/ObliviousSpartan/SpartanWeaponry",
     "sha1_remote": "c5b9adca2b9d0de2afdb9a08339e8b268702880a",
-    "filename": "SpartanWeaponry-1.20.1-forge-3.1.3-all.jar"
+    "filename": "SpartanWeaponry-1.20.1-forge-3.1.3-all.jar",
+    "type": "mod"
   },
   {
     "file": "StorageDrawers-1.20.1-12.0.4.jar",
@@ -2584,7 +2651,8 @@
     "url": "https://cdn.modrinth.com/data/guitPqEi/versions/F9JE95rC/StorageDrawers-1.20.1-12.0.4.jar",
     "source_url": "https://github.com/jaquadro/StorageDrawers",
     "sha1_remote": "a2f2c402f7f234e6c93c0a7ed75a2da83b819305",
-    "filename": "StorageDrawers-1.20.1-12.0.4.jar"
+    "filename": "StorageDrawers-1.20.1-12.0.4.jar",
+    "type": "mod"
   },
   {
     "file": "StrawStatues-v8.0.3-1.20.1-Forge.jar",
@@ -2620,7 +2688,8 @@
     "url": "https://cdn.modrinth.com/data/2fltysAl/versions/1WbJR9ka/StrawStatues-v8.0.3-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/strawstatues",
     "sha1_remote": "62bb1ff595878693f507378e689cd58e056a51e1",
-    "filename": "StrawStatues-v8.0.3-1.20.1-Forge.jar"
+    "filename": "StrawStatues-v8.0.3-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "takesapillage-1.0.3-1.20.1.jar",
@@ -2659,7 +2728,8 @@
     "url": "https://cdn.modrinth.com/data/pe7FN3d6/versions/unxodajn/takesapillage-1.0.3-1.20.1.jar",
     "source_url": "https://github.com/izofar/takes-a-pillage",
     "sha1_remote": "058d29fcadbd5fa1fb6d92e50788329398f9467d",
-    "filename": "takesapillage-1.0.3-1.20.1.jar"
+    "filename": "takesapillage-1.0.3-1.20.1.jar",
+    "type": "mod"
   },
   {
     "file": "Terralith_1.20_v2.5.1.jar",
@@ -2704,7 +2774,8 @@
     "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/rWmFwtGy/Terralith_1.20_v2.5.1.jar",
     "source_url": "https://github.com/Stardust-Labs-MC/Terralith",
     "sha1_remote": "e95f3b0fe7b2f3f2475da8009f4491e48edc4b60",
-    "filename": "Terralith_1.20_v2.5.1.jar"
+    "filename": "Terralith_1.20_v2.5.1.jar",
+    "type": "mod"
   },
   {
     "file": "the_bumblezone-7.4.14+1.20.1-forge.jar",
@@ -2741,7 +2812,8 @@
     "url": "https://cdn.modrinth.com/data/38tpSycf/versions/9Y214pww/the_bumblezone-7.4.14%2B1.20.1-forge.jar",
     "source_url": null,
     "sha1_remote": "8e52df66c8dc2893ad20a20c5d13227f0a15ccfe",
-    "filename": "the_bumblezone-7.4.14+1.20.1-forge.jar"
+    "filename": "the_bumblezone-7.4.14+1.20.1-forge.jar",
+    "type": "mod"
   },
   {
     "file": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
@@ -2794,7 +2866,8 @@
     ],
     "url": "https://cdn.modrinth.com/data/U1jdQuSf/versions/Q66WyQ3F/The_Graveyard_3.1_%28FORGE%29_for_1.20.1.jar",
     "sha1_remote": "3eace53024d663f159725c8d972d330631f9b974",
-    "filename": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
+    "filename": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+    "type": "mod"
   },
   {
     "file": "TinySkeletons-v8.0.1-1.20.1-Forge.jar",
@@ -2830,7 +2903,8 @@
     "url": "https://cdn.modrinth.com/data/A2xcMSUn/versions/bvxrcKcl/TinySkeletons-v8.0.1-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/tinyskeletons",
     "sha1_remote": "aa27ac3af67afd192f789adc4d78e752a68d6272",
-    "filename": "TinySkeletons-v8.0.1-1.20.1-Forge.jar"
+    "filename": "TinySkeletons-v8.0.1-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
@@ -2846,7 +2920,8 @@
     "source": "curseforge",
     "search_query": "TLSkinCape",
     "search_hits": [],
-    "title": "TLSkinCape (TLauncher)"
+    "title": "TLSkinCape (TLauncher)",
+    "type": "mod"
   },
   {
     "file": "Towns-and-Towers-1.12-Fabric+Forge.jar",
@@ -2889,7 +2964,8 @@
     "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/7ZwnSrVW/Towns-and-Towers-1.12-Fabric%2BForge.jar",
     "source_url": null,
     "sha1_remote": "5a28ec56457cf1bf154e993cf73dba0428a7921b",
-    "filename": "Towns-and-Towers-1.12-Fabric+Forge.jar"
+    "filename": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+    "type": "mod"
   },
   {
     "file": "TradingPost-v8.0.2-1.20.1-Forge.jar",
@@ -2925,7 +3001,8 @@
     "url": "https://cdn.modrinth.com/data/8pcjMDgj/versions/LvveFy3w/TradingPost-v8.0.2-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/tradingpost",
     "sha1_remote": "b5cfd0afd134d118124fb12f5e605574938ddffd",
-    "filename": "TradingPost-v8.0.2-1.20.1-Forge.jar"
+    "filename": "TradingPost-v8.0.2-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "VillagersPlus_3.1_(FORGE)_for_1.20.1.jar",
@@ -2963,7 +3040,8 @@
     "url": "https://cdn.modrinth.com/data/oHGMwNDR/versions/Oc5T4c7q/VillagersPlus_3.1_%28FORGE%29_for_1.20.1.jar",
     "source_url": "https://github.com/finallion/VillagersPlus_-FABRIC-",
     "sha1_remote": "062d0d77120a1d76605657ce4ec1ec364851a112",
-    "filename": "VillagersPlus_3.1_(FORGE)_for_1.20.1.jar"
+    "filename": "VillagersPlus_3.1_(FORGE)_for_1.20.1.jar",
+    "type": "mod"
   },
   {
     "file": "VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
@@ -2999,7 +3077,8 @@
     "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/c22Z4rsv/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
     "source_url": "https://github.com/Fuzss/visualworkbench",
     "sha1_remote": "7ebf579edcf2440eadf1ed6c8c895e1bc2d77bf1",
-    "filename": "VisualWorkbench-v8.0.0-1.20.1-Forge.jar"
+    "filename": "VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+    "type": "mod"
   },
   {
     "file": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
@@ -3035,7 +3114,8 @@
     "url": "https://cdn.modrinth.com/data/qi1sj2da/versions/D7JWWIQX/weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
     "source_url": null,
     "sha1_remote": "9fe819dc110461f55909dabbed73e4fe3bdde158",
-    "filename": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar"
+    "filename": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+    "type": "mod"
   },
   {
     "file": "Xaeros_Minimap_24.2.0_Forge_1.20.jar",
@@ -3074,7 +3154,8 @@
     "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/zst4834Y/Xaeros_Minimap_24.2.0_Forge_1.20.jar",
     "source_url": null,
     "sha1_remote": "efd26080924cf77a8e0b9f440e09c470e3285e70",
-    "filename": "Xaeros_Minimap_24.2.0_Forge_1.20.jar"
+    "filename": "Xaeros_Minimap_24.2.0_Forge_1.20.jar",
+    "type": "mod"
   },
   {
     "file": "XaerosWorldMap_1.38.8_Forge_1.20.jar",
@@ -3113,7 +3194,8 @@
     "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/3t3qLyne/XaerosWorldMap_1.38.8_Forge_1.20.jar",
     "source_url": null,
     "sha1_remote": "a7e0a8a5fc1e31bfff5fb733c51b361ffb1fb5da",
-    "filename": "XaerosWorldMap_1.38.8_Forge_1.20.jar"
+    "filename": "XaerosWorldMap_1.38.8_Forge_1.20.jar",
+    "type": "mod"
   },
   {
     "file": "xptome-1.20.1-2.2.1.jar",
@@ -3152,7 +3234,8 @@
     "url": "https://cdn.modrinth.com/data/AnpW69o3/versions/SYfBGaA3/xptome-1.20.1-2.2.1.jar",
     "source_url": "https://github.com/bl4ckscor3/XP-Tome",
     "sha1_remote": "078831ad10ea6fa5750e3c6049915beca8401a88",
-    "filename": "xptome-1.20.1-2.2.1.jar"
+    "filename": "xptome-1.20.1-2.2.1.jar",
+    "type": "mod"
   },
   {
     "file": "YungsApi-1.20-Forge-4.0.5.jar",
@@ -3190,7 +3273,8 @@
     "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/aMs83SRk/YungsApi-1.20-Forge-4.0.5.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-API",
     "sha1_remote": "c3a989fdf8429828bd784e35e83f89c0786b43de",
-    "filename": "YungsApi-1.20-Forge-4.0.5.jar"
+    "filename": "YungsApi-1.20-Forge-4.0.5.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
@@ -3229,7 +3313,8 @@
     "url": "https://cdn.modrinth.com/data/XNlO7sBv/versions/lRK2ZA9U/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Desert-Temples",
     "sha1_remote": "31b386b2dbaa4933e0a10ccdfb25f56da16931a6",
-    "filename": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar"
+    "filename": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
@@ -3268,7 +3353,8 @@
     "url": "https://cdn.modrinth.com/data/o1C1Dkj5/versions/kPiQ6v4q/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Dungeons",
     "sha1_remote": "67a9e1c2ff126ab54cea8e0709d178915243039e",
-    "filename": "YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+    "filename": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
@@ -3307,7 +3393,8 @@
     "url": "https://cdn.modrinth.com/data/2BwBOmBQ/versions/Izqhg3Va/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
     "source_url": "https://github.com/yungnickyoung/YUNGs-Better-End-Island",
     "sha1_remote": "4e7bf109981593061b8100bc8bf23e1c9bbcbb76",
-    "filename": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar"
+    "filename": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
@@ -3346,7 +3433,8 @@
     "url": "https://cdn.modrinth.com/data/z9Ve58Ih/versions/CXQc6EnZ/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Jungle-Temples",
     "sha1_remote": "0b3c8556983895fea980247bb4d437ca535e7259",
-    "filename": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar"
+    "filename": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
@@ -3385,7 +3473,8 @@
     "url": "https://cdn.modrinth.com/data/HjmxVlSr/versions/kVO57zxB/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Mineshafts",
     "sha1_remote": "e2cbc574807a994bb9610184eb4bbfe29a6c0774",
-    "filename": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
+    "filename": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
@@ -3424,7 +3513,8 @@
     "url": "https://cdn.modrinth.com/data/Z2mXHnxP/versions/2nUEz0zq/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Fortresses",
     "sha1_remote": "889cd16a93764d1d6af2e2dda5bbc286a2683e7a",
-    "filename": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar"
+    "filename": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
@@ -3463,7 +3553,8 @@
     "url": "https://cdn.modrinth.com/data/3dT9sgt4/versions/SN4iZ7wf/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Ocean-Monuments",
     "sha1_remote": "d8e74ed19903752a97ed0e1d2b1a8bf378bc252f",
-    "filename": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
+    "filename": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
@@ -3502,7 +3593,8 @@
     "url": "https://cdn.modrinth.com/data/kidLKymU/versions/rwiShgsc/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Strongholds",
     "sha1_remote": "3730238c56edca4bb5b2238e1314aec572ced385",
-    "filename": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar"
+    "filename": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
@@ -3541,7 +3633,8 @@
     "url": "https://cdn.modrinth.com/data/t5FRdP87/versions/mwlYB7rq/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Witch-Huts",
     "sha1_remote": "71fee574f920c6b05004f100ba07e9b8d5844169",
-    "filename": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar"
+    "filename": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+    "type": "mod"
   },
   {
     "file": "YungsBridges-1.20-Forge-4.0.3.jar",
@@ -3580,7 +3673,8 @@
     "url": "https://cdn.modrinth.com/data/Ht4BfYp6/versions/KgO1gfM2/YungsBridges-1.20-Forge-4.0.3.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-Bridges",
     "sha1_remote": "88467fe87b95e6cf7a432822033cf74dd8586254",
-    "filename": "YungsBridges-1.20-Forge-4.0.3.jar"
+    "filename": "YungsBridges-1.20-Forge-4.0.3.jar",
+    "type": "mod"
   },
   {
     "file": "justzoom_forge_2.1.1_MC_1.20.1.jar",
@@ -3608,6 +3702,347 @@
     ],
     "url": "https://cdn.modrinth.com/data/iAiqcykM/versions/HrSzoCLd/justzoom_forge_2.1.1_MC_1.20.1.jar",
     "sha1_remote": "8bbcdfb61e9f0f738af0efff12c93b8f9daf2fb0",
-    "filename": "justzoom_forge_2.1.1_MC_1.20.1.jar"
+    "filename": "justzoom_forge_2.1.1_MC_1.20.1.jar",
+    "type": "mod"
+  },
+  {
+    "type": "resourcepack",
+    "file": "Faithful 32x - 1.20.1.zip",
+    "sha1": "f8ef12444894638f7508293f53ed8b6bc12bbf70",
+    "size": 8373475,
+    "source": "modrinth",
+    "slug": "faithful-32x",
+    "title": "Faithful 32x",
+    "description": "The original Minecraft texture feel, with double the resolution and double the fun!",
+    "license": "LicenseRef-Faithful-License",
+    "project_id": "w0TnApzs",
+    "version_id": "1XJUwrQn",
+    "version_number": "1.20.1-july-2024",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "url": "https://cdn.modrinth.com/data/w0TnApzs/versions/1XJUwrQn/Faithful%2032x%20-%201.20.1.zip",
+    "sha1_remote": "f8ef12444894638f7508293f53ed8b6bc12bbf70",
+    "filename": "Faithful 32x - 1.20.1.zip"
+  },
+  {
+    "type": "resourcepack",
+    "file": "[1.4.1] Enhanced Boss Bars.zip",
+    "sha1": "3dfe3e45e973179d924b7ff462aae5a1a36c2c6d",
+    "size": 159369,
+    "source": "modrinth",
+    "slug": "enhanced-boss-bars",
+    "title": "Enhanced Boss Bars",
+    "description": "New improved boss bars!",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "project_id": "U5SedJ9S",
+    "version_id": "3fjpw8Kj",
+    "version_number": "1.4.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "url": "https://cdn.modrinth.com/data/U5SedJ9S/versions/3fjpw8Kj/%5B1.4.1%5D%20Enhanced%20Boss%20Bars.zip",
+    "sha1_remote": "3dfe3e45e973179d924b7ff462aae5a1a36c2c6d",
+    "filename": "[1.4.1] Enhanced Boss Bars.zip"
+  },
+  {
+    "type": "resourcepack",
+    "file": "EclecticTrove-1.20.1-1.3.0.zip",
+    "sha1": "75ebb00a23833419bf4b6042e66068daaf43c1f4",
+    "size": 11977,
+    "source": "modrinth",
+    "slug": "eclectic-trove-legendary-tooltips",
+    "title": "Eclectic Trove (Legendary Tooltips)",
+    "description": "Adds 10 various custom frames for use with Legendary Tooltips.",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "project_id": "8GunilxB",
+    "version_id": "wAcwvKrs",
+    "version_number": "1.3.0",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "url": "https://cdn.modrinth.com/data/8GunilxB/versions/wAcwvKrs/EclecticTrove-1.20.1-1.3.0.zip",
+    "sha1_remote": "75ebb00a23833419bf4b6042e66068daaf43c1f4",
+    "filename": "EclecticTrove-1.20.1-1.3.0.zip"
+  },
+  {
+    "type": "resourcepack",
+    "file": "Ore Variants v2.9.zip",
+    "sha1": "a055f13f78c29dfa6b6c9b8630723243d779c759",
+    "size": 865111,
+    "source": "modrinth",
+    "slug": "ore-variants",
+    "title": "Ore Variants",
+    "description": "Adds variants to ores!",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "project_id": "LgvDiFDR",
+    "version_id": "PuZ17n5T",
+    "version_number": "2.9",
+    "game_versions": [
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2"
+    ],
+    "url": "https://cdn.modrinth.com/data/LgvDiFDR/versions/PuZ17n5T/Ore%20Variants%20v2.9.zip",
+    "sha1_remote": "a055f13f78c29dfa6b6c9b8630723243d779c759",
+    "filename": "Ore Variants v2.9.zip"
+  },
+  {
+    "type": "resourcepack",
+    "file": "xali_s Bushy Leaves v3.5.0.zip",
+    "sha1": "136d239b79dd4c1801c9461bf20a13c774d517ea",
+    "size": 368186,
+    "source": "modrinth",
+    "slug": "xalis-bushy-leaves",
+    "title": "xali's Bushy Leaves",
+    "description": "Give a bushy look to all leaves",
+    "license": "LicenseRef-Custom",
+    "project_id": "ff4JOkSA",
+    "version_id": "ZslQczG8",
+    "version_number": "3.5.0",
+    "game_versions": [
+      "1.13",
+      "1.13.1",
+      "1.13.2",
+      "1.14",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3",
+      "1.14.4",
+      "1.15",
+      "1.15.1",
+      "1.15.2",
+      "1.16",
+      "1.16.1",
+      "1.16.2",
+      "1.16.3",
+      "1.16.4",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1"
+    ],
+    "url": "https://cdn.modrinth.com/data/ff4JOkSA/versions/ZslQczG8/xali%27s%20Bushy%20Leaves%20v3.5.0.zip",
+    "sha1_remote": "136d239b79dd4c1801c9461bf20a13c774d517ea",
+    "filename": "xali's Bushy Leaves v3.5.0.zip"
+  },
+  {
+    "type": "resourcepack",
+    "file": "§3RAY_s§r 3D Rails.zip",
+    "sha1": "0b5cdffe50fe3f9227fa3f4d54614696735db82f",
+    "size": 85479,
+    "source": "modrinth",
+    "slug": "rays-3d-rails",
+    "title": "RAY's 3D Rails",
+    "description": "3D Block & Item Textures for Rails in Minecraft",
+    "license": "MIT",
+    "project_id": "jKa9Ievs",
+    "version_id": "dfM0lCDh",
+    "version_number": "1.0.0",
+    "game_versions": [
+      "1.19",
+      "1.19.1",
+      "1.19.2"
+    ],
+    "url": "https://cdn.modrinth.com/data/jKa9Ievs/versions/dfM0lCDh/%C2%A73RAY%27s%C2%A7r%203D%20Rails.zip",
+    "sha1_remote": "0b5cdffe50fe3f9227fa3f4d54614696735db82f",
+    "filename": "§3RAY's§r 3D Rails.zip"
+  },
+  {
+    "type": "resourcepack",
+    "file": "FreshAnimations_v1.9.2.zip",
+    "sha1": "ff18e6a762b87d7e8bad0726ac7d9c153306c6d2",
+    "size": 516256,
+    "source": "modrinth",
+    "slug": "fresh-animations",
+    "title": "Fresh Animations",
+    "description": "Make your game like the trailers! Dynamic animated entities to freshen your Minecraft experience.",
+    "license": "LicenseRef-See-Terms-of-Use-in-Description",
+    "project_id": "50dA9Sha",
+    "version_id": "8vtPih5h",
+    "version_number": "1.9.2",
+    "game_versions": [
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1"
+    ],
+    "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/8vtPih5h/FreshAnimations_v1.9.2.zip",
+    "sha1_remote": "ff18e6a762b87d7e8bad0726ac7d9c153306c6d2",
+    "filename": "FreshAnimations_v1.9.2.zip"
+  },
+  {
+    "type": "resourcepack",
+    "file": "Better_Dogs_V0.37.zip",
+    "sha1": "435c7574349945110694adad33cf02f399d6a1db",
+    "size": 1528907,
+    "source": "modrinth",
+    "slug": "better-dogs",
+    "title": "Better Dogs",
+    "description": "Updates tamed wolves to look like actual dogs (41 new dog breeds)",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "project_id": "dqHyaXIs",
+    "version_id": "EpovNlxo",
+    "version_number": "0.37",
+    "game_versions": [
+      "1.8.9",
+      "1.9",
+      "1.9.1",
+      "1.9.2",
+      "1.9.3",
+      "1.9.4",
+      "1.10",
+      "1.10.1",
+      "1.10.2",
+      "1.11",
+      "1.11.1",
+      "1.11.2",
+      "1.12",
+      "1.12.1",
+      "1.12.2",
+      "1.13",
+      "1.13.1",
+      "1.13.2",
+      "1.14",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3",
+      "1.14.4",
+      "1.15",
+      "1.15.1",
+      "1.15.2",
+      "1.16",
+      "1.16.1",
+      "1.16.2",
+      "1.16.3",
+      "1.16.4",
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1"
+    ],
+    "url": "https://cdn.modrinth.com/data/dqHyaXIs/versions/EpovNlxo/Better_Dogs_V0.37.zip",
+    "sha1_remote": "435c7574349945110694adad33cf02f399d6a1db",
+    "filename": "Better_Dogs_V0.37.zip"
+  },
+  {
+    "type": "resourcepack",
+    "file": "Icon Xaero_s 1.14HF1 -1.19.2.zip",
+    "sha1": "b9c615f3d1005569e99ea8fc2207e65f91ba5292",
+    "size": 6521951,
+    "source": "modrinth",
+    "slug": "icon-xaeros",
+    "title": "Icon Xaero's",
+    "description": "Icon mod for xaero's map and minimap \nMany icon mod",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "project_id": "LWGq2eg6",
+    "version_id": "n4CSG0zO",
+    "version_number": "1.14cHF",
+    "game_versions": [
+      "1.19",
+      "1.19.1",
+      "1.19.2"
+    ],
+    "url": "https://cdn.modrinth.com/data/LWGq2eg6/versions/n4CSG0zO/Icon%20Xaero%27s%201.14HF1%20-1.19.2.zip",
+    "sha1_remote": "b9c615f3d1005569e99ea8fc2207e65f91ba5292",
+    "filename": "Icon Xaero's 1.14HF1 -1.19.2.zip"
+  },
+  {
+    "type": "mod",
+    "file": "entity_model_features-3.2.4-1.20.1-forge.jar",
+    "sha1": "535a94543d295f9609808a7e3e205d17547570bc",
+    "size": 752458,
+    "source": "modrinth",
+    "slug": "entity-model-features",
+    "title": "[EMF] Entity Model Features",
+    "description": "EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.",
+    "categories": [
+      "mobs",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LGPL-3.0-only",
+    "project_id": "4I1XuqiY",
+    "version_id": "VSBDdOOY",
+    "version_number": "3.2.4-forge-1.20.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/VSBDdOOY/entity_model_features-3.2.4-1.20.1-forge.jar",
+    "sha1_remote": "535a94543d295f9609808a7e3e205d17547570bc",
+    "filename": "entity_model_features-3.2.4-1.20.1-forge.jar"
+  },
+  {
+    "type": "mod",
+    "file": "entity_texture_features_1.20.1-forge-7.1.jar",
+    "sha1": "e13ba95a0388d7d5b1f479e5bd7e2df78e4c4a23",
+    "size": 944851,
+    "source": "modrinth",
+    "slug": "entitytexturefeatures",
+    "title": "[ETF] Entity Texture Features",
+    "description": "Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric",
+    "categories": [
+      "decoration",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LGPL-3.0-only",
+    "project_id": "BVzZfTc1",
+    "version_id": "GQlTHleX",
+    "version_number": "7.1-forge-1.20.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/GQlTHleX/entity_texture_features_1.20.1-forge-7.1.jar",
+    "sha1_remote": "e13ba95a0388d7d5b1f479e5bd7e2df78e4c4a23",
+    "filename": "entity_texture_features_1.20.1-forge-7.1.jar"
   }
 ]
