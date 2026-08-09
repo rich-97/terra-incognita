@@ -680,9 +680,9 @@
     "type": "mod"
   },
   {
-    "file": "CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
-    "sha1": "d911909099b38896a8753dd3c44f1bb3a2a345ad",
-    "size": 1114431,
+    "file": "CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+    "sha1": "aef9a8ebdf0be50b6bd8da8ab4153f5085f71a80",
+    "size": 1144128,
     "local": {
       "modId": "creativecore",
       "displayName": "CreativeCore",
@@ -702,8 +702,8 @@
     "license": "LGPL-3.0-only",
     "downloads": 46316323,
     "project_id": "OsZiaDHq",
-    "version_id": "GhnBaKkx",
-    "version_number": "2.11.33",
+    "version_id": "m9VEcxwz",
+    "version_number": "2.12.39",
     "game_versions": [
       "1.20.1"
     ],
@@ -711,10 +711,10 @@
       "forge",
       "neoforge"
     ],
-    "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/GhnBaKkx/CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
+    "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/m9VEcxwz/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
     "source_url": "https://github.com/CreativeMD/CreativeCore",
-    "sha1_remote": "d911909099b38896a8753dd3c44f1bb3a2a345ad",
-    "filename": "CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
+    "sha1_remote": "aef9a8ebdf0be50b6bd8da8ab4153f5085f71a80",
+    "filename": "CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
     "type": "mod"
   },
   {
@@ -2039,9 +2039,9 @@
     "type": "mod"
   },
   {
-    "file": "jei-1.20.1-forge-15.10.0.30.jar",
-    "sha1": "30599acb49c84157c60cd5400b66f22ff7e90641",
-    "size": 1311905,
+    "file": "jei-1.20.1-forge-15.48.0.180.jar",
+    "sha1": "06b54b54f2b3940868b821183f85faaf5e7035f6",
+    "size": 1657260,
     "local": {
       "modId": "jei",
       "displayName": "Just Enough Items",
@@ -2062,18 +2062,18 @@
     "license": "MIT",
     "downloads": 68323495,
     "project_id": "u6dRKJwZ",
-    "version_id": "r4VxyVNu",
-    "version_number": "15.10.0.30",
+    "version_id": "wgSW4aPb",
+    "version_number": "15.48.0.180",
     "game_versions": [
       "1.20.1"
     ],
     "loaders": [
       "forge"
     ],
-    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/r4VxyVNu/jei-1.20.1-forge-15.10.0.30.jar",
+    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/wgSW4aPb/jei-1.20.1-forge-15.48.0.180.jar",
     "source_url": "https://github.com/mezz/JustEnoughItems",
-    "sha1_remote": "30599acb49c84157c60cd5400b66f22ff7e90641",
-    "filename": "jei-1.20.1-forge-15.10.0.30.jar",
+    "sha1_remote": "06b54b54f2b3940868b821183f85faaf5e7035f6",
+    "filename": "jei-1.20.1-forge-15.48.0.180.jar",
     "type": "mod"
   },
   {
@@ -4249,5 +4249,34 @@
     "filename": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
     "plataforma": "Windows / Linux",
     "nota": "usa 8 compute shaders (OpenGL 4.3): no arranca en macOS"
+  },
+  {
+    "type": "mod",
+    "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+    "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+    "size": 625185,
+    "source": "modrinth",
+    "slug": "konkrete",
+    "title": "Konkrete",
+    "description": "Just another boring library mod.",
+    "categories": [
+      "library"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "Apache-2.0",
+    "project_id": "J81TRJWm",
+    "version_id": "skYziQQL",
+    "version_number": "1.8.0-1.20-1.20.1-forge",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+    "sha1_remote": "2019d821bed9071daabed43979433a5473ceee49",
+    "filename": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
   }
 ]

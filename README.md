@@ -2,23 +2,23 @@
 
 > *«…y de aquí en adelante, tierra desconocida.»*
 
-Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 99 mods que rehacen
+Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 100 mods que rehacen
 el mundo vanilla entero — cada estructura, las tres dimensiones y buena parte de los mobs.
 Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-298 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+299 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 99 (104 automáticos + 6 manuales) |
+| **Mods** | 100 (105 automáticos + 6 manuales) |
 | **Resource packs** | 9 |
 | **Shaders** | 2 (opcional, uno por sistema) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~298 MB |
+| **Peso en disco** | ~299 MB |
 
 ---
 
@@ -188,7 +188,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ### 📚 Librerías y dependencias
 
-*No aportan contenido: otros mods los necesitan para funcionar.* — **18 mods**
+*No aportan contenido: otros mods los necesitan para funcionar.* — **19 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
@@ -204,6 +204,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [Framework (MrCrayfish)](https://www.curseforge.com/minecraft/search?search=Framework) | Librería de MrCrayfish (Goblin Traders y otros). | CurseForge |
 | [Geckolib](https://modrinth.com/mod/geckolib) | Motor de animaciones 3D. Lo usan casi todos los mods de mobs. | Modrinth |
 | [Iceberg](https://modrinth.com/mod/iceberg) | Librería de eventos y utilidades de render (Legendary Tooltips). | Modrinth |
+| [Konkrete](https://modrinth.com/mod/konkrete) | Librería de utilidades de interfaz. La necesita Just Zoom. | Modrinth |
 | [Moonlight Lib](https://modrinth.com/mod/moonlight) | Librería de registro dinámico y datapacks en runtime. | Modrinth |
 | [Placebo](https://modrinth.com/mod/placebo) | Librería de los mods de Shadows (Gateways, Apothic). | Modrinth |
 | [Prism](https://modrinth.com/mod/prism-lib) | Librería de manejo de color. Depende de Iceberg. | Modrinth · cliente |
@@ -269,6 +270,7 @@ Se activan en Opciones → Video Settings → Shader Packs.
 ```bash
 git pull
 python3 sync.py --prune
+python3 sync.py --deps     # antes de abrir el juego
 ```
 
 `--prune` borra de `mods/` los jars que ya no están en la lista.
@@ -276,6 +278,14 @@ Para verificar que no se corrompió nada sin descargar: `python3 sync.py --verif
 
 Para actualizar un mod, editá su entrada en `mods.json` (`version_number`, `url`,
 `sha1_remote`, `filename`) y commiteá. El diff de git muestra exactamente qué cambió.
+Después corré `gen_readme.py` para que la lista de acá arriba siga al día.
+
+> ### Corré `--deps` después de tocar cualquier versión
+>
+> Subir un mod sin subir sus dependencias es la forma más fácil de romper el pack: el
+> juego crashea en el arranque con "requires X 2.12.36 or above". `--deps` lee el
+> `mods.toml` de cada jar (incluidos los anidados en `META-INF/jarjar/`) y compara lo
+> que cada mod exige contra lo que hay instalado, antes de que lo descubra Minecraft.
 
 ---
 
