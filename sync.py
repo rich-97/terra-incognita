@@ -26,8 +26,8 @@ def sha1(path):
 def main(argv):
     prune, verify = "--prune" in argv, "--verify" in argv
     rows = json.loads((ROOT / "mods.json").read_text())
-    wanted = {r["filename"]: r for r in rows if r.get("url") and not r.get("drop")}
-    manual = [r for r in rows if not r.get("url") and not r.get("drop")]
+    wanted = {r["filename"]: r for r in rows if r.get("url")}
+    manual = [r for r in rows if not r.get("url")]
     MODS.mkdir(exist_ok=True)
 
     ok = bad = new = 0

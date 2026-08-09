@@ -1,6 +1,6 @@
 # Modpack de Minecraft 1.20.1 (Forge)
 
-Modpack personal de **94 mods** para Minecraft **1.20.1** con **Forge**.
+Modpack personal de **95 mods** para Minecraft **1.20.1** con **Forge**.
 Enfoque: exploración, estructuras, mobs y calidad de vida. Sin tech/automatización.
 
 Este repo **no contiene los `.jar`** — guarda la lista con versión, URL y hash de cada mod
@@ -11,7 +11,7 @@ Este repo **no contiene los `.jar`** — guarda la lista con versión, URL y has
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 94 (88 automáticos + 6 manuales) |
+| **Mods** | 95 (89 automáticos + 6 manuales) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
 | **Peso en disco** | ~271 MB solo en mods |
 
@@ -27,7 +27,7 @@ cd minecraft-modpack
 python3 sync.py
 ```
 
-Descarga los 88 mods de Modrinth en `./mods`, verificando el SHA1 de cada uno.
+Descarga los 89 mods de Modrinth en `./mods`, verificando el SHA1 de cada uno.
 Si ya los tenías, solo baja lo que cambió.
 
 ### 2. Los 6 mods que faltan
@@ -133,7 +133,7 @@ No están en Modrinth, hay que bajarlos a mano de CurseForge y ponerlos en `./mo
 
 ### 🧭 Calidad de vida e interfaz
 
-*Información en pantalla y menos fricción.* — **19 mods**
+*Información en pantalla y menos fricción.* — **20 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
@@ -148,6 +148,7 @@ No están en Modrinth, hay que bajarlos a mano de CurseForge y ponerlos en `./mo
 | [Horse Expert](https://modrinth.com/mod/horse-expert) | Ver las estadísticas reales de velocidad, salto y salud de un caballo. | Modrinth |
 | [Just Enough Effect Descriptions (JEED)](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) | Plugin de JEI que explica qué hace cada efecto de poción y de dónde sale. | Modrinth · cliente |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Buscador de ítems y recetas. Imprescindible en cualquier pack con 100 mods. | Modrinth |
+| [Just Zoom](https://modrinth.com/mod/just-zoom) | Zoom con una tecla, con el factor ajustable desde la rueda del mouse. Solo cliente. | Modrinth · cliente |
 | [Legendary Tooltips](https://modrinth.com/mod/legendary-tooltips) | Tooltips con marco decorado según la rareza del ítem, y más opciones de formato. | Modrinth · cliente |
 | [Pick Up Notifier](https://modrinth.com/mod/pick-up-notifier) | Aviso en pantalla de todo lo que vas recogiendo. | Modrinth |
 | [Straw Statues](https://modrinth.com/mod/straw-statues) | Estatuas con la skin de cualquier jugador para decorar builds. | Modrinth |
@@ -197,21 +198,6 @@ No están en Modrinth, hay que bajarlos a mano de CurseForge y ponerlos en `./mo
 
 ---
 
-## Descartados
-
-Estos jars estaban en la carpeta original pero **no deben ir al pack**:
-
-| Archivo | Problema |
-|---|---|
-| `PuzzlesLib-v8.0.24-1.20.1-Forge.jar` | Versión vieja **duplicada** de Puzzles Lib. Dejá solo la v8.1.21. |
-| `Scout-2.0.4+1.20.1.jar` | Slots extra de inventario vía bolsas — build de **Fabric**, no carga en Forge. |
-| `Zoomify-2.14.0+1.20.1.jar` | Zoom configurable — mod **solo Fabric**, no existe versión Forge. |
-| `adventurez-1.4.20.jar` | Jefe final y criaturas nuevas — pero este jar es la build de **Fabric**, no carga en Forge. |
-| `llibrary-1.7.20-1.12.2.jar` | Librería vieja compilada para **Minecraft 1.12.2**. Puede romper el arranque. |
-| `torchesntrinkets-0.2-1.20.1-4.jar` | Antorchas y faroles colgados del cinturón — build de **Fabric**, no carga en Forge. |
-
----
-
 ## Actualizar
 
 ```bash
@@ -229,7 +215,8 @@ Para actualizar un mod, editá su entrada en `mods.json` (`version_number`, `url
 
 ## Notas
 
-- **Forge y Fabric no se mezclan.** Este pack es Forge; un jar de Fabric simplemente no carga.
+- Todo el pack es **Forge 1.20.1**. Antes de agregar un mod, confirmá que su página
+  liste `Forge` y `1.20.1` — si no, no carga.
 - Los mods marcados **· cliente** no hacen falta en el servidor.
 - Las librerías no aportan contenido: si sacás el mod que las usa, se pueden sacar también.
 - Ice and Fire, AmbientSounds y The Bumblezone son los tres jars más pesados del pack.

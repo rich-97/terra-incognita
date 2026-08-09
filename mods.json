@@ -47,42 +47,6 @@
     "filename": "AdLods-1.20.1-8.1.12.0-build.2294.jar"
   },
   {
-    "file": "adventurez-1.4.20.jar",
-    "sha1": "a727891db0b750fda3c4e6f15e2781b89c490647",
-    "size": 4952938,
-    "local": {
-      "modId": "adventurez",
-      "displayName": "AdventureZ",
-      "description": "Adds deadly Creatures to Minecraft",
-      "loader": "fabric"
-    },
-    "source": "modrinth",
-    "slug": "adventurez",
-    "title": "AdventureZ",
-    "description": "adds a new endboss and other creatures",
-    "categories": [
-      "mobs"
-    ],
-    "client_side": "required",
-    "server_side": "required",
-    "license": "GPL-3.0-only",
-    "downloads": 6393440,
-    "project_id": "defK2XM3",
-    "version_id": "mBYmRou0",
-    "version_number": "1.4.20+1.20.1",
-    "game_versions": [
-      "1.20.1"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "url": "https://cdn.modrinth.com/data/defK2XM3/versions/mBYmRou0/adventurez-1.4.20.jar",
-    "source_url": "https://github.com/Globox1997/AdventureZ",
-    "drop": "fabric-only",
-    "sha1_remote": "a727891db0b750fda3c4e6f15e2781b89c490647",
-    "filename": "adventurez-1.4.20.jar"
-  },
-  {
     "file": "AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar",
     "sha1": "00365347eadc1c8d2886690a584dca94711d1d0a",
     "size": 85328184,
@@ -2099,22 +2063,6 @@
     "filename": "LegendaryTooltips-1.20.1-forge-1.4.5.jar"
   },
   {
-    "file": "llibrary-1.7.20-1.12.2.jar",
-    "sha1": "fba97f9dbe750f17904c00db8ff58291595106b8",
-    "size": 884550,
-    "local": {},
-    "source": "curseforge",
-    "search_query": "llibrary",
-    "search_hits": [
-      {
-        "slug": "uranus",
-        "title": "Uranus"
-      }
-    ],
-    "title": "LLibrary (1.12.2 - obsoleto)",
-    "drop": "obsoleto-mc-1.12.2"
-  },
-  {
     "file": "moonlight-1.20-2.6.3-forge.jar",
     "sha1": "f75e0fcb27a1fccd5040dbc48dc2f2c624fbf127",
     "size": 870498,
@@ -2372,43 +2320,6 @@
     "filename": "Prism-1.20.1-forge-1.0.3.jar"
   },
   {
-    "file": "PuzzlesLib-v8.0.24-1.20.1-Forge.jar",
-    "sha1": "69493022734c4e7c4ac6365a2c4fee7baff9affd",
-    "size": 730810,
-    "local": {
-      "modId": "puzzleslib",
-      "displayName": "Puzzles Lib",
-      "description": "Why's it called Puzzles you ask? That's the puzzle!",
-      "version": "8.0.24",
-      "loader": "forge"
-    },
-    "source": "modrinth",
-    "slug": "puzzles-lib",
-    "title": "Puzzles Lib",
-    "description": "Why is it called Puzzles? That's the puzzle.",
-    "categories": [
-      "library"
-    ],
-    "client_side": "optional",
-    "server_side": "optional",
-    "license": "MPL-2.0",
-    "downloads": 55850523,
-    "project_id": "QAGBst4M",
-    "version_id": "Sk64RP7y",
-    "version_number": "v8.0.24-1.20.1-Forge",
-    "game_versions": [
-      "1.20.1"
-    ],
-    "loaders": [
-      "forge"
-    ],
-    "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/Sk64RP7y/PuzzlesLib-v8.0.24-1.20.1-Forge.jar",
-    "source_url": "https://github.com/Fuzss/puzzleslib",
-    "drop": "duplicado-usar-v8.1.21",
-    "sha1_remote": "69493022734c4e7c4ac6365a2c4fee7baff9affd",
-    "filename": "PuzzlesLib-v8.0.24-1.20.1-Forge.jar"
-  },
-  {
     "file": "PuzzlesLib-v8.1.21-1.20.1-Forge.jar",
     "sha1": "ed83455065193f0630450830c11ecd738ec231f9",
     "size": 1000977,
@@ -2479,44 +2390,6 @@
     "source_url": "https://github.com/Team-Resourceful/Resourceful-Config",
     "sha1_remote": "50866f3a26bc56694a77f9720474bcb912c509bf",
     "filename": "resourcefulconfig-forge-1.20-2.0.0.jar"
-  },
-  {
-    "file": "Scout-2.0.4+1.20.1.jar",
-    "sha1": "9e41e64499844b4c86689006f4cc2073427a9a61",
-    "size": 169248,
-    "local": {
-      "modId": "scout",
-      "displayName": "Scout",
-      "description": "A mod focused on \"physically\" extending the inventory (adding slots) through wearing various types of bags.",
-      "loader": "fabric"
-    },
-    "source": "modrinth",
-    "slug": "scout",
-    "title": "Scout",
-    "description": "Extending the inventory \"physically\" (adding slots) through various bags.",
-    "categories": [
-      "equipment",
-      "storage"
-    ],
-    "client_side": "required",
-    "server_side": "required",
-    "license": "MIT",
-    "downloads": 354271,
-    "project_id": "QRYqnI15",
-    "version_id": "JqrnY7yM",
-    "version_number": "2.0.4+1.20.1",
-    "game_versions": [
-      "1.20.1"
-    ],
-    "loaders": [
-      "fabric",
-      "quilt"
-    ],
-    "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/JqrnY7yM/Scout-2.0.4%2B1.20.1.jar",
-    "source_url": "https://github.com/Cynosphere-mc/Scout",
-    "drop": "fabric-only",
-    "sha1_remote": "9e41e64499844b4c86689006f4cc2073427a9a61",
-    "filename": "Scout-2.0.4+1.20.1.jar"
   },
   {
     "file": "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar",
@@ -2974,47 +2847,6 @@
     "search_query": "TLSkinCape",
     "search_hits": [],
     "title": "TLSkinCape (TLauncher)"
-  },
-  {
-    "file": "torchesntrinkets-0.2-1.20.1-4.jar",
-    "sha1": "046d13ec6e9c84deaebeb8fad4c7b3a9bfa12eb2",
-    "size": 106825,
-    "local": {
-      "modId": "torchesntrinkets",
-      "displayName": "Torches 'n' Trinkets",
-      "description": "Adds new items to allow you to wear torches and lanterns on your hip!",
-      "loader": "fabric"
-    },
-    "source": "modrinth",
-    "slug": "torches-n-trinkets",
-    "title": "Torches 'n' Trinkets",
-    "description": "Adds new items to allow you to wear torches and lanterns on your hip!",
-    "categories": [
-      "adventure",
-      "game-mechanics",
-      "utility"
-    ],
-    "client_side": "required",
-    "server_side": "required",
-    "license": "MIT",
-    "downloads": 208876,
-    "project_id": "bItnQGg6",
-    "version_id": "vQc0rlkw",
-    "version_number": "0.2-1.20.1-4",
-    "game_versions": [
-      "1.20.1",
-      "1.20.2",
-      "1.20.3",
-      "1.20.4"
-    ],
-    "loaders": [
-      "fabric"
-    ],
-    "url": "https://cdn.modrinth.com/data/bItnQGg6/versions/vQc0rlkw/torchesntrinkets-0.2-1.20.1-4.jar",
-    "source_url": "https://github.com/bigmanmad/torchesntrinkets-1.20.1",
-    "drop": "fabric-only",
-    "sha1_remote": "046d13ec6e9c84deaebeb8fad4c7b3a9bfa12eb2",
-    "filename": "torchesntrinkets-0.2-1.20.1-4.jar"
   },
   {
     "file": "Towns-and-Towers-1.12-Fabric+Forge.jar",
@@ -3751,40 +3583,31 @@
     "filename": "YungsBridges-1.20-Forge-4.0.3.jar"
   },
   {
-    "file": "Zoomify-2.14.0+1.20.1.jar",
-    "sha1": "dfe59801284268aed6ac63cfb8476c6c84965675",
-    "size": 809496,
-    "local": {
-      "modId": "zoomify",
-      "displayName": "Zoomify",
-      "description": "A zoom mod with infinite customizability.",
-      "loader": "fabric"
-    },
+    "file": "justzoom_forge_2.1.1_MC_1.20.1.jar",
+    "sha1": "8bbcdfb61e9f0f738af0efff12c93b8f9daf2fb0",
+    "size": 204574,
     "source": "modrinth",
-    "slug": "zoomify",
-    "title": "Zoomify (Zoom)",
-    "description": "A zoom mod with infinite customizability.",
+    "slug": "just-zoom",
+    "title": "Just Zoom",
+    "description": "Zoom by pressing a hotkey and adjust the zoom factor with your mouse wheel!",
     "categories": [
       "utility"
     ],
     "client_side": "required",
     "server_side": "unsupported",
-    "license": "LGPL-3.0-only",
-    "downloads": 59916892,
-    "project_id": "w7ThoJFB",
-    "version_id": "8VBKUY5S",
-    "version_number": "2.14.0+1.20.1",
+    "license": "LicenseRef-DSMSLv2",
+    "downloads": 8386647,
+    "project_id": "iAiqcykM",
+    "version_id": "HrSzoCLd",
+    "version_number": "2.1.1-1.20.1-forge",
     "game_versions": [
-      "1.20",
       "1.20.1"
     ],
     "loaders": [
-      "fabric"
+      "forge"
     ],
-    "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/8VBKUY5S/Zoomify-2.14.0%2B1.20.1.jar",
-    "source_url": "https://github.com/isXander/Zoomify",
-    "drop": "fabric-only",
-    "sha1_remote": "dfe59801284268aed6ac63cfb8476c6c84965675",
-    "filename": "Zoomify-2.14.0+1.20.1.jar"
+    "url": "https://cdn.modrinth.com/data/iAiqcykM/versions/HrSzoCLd/justzoom_forge_2.1.1_MC_1.20.1.jar",
+    "sha1_remote": "8bbcdfb61e9f0f738af0efff12c93b8f9daf2fb0",
+    "filename": "justzoom_forge_2.1.1_MC_1.20.1.jar"
   }
 ]
