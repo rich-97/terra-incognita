@@ -4777,9 +4777,9 @@
   },
   {
     "type": "mod",
-    "file": "DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar",
-    "sha1": "ce3814dd5971edda4d04c3a42ef0df5c6cf8e10d",
-    "size": 25378978,
+    "file": "DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar",
+    "sha1": "89fd2d00de842579e41efa9fe6a87f67dd99a113",
+    "size": 25362721,
     "source": "modrinth",
     "slug": "distanthorizons",
     "title": "Distant Horizons",
@@ -4792,8 +4792,8 @@
     "server_side": "optional",
     "license": "LGPL-3.0-only",
     "project_id": "uCdwusMi",
-    "version_id": "lC6CwqPp",
-    "version_number": "2.4.5-b-1.20.1",
+    "version_id": "HSc151Xv",
+    "version_number": "2.3.6-b-1.20.1",
     "game_versions": [
       "1.20.1"
     ],
@@ -4801,10 +4801,10 @@
       "fabric",
       "forge"
     ],
-    "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/lC6CwqPp/DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar",
-    "sha1_remote": "ce3814dd5971edda4d04c3a42ef0df5c6cf8e10d",
-    "filename": "DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar",
+    "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/HSc151Xv/DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar",
+    "sha1_remote": "89fd2d00de842579e41efa9fe6a87f67dd99a113",
+    "filename": "DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar",
     "opcional": true,
-    "nota": "rama 2.x a proposito: empareja con Oculus 1.8 (=Iris 1.8), que es lo que pide DH 2.1+ para que los shaders apliquen a los LODs"
+    "nota": "fijada en 2.3.6 (2025-10-13) a proposito: es la rama de DH vigente cuando salio Bliss 2.1.2 (2025-11-23). La 2.4.x salio despues y rompe Bliss visualmente. BSL funciona con las dos."
   }
 ]

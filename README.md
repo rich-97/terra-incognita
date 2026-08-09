@@ -270,6 +270,16 @@ Forge ignora nativamente cualquier `.jar.disabled`, y `sync.py` lo respeta: no t
 vuelve a bajar ni lo borra con `--prune`. Te lo reporta como *apagado*. Para prenderlo
 de vuelta, sacale el sufijo.
 
+> ### Distant Horizons está fijado en 2.3.6 a propósito
+>
+> Bliss 2.1.2 salió el **2025-11-23**. La rama DH **2.4 salió el 2025-12-13**, tres semanas
+> después, así que Bliss nunca se probó contra ella: con DH 2.4.x el cielo y las zonas sin
+> cargar se rompen visualmente. Con **2.3.6** (2025-10-13), que es el DH vigente cuando salió
+> Bliss, anda. BSL funciona con las dos, así que 2.3.6 es la que sirve para ambos shaders.
+>
+> Si cambiás de versión de DH, puede que tengas que borrar `DistantHorizons.sqlite` de la
+> carpeta del mundo — el formato no siempre es compatible hacia atrás. Se regenera solo.
+
 **Distant Horizons** es el candidato obvio: genera terreno lejano usando el generador de
 chunks del juego, y con Terralith + Incendium + los mods de estructuras eso es caro. Las
 primeras horas de un mundo nuevo va a estar trabajando fuerte. Si te molesta, se apaga.
@@ -278,9 +288,21 @@ Dos formas de bajarle el volumen sin llegar a eso:
 
 - **Desde el juego**: Opciones → Distant Horizons → *Enable Rendering*. Se apaga el
   dibujado sin tocar archivos.
-- **Ajustando**: en un M-series con 16 GB, empezá con render distance de Minecraft en
-  8–12 chunks y el LOD distance de DH en 64–96 (no 512), y limitale los threads de
-  generación a 3–4 en vez de dejarlo tomar todos los núcleos.
+- **Ajustando**: el trabajo de generación crece con el **cuadrado** del radio, así que
+  bajarlo de 128 a 64 son 4 veces menos chunks. Con Terralith, Incendium y ~30 mods de
+  estructuras encima, cada chunk cuesta varias veces lo que uno vanilla:
+
+  | LOD radius | Chunks | Tiempo relativo |
+  |---|---|---|
+  | 128 (default) | ~51.000 | 1× |
+  | **64** | ~12.900 | **4× más rápido** |
+  | 48 | ~7.200 | 7× más rápido |
+
+  Empezá con **LOD radius 64**, *Distance Generator Mode* en **5. Surface** mientras genera,
+  y el render distance de Minecraft en 8–12. Se genera una sola vez por zona.
+
+- **RAM**: 6 GB, no más. En una máquina de 16 GB, darle 9 deja al sistema sin aire y encima
+  alarga las pausas del recolector de basura. Más heap no es más FPS.
 
 ---
 
