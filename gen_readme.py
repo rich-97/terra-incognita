@@ -18,6 +18,11 @@ D = {
  "the-graveyard-forge": ("world", "Cementerios, criptas y catacumbas con mobs y jefes de temática necro."),
  "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar": ("world", "Aldeas flotantes en el cielo, con su propio loot y peligro de caída."),
  "deeperdarker": ("world", "Expande el Deep Dark con una dimensión nueva (Otherside), bloques, armaduras y un jefe."),
+ "nullscape": ("world", "Rehace el End entero: islas alienígenas y terreno vertical que no parece Minecraft. Cierra el trío con Terralith e Incendium."),
+ "structory": ("world", "Estructuras atmosféricas con lore ligero, repartidas por bioma. Hechas por los mismos autores de Terralith."),
+ "structory-towers": ("world", "Torres temáticas por bioma. Complemento opcional de Structory."),
+ "yungs-extras": ("world", "Estructuras y detalles vanilla+ sueltos que YUNG no metió en sus otros mods."),
+ "alexs-caves": ("world", "Seis biomas de cueva raros bajo la superficie, cada uno con su ecosistema y sus peligros. El jar más pesado del pack (75 MB)."),
  "mystical-oak-tree": ("world", "Un roble parlante tipo NPC con 300+ líneas de lore y consejos."),
  "large-ore-deposits": ("world", "Depósitos de mineral gigantes y rarísimos: minar vuelve a valer la pena."),
  "yungs-better-dungeons": ("world", "Rediseño completo de las mazmorras vanilla (las salas de spawner)."),
@@ -32,6 +37,8 @@ D = {
  "yungs-bridges": ("world", "Puentes naturales generados sobre ríos y barrancos."),
 
  # --- Mobs, jefes y combate ---
+ "alexs-mobs": ("combat", "85+ mobs nuevos con el mismo nivel de detalle que Ice and Fire — es del mismo autor y comparte Citadel."),
+ "ribbits": ("combat", "Aldeas de ranas músicas en los pantanos, con sus propios trades."),
  "ice-and-fire-dragons": ("combat", "Dragones (fuego, hielo, rayo), hipogrifos, cíclopes, sirenas y demás criaturas míticas. El mod más pesado del pack."),
  "bosses-of-mass-destruction-forge": ("combat", "Cuatro jefes opcionales con peleas de mecánicas propias, no solo bolsas de vida."),
  "gateways-to-eternity": ("combat", "Portales invocables que lanzan oleadas de mobs a cambio de recompensas."),
@@ -65,6 +72,10 @@ D = {
  "xp-tome": ("storage", "Un libro para guardar y retirar experiencia."),
 
  # --- Calidad de vida e interfaz ---
+ "travelers-titles": ("qol", "Títulos tipo RPG al entrar a un bioma o dimensión. Es lo que le faltaba al resource pack Visual Titles."),
+ "inventory-essentials": ("qol", "Ordena el inventario y cualquier cofre con una tecla. También mover y tirar stacks completos de un golpe."),
+ "supplementaries": ("gameplay", "Vanilla+ enorme: jarros, carteles indicadores, veletas, faroles de cuerda, pizarras y decenas de bloques más."),
+ "balm": ("lib", "Librería de abstracción entre loaders. La necesita Inventory Essentials."),
  "jei": ("qol", "Buscador de ítems y recetas. Imprescindible en cualquier pack con 100 mods."),
  "just-enough-effect-descriptions-jeed": ("qol", "Plugin de JEI que explica qué hace cada efecto de poción y de dónde sale."),
  "appleskin": ("qol", "Muestra saturación y cuánta hambre te da cada comida antes de comerla."),

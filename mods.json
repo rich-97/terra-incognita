@@ -454,9 +454,9 @@
     "type": "mod"
   },
   {
-    "file": "citadel-2.4.1-1.20.jar",
-    "sha1": "41dcebfac08ca4ecf102a9a91a5c80d843861228",
-    "size": 3073376,
+    "file": "citadel-2.6.3-1.20.1.jar",
+    "sha1": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316",
+    "size": 3185275,
     "local": {
       "modId": "citadel",
       "displayName": "Citadel",
@@ -476,19 +476,19 @@
     "license": "LGPL-3.0-only",
     "downloads": 14738853,
     "project_id": "jJfV67b1",
-    "version_id": "l54hCYzm",
-    "version_number": "2.4.1",
+    "version_id": "lTAAe4sZ",
+    "version_number": "2.6.3",
     "game_versions": [
-      "1.20"
+      "1.20.1"
     ],
     "loaders": [
       "forge",
       "neoforge"
     ],
-    "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/l54hCYzm/citadel-2.4.1-1.20.jar",
+    "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar",
     "source_url": "https://github.com/Alex-the-666/Citadel",
-    "sha1_remote": "41dcebfac08ca4ecf102a9a91a5c80d843861228",
-    "filename": "citadel-2.4.1-1.20.jar",
+    "sha1_remote": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316",
+    "filename": "citadel-2.6.3-1.20.1.jar",
     "type": "mod"
   },
   {
@@ -1650,9 +1650,9 @@
     "type": "mod"
   },
   {
-    "file": "geckolib-forge-1.20.1-4.2.3.jar",
-    "sha1": "8dd742eae684867bec07fa61bf18abd8b3551577",
-    "size": 1163971,
+    "file": "geckolib-forge-1.20.1-4.8.4.jar",
+    "sha1": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+    "size": 1038209,
     "local": {
       "modId": "geckolib",
       "displayName": "GeckoLib 4",
@@ -1674,19 +1674,18 @@
     "license": "MIT",
     "downloads": 62172643,
     "project_id": "8BmcQJ2H",
-    "version_id": "ISrpRn5q",
-    "version_number": "4.2.3",
+    "version_id": "aC5KMoNg",
+    "version_number": "4.8.4",
     "game_versions": [
       "1.20.1"
     ],
     "loaders": [
-      "forge",
-      "neoforge"
+      "forge"
     ],
-    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/ISrpRn5q/geckolib-forge-1.20.1-4.2.3.jar",
+    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar",
     "source_url": "https://github.com/bernie-g/geckolib",
-    "sha1_remote": "8dd742eae684867bec07fa61bf18abd8b3551577",
-    "filename": "geckolib-forge-1.20.1-4.2.3.jar",
+    "sha1_remote": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+    "filename": "geckolib-forge-1.20.1-4.8.4.jar",
     "type": "mod"
   },
   {
@@ -1838,9 +1837,9 @@
     "type": "mod"
   },
   {
-    "file": "iceandfire-2.1.13-1.20.1-beta-4.jar",
-    "sha1": "38a3a731a90713e3744385d7a44524e11378dac0",
-    "size": 21767038,
+    "file": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+    "sha1": "7e828cbb046ca3d622e92c68f956bd1c0155dc6f",
+    "size": 21854126,
     "local": {
       "modId": "iceandfire",
       "displayName": "Ice and Fire",
@@ -1862,8 +1861,8 @@
     "license": "LGPL-3.0-only",
     "downloads": 5981610,
     "project_id": "LVnvHVBp",
-    "version_id": "5f9S3HF9",
-    "version_number": "2.1.13-1.20.1-beta-4",
+    "version_id": "EzN8KQYF",
+    "version_number": "2.1.13-1.20.1-beta-5",
     "game_versions": [
       "1.20.1"
     ],
@@ -1871,11 +1870,12 @@
       "forge",
       "neoforge"
     ],
-    "url": "https://cdn.modrinth.com/data/LVnvHVBp/versions/5f9S3HF9/iceandfire-2.1.13-1.20.1-beta-4.jar",
+    "url": "https://cdn.modrinth.com/data/LVnvHVBp/versions/EzN8KQYF/iceandfire-2.1.13-1.20.1-beta-5.jar",
     "source_url": "https://github.com/AlexModGuy/Ice_and_Fire",
-    "sha1_remote": "38a3a731a90713e3744385d7a44524e11378dac0",
-    "filename": "iceandfire-2.1.13-1.20.1-beta-4.jar",
-    "type": "mod"
+    "sha1_remote": "7e828cbb046ca3d622e92c68f956bd1c0155dc6f",
+    "filename": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+    "type": "mod",
+    "nota": "beta-5 relaja citadel a [2.4.1,); la beta-4 lo topaba en 2.5.99 y chocaba con Alex's Mobs"
   },
   {
     "file": "Iceberg-1.20.1-forge-1.1.13.jar",
@@ -2117,9 +2117,9 @@
     "type": "mod"
   },
   {
-    "file": "moonlight-1.20-2.6.3-forge.jar",
-    "sha1": "f75e0fcb27a1fccd5040dbc48dc2f2c624fbf127",
-    "size": 870498,
+    "file": "moonlight-1.20-2.16.34-forge.jar",
+    "sha1": "5e20f2f0ce56a534accb32f80853d5a246599a4d",
+    "size": 1419416,
     "local": {
       "modId": "moonlight",
       "displayName": "Moonlight Library",
@@ -2139,18 +2139,19 @@
     "license": "LicenseRef-LGPL-with-additional-dependency-clause",
     "downloads": 36657088,
     "project_id": "twkfQtEc",
-    "version_id": "JXolKGKT",
-    "version_number": "1.20-2.6.3",
+    "version_id": "43kjMXMx",
+    "version_number": "1.20-2.16.34-forge",
     "game_versions": [
       "1.20.1"
     ],
     "loaders": [
-      "forge"
+      "forge",
+      "neoforge"
     ],
-    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/JXolKGKT/moonlight-1.20-2.6.3-forge.jar",
+    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/43kjMXMx/moonlight-1.20-2.16.34-forge.jar",
     "source_url": "https://github.com/MehVahdJukaar/Moonlight/tree/multi-loader",
-    "sha1_remote": "f75e0fcb27a1fccd5040dbc48dc2f2c624fbf127",
-    "filename": "moonlight-1.20-2.6.3-forge.jar",
+    "sha1_remote": "5e20f2f0ce56a534accb32f80853d5a246599a4d",
+    "filename": "moonlight-1.20-2.16.34-forge.jar",
     "type": "mod"
   },
   {
@@ -3238,9 +3239,9 @@
     "type": "mod"
   },
   {
-    "file": "YungsApi-1.20-Forge-4.0.5.jar",
-    "sha1": "c3a989fdf8429828bd784e35e83f89c0786b43de",
-    "size": 365910,
+    "file": "YungsApi-1.20-Forge-4.0.6.jar",
+    "sha1": "af584b690f5646c6032002b58abc4591beed3833",
+    "size": 370524,
     "local": {
       "modId": "yungsapi",
       "displayName": "YUNG's API",
@@ -3261,8 +3262,8 @@
     "license": "LGPL-3.0-only",
     "downloads": 31676227,
     "project_id": "Ua7DFN59",
-    "version_id": "aMs83SRk",
-    "version_number": "1.20-Forge-4.0.5",
+    "version_id": "PJOYAmAs",
+    "version_number": "1.20-Forge-4.0.6",
     "game_versions": [
       "1.20",
       "1.20.1"
@@ -3270,10 +3271,10 @@
     "loaders": [
       "forge"
     ],
-    "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/aMs83SRk/YungsApi-1.20-Forge-4.0.5.jar",
+    "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar",
     "source_url": "https://github.com/YUNG-GANG/YUNGs-API",
-    "sha1_remote": "c3a989fdf8429828bd784e35e83f89c0786b43de",
-    "filename": "YungsApi-1.20-Forge-4.0.5.jar",
+    "sha1_remote": "af584b690f5646c6032002b58abc4591beed3833",
+    "filename": "YungsApi-1.20-Forge-4.0.6.jar",
     "type": "mod"
   },
   {
@@ -4278,5 +4279,363 @@
     "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
     "sha1_remote": "2019d821bed9071daabed43979433a5473ceee49",
     "filename": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+  },
+  {
+    "type": "mod",
+    "file": "alexsmobs-1.22.9.jar",
+    "sha1": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f",
+    "size": 26350793,
+    "source": "modrinth",
+    "slug": "alexs-mobs",
+    "title": "Alex's Mobs",
+    "description": "85+ New mobs with stylistic quality above the default game.",
+    "categories": [
+      "equipment",
+      "mobs"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "GPL-3.0-only",
+    "project_id": "2cMuAZAp",
+    "version_id": "XoIASRVU",
+    "version_number": "1.22.9",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar",
+    "sha1_remote": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f",
+    "filename": "alexsmobs-1.22.9.jar"
+  },
+  {
+    "type": "mod",
+    "file": "alexscaves-2.0.2.jar",
+    "sha1": "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53",
+    "size": 74871657,
+    "source": "modrinth",
+    "slug": "alexs-caves",
+    "title": "Alex's Caves",
+    "description": "Explore six new rare cave biomes hidden under the surface of the Overworld...",
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "project_id": "U6GY0xp0",
+    "version_id": "lC8HHXOF",
+    "version_number": "2.0.2",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/U6GY0xp0/versions/lC8HHXOF/alexscaves-2.0.2.jar",
+    "sha1_remote": "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53",
+    "filename": "alexscaves-2.0.2.jar"
+  },
+  {
+    "type": "mod",
+    "file": "Nullscape_1.20.x_v1.2.8.jar",
+    "sha1": "e4afd980e788f1861d8a8263bc700312667df977",
+    "size": 399214,
+    "source": "modrinth",
+    "slug": "nullscape",
+    "title": "Nullscape",
+    "description": "Transforms the boring Vanilla end into an alien dimension with the most surreal terrain imaginable. Topped with a couple of new biomes to add to the experience, whilst keeping the end desolate.",
+    "categories": [
+      "worldgen"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "LicenseRef-Stardust-Labs-License",
+    "project_id": "LPjGiSO4",
+    "version_id": "QsRKydVt",
+    "version_number": "1.2.8",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6"
+    ],
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge",
+      "quilt"
+    ],
+    "url": "https://cdn.modrinth.com/data/LPjGiSO4/versions/QsRKydVt/Nullscape_1.20.x_v1.2.8.jar",
+    "sha1_remote": "e4afd980e788f1861d8a8263bc700312667df977",
+    "filename": "Nullscape_1.20.x_v1.2.8.jar"
+  },
+  {
+    "type": "mod",
+    "file": "Structory_1.20.x_v1.3.5.jar",
+    "sha1": "4196a2fa68f755b46616f4071e84c72ec4d6dacc",
+    "size": 1286462,
+    "source": "modrinth",
+    "slug": "structory",
+    "title": "Structory",
+    "description": "A seasonally updated and atmospheric structure mod with light lore",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "LicenseRef-Stardust-Labs-License",
+    "project_id": "aKCwCJlY",
+    "version_id": "FkaSuQb0",
+    "version_number": "1.3.5",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6"
+    ],
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge",
+      "quilt"
+    ],
+    "url": "https://cdn.modrinth.com/data/aKCwCJlY/versions/FkaSuQb0/Structory_1.20.x_v1.3.5.jar",
+    "sha1_remote": "4196a2fa68f755b46616f4071e84c72ec4d6dacc",
+    "filename": "Structory_1.20.x_v1.3.5.jar"
+  },
+  {
+    "type": "mod",
+    "file": "Structory_Towers_1.20.x_v1.0.7.jar",
+    "sha1": "fa147459b82e1c0a774c19b598a55a9ca0d7b0ef",
+    "size": 526234,
+    "source": "modrinth",
+    "slug": "structory-towers",
+    "title": "Structory: Towers",
+    "description": "Adds immersive biome-themed towers to the world, as a standalone option or add-on to Structory",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "LicenseRef-Stardust-Labs-License",
+    "project_id": "j3FONRYr",
+    "version_id": "fTl6NfPL",
+    "version_number": "1.0.7",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6"
+    ],
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge",
+      "quilt"
+    ],
+    "url": "https://cdn.modrinth.com/data/j3FONRYr/versions/fTl6NfPL/Structory_Towers_1.20.x_v1.0.7.jar",
+    "sha1_remote": "fa147459b82e1c0a774c19b598a55a9ca0d7b0ef",
+    "filename": "Structory_Towers_1.20.x_v1.0.7.jar"
+  },
+  {
+    "type": "mod",
+    "file": "YungsExtras-1.20-Forge-4.0.3.jar",
+    "sha1": "4b2e632353a95c16a080c2e64c426480a139fbd6",
+    "size": 200341,
+    "source": "modrinth",
+    "slug": "yungs-extras",
+    "title": "YUNG's Extras",
+    "description": "Extra structures, features, and vanilla+ content suitable for any modpack!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "project_id": "ZYgyPyfq",
+    "version_id": "h4m8J7w8",
+    "version_number": "1.20-Forge-4.0.3",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/ZYgyPyfq/versions/h4m8J7w8/YungsExtras-1.20-Forge-4.0.3.jar",
+    "sha1_remote": "4b2e632353a95c16a080c2e64c426480a139fbd6",
+    "filename": "YungsExtras-1.20-Forge-4.0.3.jar"
+  },
+  {
+    "type": "mod",
+    "file": "Ribbits-1.20.1-Forge-3.0.5.jar",
+    "sha1": "5cc73d3399248300a188164406cd801cc4ae00b3",
+    "size": 2223589,
+    "source": "modrinth",
+    "slug": "ribbits",
+    "title": "Ribbits",
+    "description": "Swamp villages and musical frogs!",
+    "categories": [
+      "decoration",
+      "mobs",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "project_id": "8YcE8y4T",
+    "version_id": "RCsQFeua",
+    "version_number": "3.0.5",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/8YcE8y4T/versions/RCsQFeua/Ribbits-1.20.1-Forge-3.0.5.jar",
+    "sha1_remote": "5cc73d3399248300a188164406cd801cc4ae00b3",
+    "filename": "Ribbits-1.20.1-Forge-3.0.5.jar"
+  },
+  {
+    "type": "mod",
+    "file": "TravelersTitles-1.20-Forge-4.0.2.jar",
+    "sha1": "64a435eaa6e08fff5af2c720c3b6a40fe292f2f7",
+    "size": 228191,
+    "source": "modrinth",
+    "slug": "travelers-titles",
+    "title": "Traveler's Titles",
+    "description": "Epic, RPG-like titles when entering biomes & dimensions!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LGPL-3.0-only",
+    "project_id": "JtifUr64",
+    "version_id": "oUSK4sOQ",
+    "version_number": "1.20-Forge-4.0.2",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/JtifUr64/versions/oUSK4sOQ/TravelersTitles-1.20-Forge-4.0.2.jar",
+    "sha1_remote": "64a435eaa6e08fff5af2c720c3b6a40fe292f2f7",
+    "filename": "TravelersTitles-1.20-Forge-4.0.2.jar"
+  },
+  {
+    "type": "mod",
+    "file": "supplementaries-1.20-3.1.43-forge.jar",
+    "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
+    "size": 13667742,
+    "source": "modrinth",
+    "slug": "supplementaries",
+    "title": "Supplementaries",
+    "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+    "categories": [
+      "decoration",
+      "game-mechanics",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-Supplementaries-Team-License",
+    "project_id": "fFEIiSDQ",
+    "version_id": "S0TIJ1hU",
+    "version_number": "1.20-3.1.43-forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
+    "sha1_remote": "326d65a29981de28016e3828370d68a8f63e1798",
+    "filename": "supplementaries-1.20-3.1.43-forge.jar"
+  },
+  {
+    "type": "mod",
+    "file": "inventoryessentials-forge-1.20.1-8.2.18.jar",
+    "sha1": "8db26d4506e8733b148b8cb6973ef890c1e2cc37",
+    "size": 170013,
+    "source": "modrinth",
+    "slug": "inventory-essentials",
+    "title": "Inventory Essentials",
+    "description": "The most essential inventory tweaks. Now with sorting!",
+    "categories": [
+      "management",
+      "utility"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "project_id": "Boon8xwi",
+    "version_id": "lymlfcUI",
+    "version_number": "8.2.18+forge-1.20.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/Boon8xwi/versions/lymlfcUI/inventoryessentials-forge-1.20.1-8.2.18.jar",
+    "sha1_remote": "8db26d4506e8733b148b8cb6973ef890c1e2cc37",
+    "filename": "inventoryessentials-forge-1.20.1-8.2.18.jar"
+  },
+  {
+    "type": "mod",
+    "file": "balm-forge-1.20.1-7.3.42.jar",
+    "sha1": "90340ba512182570146587d72122cb0faa608116",
+    "size": 561670,
+    "source": "modrinth",
+    "slug": "balm",
+    "title": "Balm",
+    "description": "Abstraction Layer for Multi-Loader Mods",
+    "categories": [
+      "library"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "project_id": "MBAkmtvl",
+    "version_id": "PtvPxXii",
+    "version_number": "7.3.42+forge-1.20.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/PtvPxXii/balm-forge-1.20.1-7.3.42.jar",
+    "sha1_remote": "90340ba512182570146587d72122cb0faa608116",
+    "filename": "balm-forge-1.20.1-7.3.42.jar"
   }
 ]

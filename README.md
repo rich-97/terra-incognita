@@ -2,23 +2,23 @@
 
 > *«…y de aquí en adelante, tierra desconocida.»*
 
-Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 100 mods que rehacen
+Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 111 mods que rehacen
 el mundo vanilla entero — cada estructura, las tres dimensiones y buena parte de los mobs.
 Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-299 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+421 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 100 (105 automáticos + 6 manuales) |
+| **Mods** | 111 (116 automáticos + 6 manuales) |
 | **Resource packs** | 9 |
 | **Shaders** | 2 (opcional, uno por sistema) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~299 MB |
+| **Peso en disco** | ~421 MB |
 
 ---
 
@@ -72,16 +72,20 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ### 🗺️ Mundo, biomas y estructuras
 
-*Generación de terreno y todo lo que hay para explorar.* — **22 mods**
+*Generación de terreno y todo lo que hay para explorar.* — **27 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
+| [Alex's Caves](https://modrinth.com/mod/alexs-caves) | Seis biomas de cueva raros bajo la superficie, cada uno con su ecosistema y sus peligros. El jar más pesado del pack (75 MB). | Modrinth |
 | [Bygone Nether](https://modrinth.com/mod/bygone-nether) | Estructuras propias para cada bioma del Nether, con mobs que las habitan. | Modrinth |
 | [Deeper and Darker](https://modrinth.com/mod/deeperdarker) | Expande el Deep Dark con una dimensión nueva (Otherside), bloques, armaduras y un jefe. | Modrinth |
 | [Incendium Legacy](https://modrinth.com/mod/incendium) | Rehace el Nether entero: biomas nuevos, estructuras difíciles y armas exclusivas. | Modrinth |
 | [Large Ore Deposits](https://modrinth.com/mod/large-ore-deposits) | Depósitos de mineral gigantes y rarísimos: minar vuelve a valer la pena. | Modrinth |
 | [Mystical Oak Tree](https://modrinth.com/mod/mystical-oak-tree) | Un roble parlante tipo NPC con 300+ líneas de lore y consejos. | Modrinth |
+| [Nullscape](https://modrinth.com/mod/nullscape) | Rehace el End entero: islas alienígenas y terreno vertical que no parece Minecraft. Cierra el trío con Terralith e Incendium. | Modrinth |
 | [Sky Villages](https://www.curseforge.com/minecraft/search?search=Sky%20Villages) | Aldeas flotantes en el cielo, con su propio loot y peligro de caída. | CurseForge |
+| [Structory](https://modrinth.com/mod/structory) | Estructuras atmosféricas con lore ligero, repartidas por bioma. Hechas por los mismos autores de Terralith. | Modrinth |
+| [Structory: Towers](https://modrinth.com/mod/structory-towers) | Torres temáticas por bioma. Complemento opcional de Structory. | Modrinth |
 | [Terralith](https://modrinth.com/mod/terralith) | Casi 100 biomas nuevos generados solo con bloques vanilla: montañas, cuevas y paisajes muy superiores a los de base. | Modrinth |
 | [The Bumblezone - NeoForge/Forge](https://modrinth.com/mod/the-bumblezone) | Dimensión nueva llena de abejas. Si les robás la miel se enojan de verdad. | Modrinth |
 | [The Graveyard (FORGE/NEOFORGE)](https://modrinth.com/mod/the-graveyard-forge) | Cementerios, criptas y catacumbas con mobs y jefes de temática necro. | Modrinth |
@@ -98,13 +102,15 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [YUNG's Better Strongholds](https://modrinth.com/mod/yungs-better-strongholds) | Fortalezas del End rediseñadas, con bibliotecas y salas temáticas. | Modrinth |
 | [YUNG's Better Witch Huts](https://modrinth.com/mod/yungs-better-witch-huts) | Chozas de bruja rediseñadas en los pantanos. | Modrinth |
 | [YUNG's Bridges](https://modrinth.com/mod/yungs-bridges) | Puentes naturales generados sobre ríos y barrancos. | Modrinth |
+| [YUNG's Extras](https://modrinth.com/mod/yungs-extras) | Estructuras y detalles vanilla+ sueltos que YUNG no metió en sus otros mods. | Modrinth |
 
 ### ⚔️ Mobs, jefes y combate
 
-*Enemigos nuevos, peleas y armas.* — **18 mods**
+*Enemigos nuevos, peleas y armas.* — **20 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
+| [Alex's Mobs](https://modrinth.com/mod/alexs-mobs) | 85+ mobs nuevos con el mismo nivel de detalle que Ice and Fire — es del mismo autor y comparte Citadel. | Modrinth |
 | [Apothic Attributes](https://modrinth.com/mod/apothic-attributes) | Atributos nuevos (crítico, robo de vida, armadura penetrante) más una GUI para verlos. | Modrinth |
 | [Bosses of Mass Destruction Forge](https://modrinth.com/mod/bosses-of-mass-destruction-forge) | Cuatro jefes opcionales con peleas de mecánicas propias, no solo bolsas de vida. | Modrinth |
 | [Craftable Elytra [REMASTERED]](https://www.curseforge.com/minecraft/search?search=Craftable%20Elytra%20%5BREMASTERED%5D) | Permite craftear la elytra en vez de tener que ir al End a buscarla. | CurseForge |
@@ -119,6 +125,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [Illager Invasion](https://modrinth.com/mod/illager-invasion) | Variantes nuevas de illagers con habilidades propias y un jefe. | Modrinth |
 | [It Takes a Pillage](https://modrinth.com/mod/it-takes-a-pillage) | Los pillagers se organizan: fortalezas, unidades nuevas y raids más serias. | Modrinth |
 | [More Bows: Restrung!](https://modrinth.com/mod/more-bows-restrung) | Arcos nuevos con estadísticas y efectos distintos. | Modrinth |
+| [Ribbits](https://modrinth.com/mod/ribbits) | Aldeas de ranas músicas en los pantanos, con sus propios trades. | Modrinth |
 | [Spartan Weaponry](https://modrinth.com/mod/spartan-weaponry) | Arsenal enorme: lanzas, dagas, mazas, ballestas, boomerangs y más. | Modrinth |
 | [Tiny Skeletons](https://modrinth.com/mod/tiny-skeletons) | Esqueletos bebé, rápidos y molestos. | Modrinth |
 | [VillagersPlus](https://modrinth.com/mod/villagersplus) | Tipos de aldeano nuevos, con trades y estaciones de trabajo propias. | Modrinth |
@@ -144,7 +151,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ### 🧭 Calidad de vida e interfaz
 
-*Información en pantalla y menos fricción.* — **22 mods**
+*Información en pantalla y menos fricción.* — **24 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
@@ -158,6 +165,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [Enchanting Infuser](https://modrinth.com/mod/enchanting-infuser) | Mesa de encantar alternativa: elegís el encantamiento que querés, sin azar. | Modrinth |
 | [Held Item Tooltips](https://modrinth.com/mod/held-item-tooltips) | Muestra encantamientos y contenido del ítem que tenés en la mano, sobre la hotbar. | Modrinth · cliente |
 | [Horse Expert](https://modrinth.com/mod/horse-expert) | Ver las estadísticas reales de velocidad, salto y salud de un caballo. | Modrinth |
+| [Inventory Essentials](https://modrinth.com/mod/inventory-essentials) | Ordena el inventario y cualquier cofre con una tecla. También mover y tirar stacks completos de un golpe. | Modrinth |
 | [Just Enough Effect Descriptions (JEED)](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) | Plugin de JEI que explica qué hace cada efecto de poción y de dónde sale. | Modrinth · cliente |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Buscador de ítems y recetas. Imprescindible en cualquier pack con 100 mods. | Modrinth |
 | [Just Zoom](https://modrinth.com/mod/just-zoom) | Zoom con una tecla, con el factor ajustable desde la rueda del mouse. Solo cliente. | Modrinth · cliente |
@@ -167,13 +175,14 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [Straw Statues](https://modrinth.com/mod/straw-statues) | Estatuas con la skin de cualquier jugador para decorar builds. | Modrinth |
 | [TLSkinCape (TLauncher)](https://www.curseforge.com/minecraft/search?search=TLSkinCape) | Skins y capas de TLauncher en cuentas no premium. Solo cliente, específico de TLauncher. | CurseForge |
 | [Trading Post](https://modrinth.com/mod/trading-post) | Bloque para comerciar con todos los aldeanos cercanos a la vez. | Modrinth |
+| [Traveler's Titles](https://modrinth.com/mod/travelers-titles) | Títulos tipo RPG al entrar a un bioma o dimensión. Es lo que le faltaba al resource pack Visual Titles. | Modrinth · cliente |
 | [Visual Workbench](https://modrinth.com/mod/visual-workbench) | La mesa de crafteo guarda los ítems dentro y los muestra encima. | Modrinth |
 | [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) | Minimapa en la esquina con waypoints, mobs y jugadores. | Modrinth |
 | [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) | Mapa a pantalla completa de todo lo explorado. Se integra con el minimapa. | Modrinth |
 
 ### 🪂 Mecánicas, movilidad y ambiente
 
-*Cosas nuevas para hacer y ver.* — **8 mods**
+*Cosas nuevas para hacer y ver.* — **9 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
@@ -185,15 +194,17 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [Exposure](https://modrinth.com/mod/exposure) | Cámara de fotos con revelado real: sacás fotos y las colgás como cuadros. | Modrinth |
 | [Falling Leaves (NeoForge/Forge)](https://modrinth.com/mod/fallingleavesforge) | Partículas de hojas cayendo de los árboles. Solo cliente. | Modrinth · cliente |
 | [Hang Glider](https://modrinth.com/mod/hang-glider) | Ala delta para planear antes de conseguir la elytra. | Modrinth |
+| [Supplementaries](https://modrinth.com/mod/supplementaries) | Vanilla+ enorme: jarros, carteles indicadores, veletas, faroles de cuerda, pizarras y decenas de bloques más. | Modrinth |
 
 ### 📚 Librerías y dependencias
 
-*No aportan contenido: otros mods los necesitan para funcionar.* — **19 mods**
+*No aportan contenido: otros mods los necesitan para funcionar.* — **20 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
 | [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features) | Permite modelos de entidad personalizados (CEM) sin OptiFine. Lo necesitan Fresh Animations y Better Dogs. | Modrinth · cliente |
 | [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | Permite texturas de entidad variables y emisivas (CET) sin OptiFine. Va de la mano con EMF. | Modrinth · cliente |
+| [Balm](https://modrinth.com/mod/balm) | Librería de abstracción entre loaders. La necesita Inventory Essentials. | Modrinth |
 | [CERBON's API](https://modrinth.com/mod/cerbons-api) | Librería de los mods de CERBON (Enhanced Boss Bars). | Modrinth |
 | [Citadel](https://modrinth.com/mod/citadel) | Librería de Ice and Fire y otros mods de Alex. | Modrinth |
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | Librería de pantallas de configuración. | Modrinth |
