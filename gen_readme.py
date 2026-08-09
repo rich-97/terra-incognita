@@ -22,7 +22,6 @@ D = {
  "structory": ("world", "Estructuras atmosféricas con lore ligero, repartidas por bioma. Hechas por los mismos autores de Terralith."),
  "structory-towers": ("world", "Torres temáticas por bioma. Complemento opcional de Structory."),
  "yungs-extras": ("world", "Estructuras y detalles vanilla+ sueltos que YUNG no metió en sus otros mods."),
- "alexs-caves": ("world", "Seis biomas de cueva raros bajo la superficie, cada uno con su ecosistema y sus peligros. El jar más pesado del pack (75 MB)."),
  "mystical-oak-tree": ("world", "Un roble parlante tipo NPC con 300+ líneas de lore y consejos."),
  "large-ore-deposits": ("world", "Depósitos de mineral gigantes y rarísimos: minar vuelve a valer la pena."),
  "yungs-better-dungeons": ("world", "Rediseño completo de las mazmorras vanilla (las salas de spawner)."),

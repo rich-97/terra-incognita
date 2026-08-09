@@ -4258,37 +4258,6 @@
   },
   {
     "type": "mod",
-    "file": "alexscaves-2.0.2.jar",
-    "sha1": "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53",
-    "size": 74871657,
-    "source": "modrinth",
-    "slug": "alexs-caves",
-    "title": "Alex's Caves",
-    "description": "Explore six new rare cave biomes hidden under the surface of the Overworld...",
-    "categories": [
-      "adventure",
-      "mobs",
-      "worldgen"
-    ],
-    "client_side": "required",
-    "server_side": "required",
-    "license": "LGPL-3.0-only",
-    "project_id": "U6GY0xp0",
-    "version_id": "lC8HHXOF",
-    "version_number": "2.0.2",
-    "game_versions": [
-      "1.20.1"
-    ],
-    "loaders": [
-      "forge",
-      "neoforge"
-    ],
-    "url": "https://cdn.modrinth.com/data/U6GY0xp0/versions/lC8HHXOF/alexscaves-2.0.2.jar",
-    "sha1_remote": "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53",
-    "filename": "alexscaves-2.0.2.jar"
-  },
-  {
-    "type": "mod",
     "file": "Nullscape_1.20.x_v1.2.8.jar",
     "sha1": "e4afd980e788f1861d8a8263bc700312667df977",
     "size": 399214,

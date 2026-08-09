@@ -2,23 +2,23 @@
 
 > *«…y de aquí en adelante, tierra desconocida.»*
 
-Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 113 mods que rehacen
+Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 112 mods que rehacen
 el mundo vanilla entero — cada estructura, las tres dimensiones y buena parte de los mobs.
 Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-448 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+373 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 113 (119 automáticos + 6 manuales) |
+| **Mods** | 112 (118 automáticos + 6 manuales) |
 | **Resource packs** | 11 |
 | **Shaders** | 1 (opcional) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~448 MB |
+| **Peso en disco** | ~373 MB |
 
 ---
 
@@ -75,11 +75,10 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ### 🗺️ Mundo, biomas y estructuras
 
-*Generación de terreno y todo lo que hay para explorar.* — **27 mods**
+*Generación de terreno y todo lo que hay para explorar.* — **26 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
-| [Alex's Caves](https://modrinth.com/mod/alexs-caves) | Seis biomas de cueva raros bajo la superficie, cada uno con su ecosistema y sus peligros. El jar más pesado del pack (75 MB). | Modrinth |
 | [Bygone Nether](https://modrinth.com/mod/bygone-nether) | Estructuras propias para cada bioma del Nether, con mobs que las habitan. | Modrinth |
 | [Deeper and Darker](https://modrinth.com/mod/deeperdarker) | Expande el Deep Dark con una dimensión nueva (Otherside), bloques, armaduras y un jefe. | Modrinth |
 | [Incendium Legacy](https://modrinth.com/mod/incendium) | Rehace el Nether entero: biomas nuevos, estructuras difíciles y armas exclusivas. | Modrinth |
