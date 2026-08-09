@@ -11,7 +11,7 @@ Si algún día hace falta exportar .mrpack o meter CurseForge de verdad -> usar 
 import hashlib, json, pathlib, sys, urllib.request
 
 ROOT = pathlib.Path(__file__).parent
-DEST = {"mod": "mods", "resourcepack": "resourcepacks"}
+DEST = {"mod": "mods", "resourcepack": "resourcepacks", "shaderpack": "shaderpacks"}
 UA = {"User-Agent": "terra-incognita-sync/1.0"}
 
 

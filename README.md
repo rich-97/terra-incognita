@@ -2,22 +2,23 @@
 
 > *«…y de aquí en adelante, tierra desconocida.»*
 
-Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 97 mods que rehacen
+Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 99 mods que rehacen
 el mundo vanilla entero — cada estructura, las tres dimensiones y buena parte de los mobs.
 Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-292 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+297 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 97 (100 automáticos + 6 manuales) |
+| **Mods** | 99 (103 automáticos + 6 manuales) |
 | **Resource packs** | 9 |
+| **Shaders** | 1 (opcional) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~292 MB |
+| **Peso en disco** | ~297 MB |
 
 ---
 
@@ -31,8 +32,8 @@ cd terra-incognita
 python3 sync.py
 ```
 
-Descarga los mods en `./mods` y los resource packs en `./resourcepacks`, verificando el
-SHA1 de cada archivo. Si ya los tenías, solo baja lo que cambió.
+Descarga todo en `./mods`, `./resourcepacks` y `./shaderpacks`, verificando el SHA1 de
+cada archivo. Si ya los tenías, solo baja lo que cambió.
 
 ### 2. Los 6 mods que faltan
 
@@ -49,13 +50,13 @@ No están en Modrinth, hay que bajarlos a mano de CurseForge y ponerlos en `./mo
 
 **TLauncher**
 1. Instalá **Forge 1.20.1** desde el propio launcher.
-2. Copiá `mods/` y `resourcepacks/` a `~/Library/Application Support/minecraft/`
-   (Windows: `%APPDATA%\.minecraft\`).
+2. Copiá `mods/`, `resourcepacks/` y `shaderpacks/` a
+   `~/Library/Application Support/minecraft/` (Windows: `%APPDATA%\.minecraft\`).
 3. Asignale 6–8 GB de RAM en Configuración → Java.
 
 **CurseForge App / Prism / MultiMC / Modrinth App**
 1. Creá una instancia de Minecraft 1.20.1 con Forge.
-2. Abrí la carpeta de la instancia y copiá `mods/` y `resourcepacks/` adentro.
+2. Abrí la carpeta de la instancia y copiá las tres carpetas adentro.
 3. Subí la RAM a 6–8 GB en las opciones de la instancia.
 
 ### 4. Activar los resource packs
@@ -143,7 +144,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ### 🧭 Calidad de vida e interfaz
 
-*Información en pantalla y menos fricción.* — **20 mods**
+*Información en pantalla y menos fricción.* — **22 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
@@ -153,6 +154,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [Easy Anvils](https://modrinth.com/mod/easy-anvils) | Yunques sin el castigo de reparación acumulativo y con costes justos. | Modrinth |
 | [Easy Magic](https://modrinth.com/mod/easy-magic) | La mesa de encantar conserva los ítems al cerrarla y permite re-tirar encantamientos. | Modrinth |
 | [Effect Insights](https://modrinth.com/mod/effect-insights) | Describe los efectos de pociones y comidas directamente en el tooltip. | Modrinth · cliente |
+| [Embeddium](https://modrinth.com/mod/embeddium) | Port de Sodium para Forge: reescribe el renderizado y sube bastante los FPS. Sirve aunque nunca uses shaders. | Modrinth · cliente |
 | [Enchanting Infuser](https://modrinth.com/mod/enchanting-infuser) | Mesa de encantar alternativa: elegís el encantamiento que querés, sin azar. | Modrinth |
 | [Held Item Tooltips](https://modrinth.com/mod/held-item-tooltips) | Muestra encantamientos y contenido del ítem que tenés en la mano, sobre la hotbar. | Modrinth · cliente |
 | [Horse Expert](https://modrinth.com/mod/horse-expert) | Ver las estadísticas reales de velocidad, salto y salud de un caballo. | Modrinth |
@@ -160,6 +162,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Buscador de ítems y recetas. Imprescindible en cualquier pack con 100 mods. | Modrinth |
 | [Just Zoom](https://modrinth.com/mod/just-zoom) | Zoom con una tecla, con el factor ajustable desde la rueda del mouse. Solo cliente. | Modrinth · cliente |
 | [Legendary Tooltips](https://modrinth.com/mod/legendary-tooltips) | Tooltips con marco decorado según la rareza del ítem, y más opciones de formato. | Modrinth · cliente |
+| [Oculus](https://modrinth.com/mod/oculus) | Port de Iris para Forge: es lo que hace que la carpeta `shaderpacks/` exista. Necesita Embeddium. | Modrinth · cliente |
 | [Pick Up Notifier](https://modrinth.com/mod/pick-up-notifier) | Aviso en pantalla de todo lo que vas recogiendo. | Modrinth |
 | [Straw Statues](https://modrinth.com/mod/straw-statues) | Estatuas con la skin de cualquier jugador para decorar builds. | Modrinth |
 | [TLSkinCape (TLauncher)](https://www.curseforge.com/minecraft/search?search=TLSkinCape) | Skins y capas de TLauncher en cuentas no premium. Solo cliente, específico de TLauncher. | CurseForge |
@@ -228,6 +231,28 @@ Los 9 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
 
 > **Fresh Animations y Better Dogs necesitan EMF + ETF**, que ya están incluidos en los mods.
 > Son el reemplazo de OptiFine en Forge — sin ellos los packs se instalan pero no hacen nada.
+
+---
+
+## Shaders
+
+**[BSL Shaders v8.2.09](https://modrinth.com/shader/bsl-shaders)** — el mejor equilibrio entre
+cómo se ve y cuánto cuesta, con un menú de configuración enorme para ajustarlo.
+
+Funciona gracias a **Oculus** (el port de Iris para Forge) + **Embeddium** (el port de Sodium),
+que ya están en la lista de mods. Embeddium por sí solo sube los FPS aunque nunca actives un shader.
+
+Se activa en Opciones → Video Settings → Shader Packs.
+
+> ### ⚠️ La versión está fijada a propósito
+>
+> BSL v10.x usa **compute shaders**, que necesitan OpenGL 4.3. macOS tope en **4.1**, así que
+> en Mac esos shaders no arrancan — no importa qué GPU tengas. La v8.2.09 no los usa y anda.
+>
+> Si vas a jugar solo en Windows o Linux, podés subir a la última: cambiá `version_number`,
+> `url`, `sha1_remote` y `filename` de BSL en `mods.json`.
+>
+> Misma razón por la que **Aurora's Shaders**, **Bloop** y **Bliss** quedaron afuera.
 
 ---
 
