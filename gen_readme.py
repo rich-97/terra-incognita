@@ -373,7 +373,7 @@ sola vez en `.minecraft`: hay que ponerlo en cada mundo que lo necesite.
 islas flotantes de **Terralith (Skylands)**, que ya están a 150–250 de altura, eso se
 acumula y las aldeas terminan a 300–400+. No hay config in-game para esto — está fijo
 en el worldgen del mod. `datapacks/skyvillages-fix/` sobreescribe ese archivo con una
-altura fija de **180**, sin proyectarla sobre el terreno.
+altura fija de **100**, sin proyectarla sobre el terreno.
 
 ```bash
 python3 install_datapack.py "Nombre de tu mundo"
