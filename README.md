@@ -8,17 +8,17 @@ Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-297 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+298 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 99 (103 automáticos + 6 manuales) |
+| **Mods** | 99 (104 automáticos + 6 manuales) |
 | **Resource packs** | 9 |
-| **Shaders** | 1 (opcional) |
+| **Shaders** | 2 (opcional, uno por sistema) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~297 MB |
+| **Peso en disco** | ~298 MB |
 
 ---
 
@@ -236,23 +236,31 @@ Los 9 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
 
 ## Shaders
 
-**[BSL Shaders v8.2.09](https://modrinth.com/shader/bsl-shaders)** — el mejor equilibrio entre
-cómo se ve y cuánto cuesta, con un menú de configuración enorme para ajustarlo.
+Van los dos, elegís según en qué máquina estés jugando:
 
-Funciona gracias a **Oculus** (el port de Iris para Forge) + **Embeddium** (el port de Sodium),
+| Shader | Dónde corre | Qué es |
+|---|---|---|
+| [Bliss Shaders v2.1.2](https://modrinth.com/shader/bliss-shader) | **Windows / Linux** | Edit de Chocapic13. Más bonito y más caro que BSL: mejor agua, volumétricos y cielo. |
+| [BSL Shaders v8.2.09](https://modrinth.com/shader/bsl-shaders) | **Cualquiera, incluido macOS** | El mejor equilibrio entre cómo se ve y cuánto cuesta, con un menú de configuración enorme para bajarle cosas si te pesa. |
+
+Funcionan gracias a **Oculus** (el port de Iris para Forge) + **Embeddium** (el port de Sodium),
 que ya están en la lista de mods. Embeddium por sí solo sube los FPS aunque nunca actives un shader.
 
-Se activa en Opciones → Video Settings → Shader Packs.
+Se activan en Opciones → Video Settings → Shader Packs.
 
-> ### ⚠️ La versión está fijada a propósito
+> ### ⚠️ Por qué hay uno para cada sistema
 >
-> BSL v10.x usa **compute shaders**, que necesitan OpenGL 4.3. macOS tope en **4.1**, así que
-> en Mac esos shaders no arrancan — no importa qué GPU tengas. La v8.2.09 no los usa y anda.
+> Los shaders modernos usan **compute shaders**, que necesitan **OpenGL 4.3**. macOS tope en
+> **4.1** y Apple ya no lo actualiza, así que en Mac no arrancan — no importa qué GPU tengas.
 >
-> Si vas a jugar solo en Windows o Linux, podés subir a la última: cambiá `version_number`,
-> `url`, `sha1_remote` y `filename` de BSL en `mods.json`.
+> - **Bliss v2.1.2** usa 8 → Windows y Linux, donde se ve mejor.
+> - **BSL v8.2.09** usa 0 → anda en todos lados, incluido macOS. Está **fijada a propósito**:
+>   la v10.x agregó compute shaders, así que actualizarla la rompería en Mac.
 >
-> Misma razón por la que **Aurora's Shaders**, **Bloop** y **Bliss** quedaron afuera.
+> Por lo mismo quedaron afuera **Aurora's Shaders** y **Bloop**.
+>
+> Si dejás de jugar en Mac, subí BSL a la última cambiándole `version_number`, `url`,
+> `sha1_remote` y `filename` en `mods.json`.
 
 ---
 
