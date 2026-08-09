@@ -204,11 +204,10 @@ tabla_rp = "\n".join(["| Resource pack | Qué hace |", "|---|---|"] + [
 
 SH = {"bsl-shaders": "El mejor equilibrio entre cómo se ve y cuánto cuesta, con un menú de "
                      "configuración enorme para bajarle cosas si te pesa.",
-      "bliss-shader": "Edit de Chocapic13. Más bonito y más caro que BSL: mejor agua, "
-                      "volumétricos y cielo."}
-tabla_sh = "\n".join(["| Shader | Dónde corre | Qué es |", "|---|---|---|"] + [
+}
+tabla_sh = "\n".join(["| Shader | Qué es |", "|---|---|"] + [
     f'| [{r["title"]} v{r["version_number"]}](https://modrinth.com/shader/{r["slug"]}) '
-    f'| **{r["plataforma"]}** | {SH[r["slug"]]} |'
+    f'| {SH[r["slug"]]} |'
     for r in sorted(shaders, key=lambda r: r["title"].lower())])
 
 README = f"""# Terra Incognita
@@ -229,7 +228,7 @@ Este repo **no contiene los archivos** — guarda la lista con versión, URL y h
 | **Mod loader** | Forge 47.x (última recomendada) |
 | **Mods** | {len(mods)} ({len(auto)} automáticos + {len(manual)} manuales) |
 | **Resource packs** | {len(packs)} |
-| **Shaders** | {len(shaders)} (opcional, uno por sistema) |
+| **Shaders** | {len(shaders)} (opcional) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
 | **Peso en disco** | ~{peso} MB |
 
@@ -312,12 +311,14 @@ Forge ignora nativamente cualquier `.jar.disabled`, y `sync.py` lo respeta: no t
 vuelve a bajar ni lo borra con `--prune`. Te lo reporta como *apagado*. Para prenderlo
 de vuelta, sacale el sufijo.
 
-> ### Distant Horizons está fijado en 2.3.6 a propósito
+> ### DH + shaders en Forge: pendiente
 >
-> Bliss 2.1.2 salió el **2025-11-23**. La rama DH **2.4 salió el 2025-12-13**, tres semanas
-> después, así que Bliss nunca se probó contra ella: con DH 2.4.x el cielo y las zonas sin
-> cargar se rompen visualmente. Con **2.3.6** (2025-10-13), que es el DH vigente cuando salió
-> Bliss, anda. BSL funciona con las dos, así que 2.3.6 es la que sirve para ambos shaders.
+> DH funciona bien solo, y **con BSL también**. Con **Bliss** rompía el cielo y las zonas sin
+> cargar, y probar DH 2.3.6 (la versión contemporánea de Bliss 2.1.2) no lo arregló, así que
+> la cronología no era la causa. Bliss quedó fuera del pack por eso.
+>
+> El indicio bueno: la misma combinación **funciona con Iris**, el original de Fabric. Apunta
+> a que el problema está en **Oculus**, el port de Iris a Forge, y no en DH ni en el shader.
 >
 > Si cambiás de versión de DH, puede que tengas que borrar `DistantHorizons.sqlite` de la
 > carpeta del mundo — el formato no siempre es compatible hacia atrás. Se regenera solo.
@@ -350,27 +351,23 @@ Dos formas de bajarle el volumen sin llegar a eso:
 
 ## Shaders
 
-Van los dos, elegís según en qué máquina estés jugando:
-
 {tabla_sh}
 
-Funcionan gracias a **Oculus** (el port de Iris para Forge) + **Embeddium** (el port de Sodium),
+Funciona gracias a **Oculus** (el port de Iris para Forge) + **Embeddium** (el port de Sodium),
 que ya están en la lista de mods. Embeddium por sí solo sube los FPS aunque nunca actives un shader.
 
-Se activan en Opciones → Video Settings → Shader Packs.
+Se activa en Opciones → Video Settings → Shader Packs.
 
-> ### ⚠️ Por qué hay uno para cada sistema
+> ### ⚠️ La versión de BSL está fijada a propósito
 >
 > Los shaders modernos usan **compute shaders**, que necesitan **OpenGL 4.3**. macOS tope en
 > **4.1** y Apple ya no lo actualiza, así que en Mac no arrancan — no importa qué GPU tengas.
 >
-> - **Bliss v2.1.2** usa 8 → Windows y Linux, donde se ve mejor.
-> - **BSL v8.2.09** usa 0 → anda en todos lados, incluido macOS. Está **fijada a propósito**:
->   la v10.x agregó compute shaders, así que actualizarla la rompería en Mac.
+> **BSL v8.2.09 usa cero**, así que anda en todos lados. La v10.x los agregó: actualizarla
+> rompería el pack en Mac. Por lo mismo quedaron afuera **Aurora's Shaders**, **Bloop** y
+> **Bliss**.
 >
-> Por lo mismo quedaron afuera **Aurora's Shaders** y **Bloop**.
->
-> Si dejás de jugar en Mac, subí BSL a la última cambiándole `version_number`, `url`,
+> Si dejás de jugar en Mac, podés subir BSL a la última cambiándole `version_number`, `url`,
 > `sha1_remote` y `filename` en `mods.json`.
 
 ---
