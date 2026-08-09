@@ -14,8 +14,8 @@ Este repo **no contiene los archivos** — guarda la lista con versión, URL y h
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 111 (116 automáticos + 6 manuales) |
-| **Resource packs** | 9 |
+| **Mods** | 111 (117 automáticos + 6 manuales) |
+| **Resource packs** | 10 |
 | **Shaders** | 2 (opcional, uno por sistema) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
 | **Peso en disco** | ~421 MB |
@@ -227,7 +227,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ## Resource packs
 
-Los 9 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
+Los 10 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
 
 | Resource pack | Qué hace |
 |---|---|
@@ -239,6 +239,7 @@ Los 9 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
 | [Icon Xaero's](https://modrinth.com/resourcepack/icon-xaeros) | Iconos propios para las entidades y waypoints del minimapa de Xaero's. |
 | [Ore Variants](https://modrinth.com/resourcepack/ore-variants) | Cada mineral se ve distinto según la piedra en la que está (piedra, deepslate, nether). |
 | [RAY's 3D Rails](https://modrinth.com/resourcepack/rays-3d-rails) | Rieles con modelo 3D en vez de calcomanías planas en el suelo. |
+| [Visual Traveler's Titles](https://modrinth.com/resourcepack/visual-travelers-titles) | Los títulos de Traveler's Titles con tipografía y animación propias, en vez del texto plano de vanilla. |
 | [xali's Bushy Leaves](https://modrinth.com/resourcepack/xalis-bushy-leaves) | Hojas más frondosas y con volumen: los árboles dejan de verse planos. |
 
 > **Fresh Animations y Better Dogs necesitan EMF + ETF**, que ya están incluidos en los mods.

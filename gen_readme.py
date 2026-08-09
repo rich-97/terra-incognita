@@ -142,6 +142,7 @@ RP = {
  "better-dogs": "Razas de perro reales para los lobos domesticados, cada una con su textura.",
  "enhanced-boss-bars": "Texturas para el mod Enhanced Boss Bars: una barra distinta por jefe.",
  "eclectic-trove-legendary-tooltips": "Marcos de tooltip para Legendary Tooltips, uno por nivel de rareza.",
+ "visual-travelers-titles": "Los títulos de Traveler's Titles con tipografía y animación propias, en vez del texto plano de vanilla.",
  "icon-xaeros": "Iconos propios para las entidades y waypoints del minimapa de Xaero's.",
 }
 RP = {k: v for k, v in RP.items() if v}

@@ -4637,5 +4637,30 @@
     "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/PtvPxXii/balm-forge-1.20.1-7.3.42.jar",
     "sha1_remote": "90340ba512182570146587d72122cb0faa608116",
     "filename": "balm-forge-1.20.1-7.3.42.jar"
+  },
+  {
+    "type": "resourcepack",
+    "file": "Visual Titles 1.3.zip",
+    "sha1": "80a1efaf621d7b376b0ce8e5fab7462ed10b9ce3",
+    "size": 444982,
+    "source": "modrinth",
+    "slug": "visual-travelers-titles",
+    "title": "Visual Traveler's Titles",
+    "description": "Visual titles when entering dimensions!",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "project_id": "Z6cnZeGU",
+    "version_id": "AwVu5ygs",
+    "version_number": "1.3",
+    "game_versions": [
+      "1.20.1",
+      "1.20.4",
+      "1.21.1",
+      "1.21.4",
+      "1.21.11",
+      "26.1.2"
+    ],
+    "url": "https://cdn.modrinth.com/data/Z6cnZeGU/versions/AwVu5ygs/Visual%20Titles%201.3.zip",
+    "sha1_remote": "80a1efaf621d7b376b0ce8e5fab7462ed10b9ce3",
+    "filename": "Visual Titles 1.3.zip"
   }
 ]
