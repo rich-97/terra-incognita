@@ -3,7 +3,7 @@
 import json, pathlib, urllib.parse
 
 ROOT = pathlib.Path(__file__).parent
-rows = json.loads((ROOT / "mods.json").read_text())
+rows = json.loads((ROOT / "mods.json").read_text(encoding="utf-8"))
 
 # grupo, descripción en español. Clave = nombre del .jar original.
 D = {
@@ -242,8 +242,11 @@ Este repo **no contiene los archivos** — guarda la lista con versión, URL y h
 ```bash
 git clone <URL-DE-ESTE-REPO>
 cd terra-incognita
-python3 sync.py
+python3 sync.py          # en Windows: py sync.py
 ```
+
+Necesita **Python 3.11 o superior** (usa `tomllib`, que entró en la 3.11). No instala
+dependencias: es todo librería estándar. Funciona igual en macOS, Linux y Windows.
 
 Descarga todo en `./mods`, `./resourcepacks` y `./shaderpacks`, verificando el SHA1 de
 cada archivo. Si ya los tenías, solo baja lo que cambió.
@@ -297,7 +300,12 @@ Los {len(packs)} son compatibles con 1.20.1 y con los mods de este pack. Todos o
 Agregale `.disabled` al final del nombre del archivo:
 
 ```bash
+# macOS / Linux
 mv mods/DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar{{,.disabled}}
+
+# Windows (PowerShell)
+Rename-Item mods\\DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar `
+            DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar.disabled
 ```
 
 Forge ignora nativamente cualquier `.jar.disabled`, y `sync.py` lo respeta: no te lo
@@ -385,7 +393,7 @@ Cada mod pertenece a su autor y conserva su propia licencia. Este repo solo cont
 la lista y los scripts.
 """
 
-(ROOT / "README.md").write_text(README)
+(ROOT / "README.md").write_text(README, encoding="utf-8")
 print(f"README.md escrito: {len(mods)} mods + {len(packs)} resource packs + {len(shaders)} shader, {peso} MB")
 for key, titulo, _ in GRUPOS:
     print(f"  {titulo}: {sum(1 for f in by_file if D[f][0] == key)}")

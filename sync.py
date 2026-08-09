@@ -135,7 +135,7 @@ def main(argv):
     if "--deps" in argv:
         return revisar_deps()
     prune, verify = "--prune" in argv, "--verify" in argv
-    rows = json.loads((ROOT / "mods.json").read_text())
+    rows = json.loads((ROOT / "mods.json").read_text(encoding="utf-8"))
     wanted = {r["filename"]: r for r in rows if r.get("url")}
     manual = [r for r in rows if not r.get("url")]
     for d in DEST.values():

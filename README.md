@@ -29,8 +29,11 @@ Este repo **no contiene los archivos** — guarda la lista con versión, URL y h
 ```bash
 git clone <URL-DE-ESTE-REPO>
 cd terra-incognita
-python3 sync.py
+python3 sync.py          # en Windows: py sync.py
 ```
+
+Necesita **Python 3.11 o superior** (usa `tomllib`, que entró en la 3.11). No instala
+dependencias: es todo librería estándar. Funciona igual en macOS, Linux y Windows.
 
 Descarga todo en `./mods`, `./resourcepacks` y `./shaderpacks`, verificando el SHA1 de
 cada archivo. Si ya los tenías, solo baja lo que cambió.
@@ -255,7 +258,12 @@ Los 11 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
 Agregale `.disabled` al final del nombre del archivo:
 
 ```bash
+# macOS / Linux
 mv mods/DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar{,.disabled}
+
+# Windows (PowerShell)
+Rename-Item mods\DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar `
+            DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar.disabled
 ```
 
 Forge ignora nativamente cualquier `.jar.disabled`, y `sync.py` lo respeta: no te lo
