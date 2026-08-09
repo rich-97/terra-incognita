@@ -1,0 +1,3790 @@
+[
+  {
+    "file": "AdLods-1.20.1-8.1.2.1-build.0782.jar",
+    "sha1": "ca4f347d7ba9a0a4810a4c9759eaf72bc2ad348f",
+    "size": 140041,
+    "local": {
+      "modId": "adlods",
+      "displayName": "Large Ore Deposits",
+      "description": "Adds rare, super-massive ore deposits to the world.",
+      "version": "8.1.2.1",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Large Ore Deposits",
+    "search_hits": [
+      {
+        "slug": "large-ore-deposits",
+        "title": "Large Ore Deposits"
+      }
+    ],
+    "slug": "large-ore-deposits",
+    "title": "Large Ore Deposits",
+    "description": "Adds exceedingly rare, supermassive ore deposits that make mining worthwhile",
+    "categories": [
+      "adventure",
+      "economy",
+      "fabric",
+      "forge",
+      "neoforge",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "CC-BY-ND-4.0",
+    "downloads": 4367,
+    "project_id": "Y3a9lWnU",
+    "version_id": "DeFz1p58",
+    "version_number": "8.1.12.0",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/Y3a9lWnU/versions/DeFz1p58/AdLods-1.20.1-8.1.12.0-build.2294.jar",
+    "sha1_remote": "854e53de4c33c21735efe526f3579a84ec39503e",
+    "filename": "AdLods-1.20.1-8.1.12.0-build.2294.jar"
+  },
+  {
+    "file": "adventurez-1.4.20.jar",
+    "sha1": "a727891db0b750fda3c4e6f15e2781b89c490647",
+    "size": 4952938,
+    "local": {
+      "modId": "adventurez",
+      "displayName": "AdventureZ",
+      "description": "Adds deadly Creatures to Minecraft",
+      "loader": "fabric"
+    },
+    "source": "modrinth",
+    "slug": "adventurez",
+    "title": "AdventureZ",
+    "description": "adds a new endboss and other creatures",
+    "categories": [
+      "mobs"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "GPL-3.0-only",
+    "downloads": 6393440,
+    "project_id": "defK2XM3",
+    "version_id": "mBYmRou0",
+    "version_number": "1.4.20+1.20.1",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "url": "https://cdn.modrinth.com/data/defK2XM3/versions/mBYmRou0/adventurez-1.4.20.jar",
+    "source_url": "https://github.com/Globox1997/AdventureZ",
+    "drop": "fabric-only",
+    "sha1_remote": "a727891db0b750fda3c4e6f15e2781b89c490647",
+    "filename": "adventurez-1.4.20.jar"
+  },
+  {
+    "file": "AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar",
+    "sha1": "00365347eadc1c8d2886690a584dca94711d1d0a",
+    "size": 85328184,
+    "local": {
+      "modId": "ambientsounds",
+      "displayName": "AmbientSounds",
+      "description": "Expands minecraft's ambient sounds.",
+      "version": "6.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "AmbientSounds",
+    "search_hits": [
+      {
+        "slug": "ambientsounds",
+        "title": "AmbientSounds"
+      }
+    ],
+    "slug": "ambientsounds",
+    "title": "AmbientSounds",
+    "description": "#listentonature",
+    "categories": [
+      "decoration",
+      "fabric",
+      "forge",
+      "neoforge"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LGPL-3.0-only",
+    "downloads": 34956338,
+    "project_id": "fM515JnW",
+    "version_id": "AuLdtrBY",
+    "version_number": "6.3.8",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/fM515JnW/versions/AuLdtrBY/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+    "sha1_remote": "87ea0cd8ec56763185ee0db09eec7c676969e4da",
+    "filename": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar"
+  },
+  {
+    "file": "ApothicAttributes-1.20.1-1.3.7.jar",
+    "sha1": "1dc0744d17f0861fe6b067798d39abce9d8e0e86",
+    "size": 227511,
+    "local": {
+      "modId": "attributeslib",
+      "displayName": "Apothic Attributes",
+      "description": "A library mod providing Attributes and related things.",
+      "version": "1.3.7",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "apothic-attributes",
+    "title": "Apothic Attributes",
+    "description": "A library that adds the Attributes GUI, alongside a suite of new attributes to work with",
+    "categories": [
+      "adventure",
+      "equipment",
+      "library"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 106657,
+    "project_id": "DGaH8Rh0",
+    "version_id": "fwL9CWGd",
+    "version_number": "1.3.7",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/DGaH8Rh0/versions/fwL9CWGd/ApothicAttributes-1.20.1-1.3.7.jar",
+    "source_url": "https://github.com/Shadows-of-Fire/Apothic-Attributes",
+    "sha1_remote": "1dc0744d17f0861fe6b067798d39abce9d8e0e86",
+    "filename": "ApothicAttributes-1.20.1-1.3.7.jar"
+  },
+  {
+    "file": "appleskin-forge-mc1.20.1-2.5.1.jar",
+    "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+    "size": 47428,
+    "local": {
+      "modId": "appleskin",
+      "displayName": "AppleSkin",
+      "description": "Adds various food-related HUD improvements",
+      "version": "${file.jarVersion}",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "appleskin",
+    "title": "AppleSkin",
+    "description": "Food/hunger-related HUD improvements",
+    "categories": [
+      "food",
+      "utility"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "Unlicense",
+    "downloads": 80889216,
+    "project_id": "EsAfCjCV",
+    "version_id": "XdXDExVF",
+    "version_number": "2.5.1+mc1.20.1",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar",
+    "source_url": "https://github.com/squeek502/AppleSkin",
+    "sha1_remote": "81919356f84eab14258db98924b66c3c38e372b1",
+    "filename": "appleskin-forge-mc1.20.1-2.5.1.jar"
+  },
+  {
+    "file": "ArmorStatues-v8.0.6-1.20.1-Forge.jar",
+    "sha1": "dbeb8229973c26d233b4bdf21ed6a4aa6b3ebd55",
+    "size": 528017,
+    "local": {
+      "modId": "armorstatues",
+      "displayName": "Armor Statues",
+      "description": "Unlock the full potential of armor stands! Works on vanilla servers, too.",
+      "version": "8.0.6",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "armor-statues",
+    "title": "Armor Statues",
+    "description": "Unlock the full potential of armor stands! Works on vanilla servers, too.",
+    "categories": [
+      "decoration",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license": "MPL-2.0",
+    "downloads": 2931409,
+    "project_id": "bbGCtEvb",
+    "version_id": "Oa75lUzE",
+    "version_number": "v8.0.6-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/bbGCtEvb/versions/Oa75lUzE/ArmorStatues-v8.0.6-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/armorstatues",
+    "sha1_remote": "dbeb8229973c26d233b4bdf21ed6a4aa6b3ebd55",
+    "filename": "ArmorStatues-v8.0.6-1.20.1-Forge.jar"
+  },
+  {
+    "file": "BagOfHolding-v8.0.2-1.20.1-Forge.jar",
+    "sha1": "0d998f80425c4b38d56d17439bdf2176b6242d24",
+    "size": 561245,
+    "local": {
+      "modId": "bagofholding",
+      "displayName": "Bag Of Holding",
+      "description": "Fancy storage for fancy folks.",
+      "version": "8.0.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "bag-of-holding",
+    "title": "Bag Of Holding",
+    "description": "Fancy storage for fancy folks. A unique alternatives to your average backpack mod.",
+    "categories": [
+      "storage",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 134451,
+    "project_id": "qbqWvc0D",
+    "version_id": "VJB3Xxae",
+    "version_number": "v8.0.2-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/qbqWvc0D/versions/VJB3Xxae/BagOfHolding-v8.0.2-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/bagofholding",
+    "sha1_remote": "0d998f80425c4b38d56d17439bdf2176b6242d24",
+    "filename": "BagOfHolding-v8.0.2-1.20.1-Forge.jar"
+  },
+  {
+    "file": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
+    "sha1": "0b0a3ff3b244fa191b3f9580547071dee46f7276",
+    "size": 61525,
+    "local": {
+      "modId": "betterthirdperson",
+      "displayName": "Better Third Person",
+      "description": "Adds independent camera rotation for third-person view",
+      "version": "1.9.0",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "better-third-person",
+    "title": "Better Third Person",
+    "description": "Improves third person camera view.",
+    "categories": [
+      "game-mechanics"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 19549451,
+    "project_id": "G1s2WpNo",
+    "version_id": "XkYduFuv",
+    "version_number": "1.9.0",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/XkYduFuv/BetterThirdPerson-Forge-1.20-1.9.0.jar",
+    "source_url": null,
+    "sha1_remote": "0b0a3ff3b244fa191b3f9580547071dee46f7276",
+    "filename": "BetterThirdPerson-Forge-1.20-1.9.0.jar"
+  },
+  {
+    "file": "BOMD-Forge-1.20.1-1.1.2.jar",
+    "sha1": "2caa8739ed9702c5ad87b6c5436432f8be755217",
+    "size": 1753623,
+    "local": {
+      "modId": "bosses_of_mass_destruction",
+      "displayName": "Bosses of Mass Destruction",
+      "description": "Adds high threat mobs for players to take on.",
+      "version": "1.1.2",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Bosses of Mass Destruction",
+    "search_hits": [
+      {
+        "slug": "bosses-of-mass-destruction-forge",
+        "title": "Bosses of Mass Destruction Forge"
+      },
+      {
+        "slug": "daily-boss-x-bosses-of-mass-destruction",
+        "title": "Daily Boss x Bosses of Mass Destruction"
+      }
+    ],
+    "slug": "bosses-of-mass-destruction-forge",
+    "title": "Bosses of Mass Destruction Forge",
+    "description": "WIP mod that adds boss fights to Minecraft",
+    "categories": [
+      "mobs"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 3115945,
+    "project_id": "hFUzfDsn",
+    "version_id": "2Kw4xPhp",
+    "version_number": "1.1.2",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/hFUzfDsn/versions/2Kw4xPhp/BOMD-Forge-1.20.1-1.1.2.jar",
+    "sha1_remote": "232eb28172423cde46e8e1f038c670a01471fa92",
+    "filename": "BOMD-Forge-1.20.1-1.1.2.jar"
+  },
+  {
+    "file": "bygonenether-1.3.2-1.20.x.jar",
+    "sha1": "529e31d2877b87a8bf006f590513a33ab6b73171",
+    "size": 7642613,
+    "local": {
+      "modId": "bygonenether",
+      "displayName": "Bygone Nether",
+      "description": "Remnants of the nether dimension's ancient history",
+      "version": "1.3.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "bygone-nether",
+    "title": "Bygone Nether",
+    "description": "Explore new structures unique to each Nether biome, as well as the new mobs that inhabit them.",
+    "categories": [
+      "adventure",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 6242849,
+    "project_id": "kt3BLgXB",
+    "version_id": "RA38ax2z",
+    "version_number": "1.3.2-1.20.x",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/kt3BLgXB/versions/RA38ax2z/bygonenether-1.3.2-1.20.x.jar",
+    "source_url": "https://github.com/izofar/bygone-nether",
+    "sha1_remote": "529e31d2877b87a8bf006f590513a33ab6b73171",
+    "filename": "bygonenether-1.3.2-1.20.x.jar"
+  },
+  {
+    "file": "carryon-forge-1.20.1-2.1.2.7.jar",
+    "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
+    "size": 439457,
+    "local": {
+      "modId": "carryon",
+      "displayName": "Carry On",
+      "description": "Carry On is a simple mod that improves game interaction by allowing players to pick up, carry, and place single block Tile Entities using only their empty hands.",
+      "version": "${file.jarVersion}",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "carry-on",
+    "title": "Carry On",
+    "description": "Carry On allows you to pick up Tile Entities and Mobs and carry them around!",
+    "categories": [
+      "game-mechanics",
+      "storage",
+      "transportation"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 23216839,
+    "project_id": "joEfVgkn",
+    "version_id": "edGQD16r",
+    "version_number": "2.1.2.7",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar",
+    "source_url": "https://github.com/Tschipp/CarryOn",
+    "sha1_remote": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
+    "filename": "carryon-forge-1.20.1-2.1.2.7.jar"
+  },
+  {
+    "file": "CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+    "sha1": "83cccb66e679d72345a5194e4ca520f647bc97e6",
+    "size": 241148,
+    "local": {
+      "modId": "cerbons_api",
+      "displayName": "Cerbons API",
+      "description": "API Library for CERBONS's minecraft mods.",
+      "version": "1.1.0",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "cerbons-api",
+    "title": "CERBON's API",
+    "description": "A library mod for CERBON's Minecraft Mods",
+    "categories": [
+      "library"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 3671505,
+    "project_id": "GkIc6rRo",
+    "version_id": "XWZQbKsr",
+    "version_number": "1.1.0",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/XWZQbKsr/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+    "source_url": "https://github.com/CERBON-MODS/CERBONs-API",
+    "sha1_remote": "83cccb66e679d72345a5194e4ca520f647bc97e6",
+    "filename": "CerbonsAPI-Forge-1.20.1-1.1.0.jar"
+  },
+  {
+    "file": "citadel-2.4.1-1.20.jar",
+    "sha1": "41dcebfac08ca4ecf102a9a91a5c80d843861228",
+    "size": 3073376,
+    "local": {
+      "modId": "citadel",
+      "displayName": "Citadel",
+      "description": "A shared code library for many of Alexthe666's mods. Code used from LLibrary with permission.",
+      "version": "2.4.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "citadel",
+    "title": "Citadel",
+    "description": "A Lightweight Library",
+    "categories": [
+      "library"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 14738853,
+    "project_id": "jJfV67b1",
+    "version_id": "l54hCYzm",
+    "version_number": "2.4.1",
+    "game_versions": [
+      "1.20"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/l54hCYzm/citadel-2.4.1-1.20.jar",
+    "source_url": "https://github.com/Alex-the-666/Citadel",
+    "sha1_remote": "41dcebfac08ca4ecf102a9a91a5c80d843861228",
+    "filename": "citadel-2.4.1-1.20.jar"
+  },
+  {
+    "file": "cloth-config-11.1.118-forge.jar",
+    "sha1": "c46ca3fba95691873a765f4e79750c615f33e446",
+    "size": 1168391,
+    "local": {
+      "modId": "cloth_config",
+      "displayName": "Cloth Config v10 API",
+      "description": "An API for config screens.",
+      "version": "11.1.118",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "cloth-config",
+    "title": "Cloth Config API",
+    "description": "Configuration Library for Minecraft Mods",
+    "categories": [
+      "library"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "LGPL-3.0-only",
+    "downloads": 151744243,
+    "project_id": "9s6osm5g",
+    "version_id": "nr1znv5v",
+    "version_number": "11.1.118+forge",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/nr1znv5v/cloth-config-11.1.118-forge.jar",
+    "source_url": "https://github.com/shedaniel/ClothConfig/",
+    "sha1_remote": "c46ca3fba95691873a765f4e79750c615f33e446",
+    "filename": "cloth-config-11.1.118-forge.jar"
+  },
+  {
+    "file": "CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+    "sha1": "66c614b047414e3cfcd69ff7f001b7033c5813c6",
+    "size": 1473536,
+    "local": {
+      "modId": "codechickenlib",
+      "displayName": "CodeChicken Lib",
+      "description": "CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier.\nIt contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..",
+      "version": "4.4.0.528",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "codechicken-lib",
+    "title": "CodeChicken Lib",
+    "description": "Contains various libraries for 3D math and transformations, rendering, networking, configs, and much, much more.",
+    "categories": [
+      "library"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "LGPL-2.1-or-later",
+    "downloads": 2929584,
+    "project_id": "2gq0ALnz",
+    "version_id": "5zfJEMhM",
+    "version_number": "4.4.0.528",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/2gq0ALnz/versions/5zfJEMhM/CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+    "source_url": "https://github.com/TheCBProject/CodeChickenLib",
+    "sha1_remote": "66c614b047414e3cfcd69ff7f001b7033c5813c6",
+    "filename": "CodeChickenLib-1.20.1-4.4.0.528-universal.jar"
+  },
+  {
+    "file": "comforts-forge-6.4.0+1.20.1.jar",
+    "sha1": "e7b9fe89566bb1ee013e33745f22f309f679536e",
+    "size": 382083,
+    "local": {
+      "modId": "comforts",
+      "displayName": "Comforts",
+      "description": "Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns.\nComes in 16 different colors!",
+      "version": "6.4.0+1.20.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "comforts",
+    "title": "Comforts",
+    "description": "Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors!",
+    "categories": [
+      "adventure",
+      "decoration"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-or-later",
+    "downloads": 20573823,
+    "project_id": "SaCpeal4",
+    "version_id": "gBDsc134",
+    "version_number": "6.4.0+1.20.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar",
+    "source_url": "https://github.com/illusivesoulworks/comforts",
+    "sha1_remote": "e7b9fe89566bb1ee013e33745f22f309f679536e",
+    "filename": "comforts-forge-6.4.0+1.20.1.jar"
+  },
+  {
+    "file": "corpse-1.20.1-1.0.9.jar",
+    "sha1": "9f04c3997653581e06037ccec6d79209d5c76c6c",
+    "size": 243102,
+    "local": {
+      "modId": "corpse",
+      "displayName": "Corpse",
+      "description": "This mod brings a corpse into the game.\nIt will spawn upon your death containing all items that you had in your inventory.",
+      "version": "1.20.1-1.0.9",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Corpse",
+    "search_hits": [
+      {
+        "slug": "corpse",
+        "title": "Corpse"
+      },
+      {
+        "slug": "corpse-x-curios-api-compat",
+        "title": "Corpse x Curios API Compat"
+      },
+      {
+        "slug": "corpse-x-cosmetic-armor-reworked-compat",
+        "title": "Corpse x Cosmetic Armor Reworked Compat"
+      }
+    ],
+    "slug": "corpse",
+    "title": "Corpse",
+    "description": "Never lose your items again!",
+    "categories": [
+      "adventure",
+      "forge",
+      "neoforge",
+      "storage",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 4029913,
+    "project_id": "WrpuIfhw",
+    "version_id": "7fc0hJN6",
+    "version_number": "forge-1.20.1-1.0.23",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/7fc0hJN6/corpse-forge-1.20.1-1.0.23.jar",
+    "sha1_remote": "78a776f057588a84a86c57dbe376b9b26f69f2c4",
+    "filename": "corpse-forge-1.20.1-1.0.23.jar"
+  },
+  {
+    "file": "Craftable_Elytra[REMASTERED][2.2]1.20.1.jar",
+    "sha1": "1d6d5851f3a607aa7a237dd8b698ea2adbad9380",
+    "size": 12447,
+    "local": {
+      "modId": "craftable_elytra_remastered",
+      "displayName": "craftable_elytra_remastered",
+      "description": "",
+      "version": "2.2",
+      "loader": "forge"
+    },
+    "source": "curseforge",
+    "search_query": "craftable_elytra_remastered",
+    "search_hits": [],
+    "title": "Craftable Elytra [REMASTERED]"
+  },
+  {
+    "file": "CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
+    "sha1": "d911909099b38896a8753dd3c44f1bb3a2a345ad",
+    "size": 1114431,
+    "local": {
+      "modId": "creativecore",
+      "displayName": "CreativeCore",
+      "description": "A simple but powerful coremod.",
+      "version": "2.11.33",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "creativecore",
+    "title": "CreativeCore",
+    "description": "A core mod",
+    "categories": [
+      "library"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license": "LGPL-3.0-only",
+    "downloads": 46316323,
+    "project_id": "OsZiaDHq",
+    "version_id": "GhnBaKkx",
+    "version_number": "2.11.33",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/GhnBaKkx/CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
+    "source_url": "https://github.com/CreativeMD/CreativeCore",
+    "sha1_remote": "d911909099b38896a8753dd3c44f1bb3a2a345ad",
+    "filename": "CreativeCore_FORGE_v2.11.33_mc1.20.1.jar"
+  },
+  {
+    "file": "creeperoverhaul-3.0.2-forge.jar",
+    "sha1": "01e3275d3eb586c953ac786b1afee6e473eef947",
+    "size": 1456860,
+    "local": {
+      "modId": "creeperoverhaul",
+      "displayName": "Creeper Overhaul",
+      "description": "Creeper overhaul adds a variety of different biome-specific creeper types to your world, some friendlier than others :)",
+      "version": "3.0.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "creeper-overhaul",
+    "title": "Creeper Overhaul",
+    "description": "A mod which overhauls the vanilla creepers!",
+    "categories": [
+      "adventure",
+      "mobs"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 9806024,
+    "project_id": "MI1LWe93",
+    "version_id": "Ap1DSAzz",
+    "version_number": "3.0.2",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/MI1LWe93/versions/Ap1DSAzz/creeperoverhaul-3.0.2-forge.jar",
+    "source_url": "https://github.com/bonsaistudi0s/Creeper-Overhaul",
+    "sha1_remote": "01e3275d3eb586c953ac786b1afee6e473eef947",
+    "filename": "creeperoverhaul-3.0.2-forge.jar"
+  },
+  {
+    "file": "cristellib-1.1.5-forge.jar",
+    "sha1": "8a43951083ea9096a91f81757004465f4afc7cab",
+    "size": 431448,
+    "local": {
+      "modId": "cristellib",
+      "displayName": "Cristel Lib",
+      "description": "A Library mod for easy structure config and runtime datapacks.",
+      "version": "1.1.5",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "cristel-lib",
+    "title": "Cristel Lib",
+    "description": "A Library mod for easy structure config and runtime datapacks.",
+    "categories": [
+      "library",
+      "worldgen"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "CC-BY-NC-ND-4.0",
+    "downloads": 16282211,
+    "project_id": "cl223EMc",
+    "version_id": "amI1oyGG",
+    "version_number": "1.1.5-forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/cl223EMc/versions/amI1oyGG/cristellib-1.1.5-forge.jar",
+    "source_url": "https://github.com/Cristelknight999/Cristel-Lib",
+    "sha1_remote": "8a43951083ea9096a91f81757004465f4afc7cab",
+    "filename": "cristellib-1.1.5-forge.jar"
+  },
+  {
+    "file": "deeperdarker-forge-1.20.1-1.2.1.jar",
+    "sha1": "b7cd826ae029ad99234501abefef37fc6f3e57d8",
+    "size": 17461944,
+    "local": {
+      "modId": "deeperdarker",
+      "displayName": "Deeper and Darker",
+      "description": "A Minecraft mod featuring new blocks, items, armor, and hidden mysteries to complement the Deep Dark.",
+      "version": "1.2.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "deeperdarker",
+    "title": "Deeper and Darker",
+    "description": "A Minecraft mod which features more blocks, items, armors, and hidden mysteries to complement the Deep Dark biome.",
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "AGPL-3.0-only",
+    "downloads": 14181551,
+    "project_id": "fnAffV0n",
+    "version_id": "tqPSIRGd",
+    "version_number": "1.2.1-forge+1.20.1",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/fnAffV0n/versions/tqPSIRGd/deeperdarker-forge-1.20.1-1.2.1.jar",
+    "source_url": "https://github.com/KyaniteMods/DeeperAndDarker",
+    "sha1_remote": "b7cd826ae029ad99234501abefef37fc6f3e57d8",
+    "filename": "deeperdarker-forge-1.20.1-1.2.1.jar"
+  },
+  {
+    "file": "DiagonalFences-v8.1.4-1.20.1-Forge.jar",
+    "sha1": "5abeea128e46f76e0ed1694591d27272ef2ccf3a",
+    "size": 179907,
+    "local": {
+      "modId": "diagonalfences",
+      "displayName": "Diagonal Fences",
+      "description": "Fences connecting diagonally? Wait. That's illegal.",
+      "version": "8.1.4",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "diagonal-fences",
+    "title": "Diagonal Fences",
+    "description": "Fences connecting diagonally? Wait. That's illegal.",
+    "categories": [
+      "decoration",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 9935943,
+    "project_id": "IKARgflD",
+    "version_id": "yHaWLo5t",
+    "version_number": "v8.1.4-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/IKARgflD/versions/yHaWLo5t/DiagonalFences-v8.1.4-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/diagonalfences",
+    "sha1_remote": "5abeea128e46f76e0ed1694591d27272ef2ccf3a",
+    "filename": "DiagonalFences-v8.1.4-1.20.1-Forge.jar"
+  },
+  {
+    "file": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar",
+    "sha1": "08b58bfbdf20660bdc5a0c4a0b088f7d89f40a38",
+    "size": 625488,
+    "local": {
+      "modId": "do_a_barrel_roll",
+      "displayName": "Do a Barrel Roll",
+      "description": "Microsoft flight simulator for Minecraft elytras.",
+      "version": "3.5.6+1.20.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "do-a-barrel-roll",
+    "title": "Do a Barrel Roll",
+    "description": "Microsoft flight simulator for Minecraft elytras.",
+    "categories": [
+      "equipment",
+      "transportation"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license": "GPL-3.0-only",
+    "downloads": 10276792,
+    "project_id": "6FtRfnLg",
+    "version_id": "VH8QpKA5",
+    "version_number": "3.5.6+1.20.1-forge",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/6FtRfnLg/versions/VH8QpKA5/do_a_barrel_roll-forge-3.5.6%2B1.20.1.jar",
+    "source_url": "https://codeberg.org/enjarai/do-a-barrel-roll",
+    "sha1_remote": "08b58bfbdf20660bdc5a0c4a0b088f7d89f40a38",
+    "filename": "do_a_barrel_roll-forge-3.5.6+1.20.1.jar"
+  },
+  {
+    "file": "DungeonsArise-1.20.x-2.1.58-release.jar",
+    "sha1": "30b4520e4fab40a6bb6153a2c72e34bcb721f0a5",
+    "size": 8762342,
+    "local": {
+      "modId": "dungeons_arise",
+      "displayName": "When Dungeons Arise",
+      "description": "Elegant - and likely dangerous - structures and roguelike dungeons to lose yourself in...",
+      "version": "2.1.58-1.20.x",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "when-dungeons-arise",
+    "title": "When Dungeons Arise",
+    "description": "Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds!",
+    "categories": [
+      "adventure",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 9958061,
+    "project_id": "8DfbfASn",
+    "version_id": "6hQpx5Tc",
+    "version_number": "2.1.58-1.20.x",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/6hQpx5Tc/DungeonsArise-1.20.x-2.1.58-release.jar",
+    "source_url": null,
+    "sha1_remote": "30b4520e4fab40a6bb6153a2c72e34bcb721f0a5",
+    "filename": "DungeonsArise-1.20.x-2.1.58-release.jar"
+  },
+  {
+    "file": "DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+    "sha1": "0390b912cc5534bbe0f01853337d777453ca08de",
+    "size": 248169,
+    "local": {
+      "modId": "dungeons_arise_seven_seas",
+      "displayName": "When Dungeons Arise: Seven Seas",
+      "description": "Elegant - and likely dangerous - vessels lost in the seven seas...",
+      "version": "1.0.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "when-dungeons-arise-seven-seas",
+    "title": "When Dungeons Arise: Seven Seas",
+    "description": "Elegant - and likely hostile - vessels lost in the seven seas...",
+    "categories": [
+      "adventure",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 3601984,
+    "project_id": "ZsrrjDbP",
+    "version_id": "Ak226ElN",
+    "version_number": "1.0.2",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/ZsrrjDbP/versions/Ak226ElN/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+    "source_url": null,
+    "sha1_remote": "0390b912cc5534bbe0f01853337d777453ca08de",
+    "filename": "DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar"
+  },
+  {
+    "file": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+    "sha1": "d44a8b549b27713a92d59148729bf374ff3e25f0",
+    "size": 141744,
+    "local": {
+      "modId": "easyanvils",
+      "displayName": "Easy Anvils",
+      "description": "Be ready for overhauled anvils! Items stay, better name tags, many tweaks!",
+      "version": "8.0.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "easy-anvils",
+    "title": "Easy Anvils",
+    "description": "Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties.",
+    "categories": [
+      "equipment",
+      "game-mechanics"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 14955854,
+    "project_id": "OZBR5JT5",
+    "version_id": "4pRdDqEb",
+    "version_number": "v8.0.2-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/OZBR5JT5/versions/4pRdDqEb/EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/easyanvils",
+    "sha1_remote": "d44a8b549b27713a92d59148729bf374ff3e25f0",
+    "filename": "EasyAnvils-v8.0.2-1.20.1-Forge.jar"
+  },
+  {
+    "file": "EasyEmerald-Forge-1.20.1-1.5.8.jar",
+    "sha1": "e6d7915f444ae76196011ab60cc4915636e02d8e",
+    "size": 231649,
+    "local": {
+      "modId": "easy_emerald",
+      "displayName": "Easy Emerald",
+      "description": "Gear made from gems",
+      "version": "1.5.8",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Easy Emerald",
+    "search_hits": [
+      {
+        "slug": "easy-emerald",
+        "title": "Easy Emerald"
+      }
+    ],
+    "slug": "easy-emerald",
+    "title": "Easy Emerald",
+    "description": "An easy way to craft emeralds",
+    "categories": [
+      "fabric",
+      "forge",
+      "magic",
+      "neoforge",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 14184,
+    "project_id": "6thPP07v",
+    "version_id": "rpWaDLmj",
+    "version_number": "3.4.1",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/6thPP07v/versions/rpWaDLmj/Easy%20Emerald-1.20.1-3.4.1-%5BFORGE%5D.jar",
+    "sha1_remote": "368320998d3473f3720c970ece828cae5842f83c",
+    "filename": "Easy Emerald-1.20.1-3.4.1-[FORGE].jar"
+  },
+  {
+    "file": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
+    "sha1": "9bfb5d63ac2e03ecdab8755c968ffa25b799469b",
+    "size": 115947,
+    "local": {
+      "modId": "easymagic",
+      "displayName": "Easy Magic",
+      "description": "Enchanting tables as they always should have been! Items stay after closing, and easy re-rolls.",
+      "version": "8.0.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "easy-magic",
+    "title": "Easy Magic",
+    "description": "Enchanting tables as they always should have been! Items stay after closing, and easy re-rolls.",
+    "categories": [
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 12502697,
+    "project_id": "9hx3AbJM",
+    "version_id": "W2xPEG9I",
+    "version_number": "v8.0.1-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/9hx3AbJM/versions/W2xPEG9I/EasyMagic-v8.0.1-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/easymagic",
+    "sha1_remote": "9bfb5d63ac2e03ecdab8755c968ffa25b799469b",
+    "filename": "EasyMagic-v8.0.1-1.20.1-Forge.jar"
+  },
+  {
+    "file": "EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
+    "sha1": "c5245255c422afa2d627e89bbbf4a2f1d5d721e8",
+    "size": 581742,
+    "local": {
+      "modId": "easyshulkerboxes",
+      "displayName": "Easy Shulker Boxes",
+      "description": "Supercharge shulkes boxes, bundles and backpacks! Fully useable in your inventory with many intuitive interactions.",
+      "version": "8.0.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "easy-shulker-boxes",
+    "title": "Easy Shulker Boxes",
+    "description": "Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory.",
+    "categories": [
+      "storage",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 4797230,
+    "project_id": "gA5euN8S",
+    "version_id": "BG9Ajkjd",
+    "version_number": "v8.0.2-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/gA5euN8S/versions/BG9Ajkjd/EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/easyshulkerboxes",
+    "sha1_remote": "c5245255c422afa2d627e89bbbf4a2f1d5d721e8",
+    "filename": "EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar"
+  },
+  {
+    "file": "EchoChest-v8.0.0-1.20.1-Forge.jar",
+    "sha1": "0644ed14ee92c6976cdf16ef797eab676dffee19",
+    "size": 92355,
+    "local": {
+      "modId": "echochest",
+      "displayName": "Echo Chest",
+      "description": "A unique chest that collects all items dropped nearby. Very useful!",
+      "version": "8.0.0",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "echo-chest",
+    "title": "Echo Chest",
+    "description": "A unique chest that collects all items dropped nearby. Very useful!",
+    "categories": [
+      "storage"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 1942681,
+    "project_id": "m3pkVbY8",
+    "version_id": "aQcerSRS",
+    "version_number": "v8.0.0-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/m3pkVbY8/versions/aQcerSRS/EchoChest-v8.0.0-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/echochest",
+    "sha1_remote": "0644ed14ee92c6976cdf16ef797eab676dffee19",
+    "filename": "EchoChest-v8.0.0-1.20.1-Forge.jar"
+  },
+  {
+    "file": "EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
+    "sha1": "88c15335c1b1a03e22ed7cbf62d511f6dd0e6877",
+    "size": 61214,
+    "local": {
+      "modId": "effectdescriptions",
+      "displayName": "Effect Descriptions",
+      "description": "Find out what potion effects do without checking the wiki.",
+      "version": "8.0.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "effect-insights",
+    "title": "Effect Insights",
+    "description": "Adds potion and food effect descriptions directly to tooltips. Know effects without the wiki.",
+    "categories": [
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "MPL-2.0",
+    "downloads": 823064,
+    "project_id": "Kw73iLDq",
+    "version_id": "1cLzn1rF",
+    "version_number": "v8.0.2-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/1cLzn1rF/EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/effectinsights",
+    "sha1_remote": "88c15335c1b1a03e22ed7cbf62d511f6dd0e6877",
+    "filename": "EffectDescriptions-v8.0.2-1.20.1-Forge.jar"
+  },
+  {
+    "file": "EnchantingInfuser-v8.0.3-1.20.1-Forge.jar",
+    "sha1": "d939ec7d3771062f24a44ee1fdfa17e476e51634",
+    "size": 177437,
+    "local": {
+      "modId": "enchantinginfuser",
+      "displayName": "Enchanting Infuser",
+      "description": "An all new enchanting table: Choose your enchantments for fair prices! Plus no more randomness!",
+      "version": "8.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Enchanting Infuser",
+    "search_hits": [
+      {
+        "slug": "enchanting-infuser",
+        "title": "Enchanting Infuser"
+      },
+      {
+        "slug": "infuser-x-sortilege",
+        "title": "Enchanting Infuser x Sortilege (Compatiblity)"
+      }
+    ],
+    "slug": "enchanting-infuser",
+    "title": "Enchanting Infuser",
+    "description": "An all-new enchanting table for choosing your enchantments at fair prices without the randomness.",
+    "categories": [
+      "equipment",
+      "fabric",
+      "forge",
+      "magic",
+      "neoforge",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 6330854,
+    "project_id": "ePv85y52",
+    "version_id": "UIJtaBTP",
+    "version_number": "v8.0.3-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/ePv85y52/versions/UIJtaBTP/EnchantingInfuser-v8.0.3-1.20.1-Forge.jar",
+    "sha1_remote": "f3821c8e9f5f597a54b9d1009eb38572b17ffe72",
+    "filename": "EnchantingInfuser-v8.0.3-1.20.1-Forge.jar"
+  },
+  {
+    "file": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
+    "sha1": "19a4935881634bdb98aad4aba6e548b13ffaded7",
+    "size": 246017,
+    "local": {
+      "modId": "enderstorage",
+      "displayName": "EnderStorage",
+      "description": "Stores your stuff in the END!\n    Credits: Ecu - original idea, design, chest and pouch texture\n    Rosethorns - tank model\n    Soaryn - tank texture",
+      "version": "2.11.0.188",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "ender-storage",
+    "title": "Ender Storage",
+    "description": "Stores your stuff in the END!",
+    "categories": [
+      "storage"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 596113,
+    "project_id": "BbrHg80P",
+    "version_id": "pTEnM5jC",
+    "version_number": "2.11.0.188",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/BbrHg80P/versions/pTEnM5jC/EnderStorage-1.20.1-2.11.0.188-universal.jar",
+    "source_url": "https://github.com/TheCBProject/EnderStorage",
+    "sha1_remote": "19a4935881634bdb98aad4aba6e548b13ffaded7",
+    "filename": "EnderStorage-1.20.1-2.11.0.188-universal.jar"
+  },
+  {
+    "file": "enhanced_boss_bars-1.20.1-1.0.0.jar",
+    "sha1": "8a709553a1eb98792b5db787dc57d132bc5b3971",
+    "size": 254629,
+    "local": {
+      "modId": "enhanced_boss_bars",
+      "displayName": "Enhanced Boss Bars",
+      "description": "New improved boss bars!",
+      "version": "1.20.1-1.0.0",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Enhanced Boss Bars",
+    "search_hits": [
+      {
+        "slug": "enhanced-boss-bars-mod",
+        "title": "Enhanced Boss Bars"
+      }
+    ],
+    "slug": "enhanced-boss-bars-mod",
+    "title": "Enhanced Boss Bars",
+    "description": "New improved boss bars!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "forge",
+      "mobs",
+      "neoforge"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 1181277,
+    "project_id": "J5bVsBt9",
+    "version_id": "7JEVgmIp",
+    "version_number": "1.20.1-1.0.0",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/J5bVsBt9/versions/7JEVgmIp/enhanced_boss_bars-1.20.1-1.0.0.jar",
+    "sha1_remote": "5836d3059dc19a9f12a505455693a8c790365596",
+    "filename": "enhanced_boss_bars-1.20.1-1.0.0.jar"
+  },
+  {
+    "file": "exposure-1.20.1-1.7.5-forge.jar",
+    "sha1": "206f0ccd6b2c42ce6d7bc61e83a613102a519818",
+    "size": 1312933,
+    "local": {
+      "modId": "exposure",
+      "displayName": "Exposure",
+      "description": "Expose your film, print your photos!",
+      "version": "1.7.5",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "exposure",
+    "title": "Exposure",
+    "description": "Camera mod with focus on process and aesthetics",
+    "categories": [
+      "adventure",
+      "game-mechanics",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 12928632,
+    "project_id": "hB899VmG",
+    "version_id": "vNOYdEJg",
+    "version_number": "1.7.5",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/hB899VmG/versions/vNOYdEJg/exposure-1.20.1-1.7.5-forge.jar",
+    "source_url": "https://github.com/mortuusars/Exposure",
+    "sha1_remote": "206f0ccd6b2c42ce6d7bc61e83a613102a519818",
+    "filename": "exposure-1.20.1-1.7.5-forge.jar"
+  },
+  {
+    "file": "Fallingleaves-1.20-2.1.0-beta.1.jar",
+    "sha1": "566b2a16a0ce30fbe714ae5f8c816f7d6f008eda",
+    "size": 129769,
+    "local": {
+      "modId": "fallingleaves",
+      "displayName": "Falling Leaves",
+      "description": "How the gentle wind\n    beckons through the leaves\n    as autumn colors fall,\n    dancing in a swirl\n    of golden memories:\n    the loveliest lies of all.",
+      "version": "2.1.0-beta.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "fallingleavesforge",
+    "title": "Falling Leaves (NeoForge/Forge)",
+    "description": "Adds a neat little particle effect to leaf blocks ",
+    "categories": [
+      "decoration"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LGPL-3.0-only",
+    "downloads": 5041080,
+    "project_id": "2JAUNCL4",
+    "version_id": "eTqAeXTY",
+    "version_number": "1.20-2.1.0-beta.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/eTqAeXTY/Fallingleaves-1.20-2.1.0-beta.1.jar",
+    "source_url": "https://github.com/Cheaterpaul/fallingleaves",
+    "sha1_remote": "566b2a16a0ce30fbe714ae5f8c816f7d6f008eda",
+    "filename": "Fallingleaves-1.20-2.1.0-beta.1.jar"
+  },
+  {
+    "file": "ForgeEndertech-1.20.1-11.1.10.2-build.2294.jar",
+    "sha1": "0b3498a265e94f9a2c8f9fa8879038fd57a73d19",
+    "size": 552922,
+    "local": {
+      "modId": "forgeendertech",
+      "displayName": "ForgeEndertech",
+      "description": "Contains all shared classes for Endertech mods.",
+      "version": "11.1.10.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "forgeendertech",
+    "title": "ForgeEndertech",
+    "description": "Core library powering Endertech mods",
+    "categories": [
+      "library"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "CC-BY-ND-4.0",
+    "downloads": 14268,
+    "project_id": "EgS8gGp8",
+    "version_id": "4ZVDiGQG",
+    "version_number": "11.1.10.2",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/EgS8gGp8/versions/4ZVDiGQG/ForgeEndertech-1.20.1-11.1.10.2-build.2294.jar",
+    "source_url": null,
+    "sha1_remote": "0b3498a265e94f9a2c8f9fa8879038fd57a73d19",
+    "filename": "ForgeEndertech-1.20.1-11.1.10.2-build.2294.jar"
+  },
+  {
+    "file": "framework-forge-1.20.1-0.7.6.jar",
+    "sha1": "9654e78bcdc5d5518fa6b8399e2a133c692421d0",
+    "size": 302794,
+    "local": {
+      "modId": "framework",
+      "displayName": "Framework",
+      "description": "A library providing powerful utilities for developers",
+      "version": "0.7.6",
+      "loader": "forge"
+    },
+    "source": "curseforge",
+    "search_query": "Framework",
+    "search_hits": [
+      {
+        "slug": "surveyor",
+        "title": "Surveyor Map Framework"
+      },
+      {
+        "slug": "mcef",
+        "title": "MCEF (Minecraft Chromium Embedded Framework)"
+      },
+      {
+        "slug": "voidless-framework",
+        "title": "Voidless Framework"
+      }
+    ],
+    "title": "Framework (MrCrayfish)"
+  },
+  {
+    "file": "friendsandfoes-forge-mc1.20.1-2.0.15.jar",
+    "sha1": "47bdce9a3102eece13338f058033485a4d6b3daf",
+    "size": 3318421,
+    "local": {
+      "modId": "friendsandfoes",
+      "displayName": "Friends&Foes",
+      "description": "Adds outvoted and forgotten mobs from the mob votes in a believable vanilla plus style.",
+      "version": "2.0.15",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "friends-and-foes-forge",
+    "title": "Friends&Foes (Forge/NeoForge)",
+    "description": "Adds outvoted and forgotten mobs from the mob vote, expanding on their original concepts and adding new vanilla-like features. The mod includes: Copper Golem, Crab, Glare, Moobloom, Iceologer, Rascal, Tuff Golem, Wildfire, Illusioner, Zombie Horse",
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "CC-BY-NC-ND-4.0",
+    "downloads": 4555614,
+    "project_id": "BOCJKD49",
+    "version_id": "v1IiVObC",
+    "version_number": "forge-mc1.20.1-2.0.15",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/BOCJKD49/versions/v1IiVObC/friendsandfoes-forge-mc1.20.1-2.0.15.jar",
+    "source_url": "https://github.com/Faboslav/friends-and-foes",
+    "sha1_remote": "47bdce9a3102eece13338f058033485a4d6b3daf",
+    "filename": "friendsandfoes-forge-mc1.20.1-2.0.15.jar"
+  },
+  {
+    "file": "From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar",
+    "sha1": "8508868b645b4c8bcdfef1437f0278173eaadbbb",
+    "size": 4749752,
+    "local": {
+      "modId": "watching",
+      "displayName": "From The Fog",
+      "description": "Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings the legendary Herobrine to life in a spooky and immersive way true to the legend.",
+      "version": "1.9.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "from-the-fog",
+    "title": "From The Fog",
+    "description": "Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings the legendary Herobrine to life in a spooky and immersive way true to the legend.",
+    "categories": [
+      "adventure",
+      "cursed",
+      "worldgen"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "CC-BY-NC-SA-4.0",
+    "downloads": 5104370,
+    "project_id": "p1WH6sHr",
+    "version_id": "JTd3TFcc",
+    "version_number": "1.9.2",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "fabric",
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/p1WH6sHr/versions/JTd3TFcc/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar",
+    "source_url": "https://github.com/LunarEclipseStudios/From-The-Fog/",
+    "sha1_remote": "8508868b645b4c8bcdfef1437f0278173eaadbbb",
+    "filename": "From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar"
+  },
+  {
+    "file": "GatewaysToEternity-1.20.1-4.2.5.jar",
+    "sha1": "5b9d1a9f3119fb84ee8789e5498d71130d034e62",
+    "size": 630645,
+    "local": {
+      "modId": "gateways",
+      "displayName": "Gateways To Eternity",
+      "description": "Adds combat-based events which provide various rewards and challenges.",
+      "version": "4.2.5",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Gateways To Eternity",
+    "search_hits": [
+      {
+        "slug": "gateways-to-eternity",
+        "title": "Gateways to Eternity"
+      },
+      {
+        "slug": "gateways-to-eternity-more-gateways",
+        "title": "Gateways to Eternity - More Gateways"
+      },
+      {
+        "slug": "gateway-to-eternity-random-gate-spawning",
+        "title": "Gateway to Eternity - Random Gate Spawning"
+      }
+    ],
+    "slug": "gateways-to-eternity",
+    "title": "Gateways to Eternity",
+    "description": "Adds wave-based combat events called Gateways",
+    "categories": [
+      "forge",
+      "magic",
+      "minigame",
+      "mobs",
+      "neoforge"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 16761,
+    "project_id": "8OIeAukW",
+    "version_id": "5xh4aALL",
+    "version_number": "4.2.6",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/8OIeAukW/versions/5xh4aALL/GatewaysToEternity-1.20.1-4.2.6.jar",
+    "sha1_remote": "ed2158bade0615c90d50474e2cbf0b32b5eeee61",
+    "filename": "GatewaysToEternity-1.20.1-4.2.6.jar"
+  },
+  {
+    "file": "geckolib-forge-1.20.1-4.2.3.jar",
+    "sha1": "8dd742eae684867bec07fa61bf18abd8b3551577",
+    "size": 1163971,
+    "local": {
+      "modId": "geckolib",
+      "displayName": "GeckoLib 4",
+      "description": "GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more.",
+      "version": "${file.jarVersion}",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "geckolib",
+    "title": "Geckolib",
+    "description": "A 3D animation library for entities, blocks, items, armor, and more!",
+    "categories": [
+      "game-mechanics",
+      "library",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license": "MIT",
+    "downloads": 62172643,
+    "project_id": "8BmcQJ2H",
+    "version_id": "ISrpRn5q",
+    "version_number": "4.2.3",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/ISrpRn5q/geckolib-forge-1.20.1-4.2.3.jar",
+    "source_url": "https://github.com/bernie-g/geckolib",
+    "sha1_remote": "8dd742eae684867bec07fa61bf18abd8b3551577",
+    "filename": "geckolib-forge-1.20.1-4.2.3.jar"
+  },
+  {
+    "file": "Gobber2-Forge-1.20.1-2.8.9.jar",
+    "sha1": "6a5a8164526940325355bda87b89045ce3f4eeef",
+    "size": 567050,
+    "local": {
+      "modId": "gobber2",
+      "displayName": "Gobber 2",
+      "description": "Gobber into 1.20, It continues...!",
+      "version": "2.8.9",
+      "loader": "forge"
+    },
+    "source": "curseforge",
+    "search_query": "Gobber 2",
+    "search_hits": [],
+    "title": "Gobber 2"
+  },
+  {
+    "file": "goblintraders-forge-1.20.1-1.9.3.jar",
+    "sha1": "341b9ec065568812c217ad7f38b7acc1b0313d9a",
+    "size": 320235,
+    "local": {
+      "modId": "goblintraders",
+      "displayName": "Goblin Traders",
+      "description": "Adds goblins that have unique trades to improve your adventure!",
+      "version": "1.9.3",
+      "loader": "forge"
+    },
+    "source": "curseforge",
+    "search_query": "Goblin Traders",
+    "search_hits": [],
+    "title": "Goblin Traders"
+  },
+  {
+    "file": "HangGlider-v8.0.1-1.20.1-Forge.jar",
+    "sha1": "e4a5deeb545db6853ae4d668d0751228e641fc61",
+    "size": 136076,
+    "local": {
+      "modId": "hangglider",
+      "displayName": "Hang Glider",
+      "description": "Soar through the skies and explore the world's beauty with your brand-new hang glider!",
+      "version": "8.0.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "hang-glider",
+    "title": "Hang Glider",
+    "description": "Soar through the skies and explore the world's beauty with your brand-new hang glider!",
+    "categories": [
+      "adventure",
+      "equipment",
+      "transportation"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 1239689,
+    "project_id": "uHWrqYcS",
+    "version_id": "kVfMYM11",
+    "version_number": "v8.0.1-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/uHWrqYcS/versions/kVfMYM11/HangGlider-v8.0.1-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/hangglider",
+    "sha1_remote": "e4a5deeb545db6853ae4d668d0751228e641fc61",
+    "filename": "HangGlider-v8.0.1-1.20.1-Forge.jar"
+  },
+  {
+    "file": "HeldItemTooltips-v8.0.0-1.20.1-Forge.jar",
+    "sha1": "a022976a33affa5a16e0d98b3f112a1276b407c9",
+    "size": 81672,
+    "local": {
+      "modId": "helditemtooltips",
+      "displayName": "Held Item Tooltips",
+      "description": "See item enchantments, potion effects, shulker box contents and much more directly above your hotbar.",
+      "version": "8.0.0",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "held-item-tooltips",
+    "title": "Held Item Tooltips",
+    "description": "See item enchantments, potion effects, shulker box contents and much more directly above your hotbar.",
+    "categories": [
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "MPL-2.0",
+    "downloads": 1027340,
+    "project_id": "3wWtgZGB",
+    "version_id": "KTwi0wP7",
+    "version_number": "v8.0.0-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/3wWtgZGB/versions/KTwi0wP7/HeldItemTooltips-v8.0.0-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/helditemtooltips",
+    "sha1_remote": "a022976a33affa5a16e0d98b3f112a1276b407c9",
+    "filename": "HeldItemTooltips-v8.0.0-1.20.1-Forge.jar"
+  },
+  {
+    "file": "HorseExpert-v8.1.1-1.20.1-Forge.jar",
+    "sha1": "84585fe2422165be38aa54cdedc1d39264a693a5",
+    "size": 97465,
+    "local": {
+      "modId": "horseexpert",
+      "displayName": "Horse Expert",
+      "description": "You want to know what your horses are truly capable of? Check out their statistics!",
+      "version": "8.1.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "horse-expert",
+    "title": "Horse Expert",
+    "description": "You want to know what your horses are truly capable of? Check out their statistics!",
+    "categories": [
+      "equipment",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 2016851,
+    "project_id": "24CSPS1E",
+    "version_id": "HlwDHWL1",
+    "version_number": "v8.1.1-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/24CSPS1E/versions/HlwDHWL1/HorseExpert-v8.1.1-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/horseexpert",
+    "sha1_remote": "84585fe2422165be38aa54cdedc1d39264a693a5",
+    "filename": "HorseExpert-v8.1.1-1.20.1-Forge.jar"
+  },
+  {
+    "file": "iceandfire-2.1.13-1.20.1-beta-4.jar",
+    "sha1": "38a3a731a90713e3744385d7a44524e11378dac0",
+    "size": 21767038,
+    "local": {
+      "modId": "iceandfire",
+      "displayName": "Ice and Fire",
+      "description": "Dragons and other mythological creatures in minecraft.",
+      "version": "${file.jarVersion}",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "ice-and-fire-dragons",
+    "title": "Ice and Fire",
+    "description": "Dragons and Mythical creatures in minecraft.",
+    "categories": [
+      "adventure",
+      "magic",
+      "mobs"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 5981610,
+    "project_id": "LVnvHVBp",
+    "version_id": "5f9S3HF9",
+    "version_number": "2.1.13-1.20.1-beta-4",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/LVnvHVBp/versions/5f9S3HF9/iceandfire-2.1.13-1.20.1-beta-4.jar",
+    "source_url": "https://github.com/AlexModGuy/Ice_and_Fire",
+    "sha1_remote": "38a3a731a90713e3744385d7a44524e11378dac0",
+    "filename": "iceandfire-2.1.13-1.20.1-beta-4.jar"
+  },
+  {
+    "file": "Iceberg-1.20.1-forge-1.1.13.jar",
+    "sha1": "5b32cfdf834309685d7deb70657b1bb32ae9ee58",
+    "size": 132951,
+    "local": {
+      "modId": "iceberg",
+      "displayName": "Iceberg",
+      "description": "A library containing events, helpers, and utilities to make modding easier.",
+      "version": "${file.jarVersion}",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "iceberg",
+    "title": "Iceberg",
+    "description": "A modding library that contains new events, helpers, and utilities to make modder's lives easier.",
+    "categories": [
+      "library"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "CC-BY-NC-ND-4.0",
+    "downloads": 32824922,
+    "project_id": "5faXoLqX",
+    "version_id": "hri3ka9m",
+    "version_number": "1.1.13",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/hri3ka9m/Iceberg-1.20.1-forge-1.1.13.jar",
+    "source_url": "https://github.com/AHilyard/Iceberg/",
+    "sha1_remote": "5b32cfdf834309685d7deb70657b1bb32ae9ee58",
+    "filename": "Iceberg-1.20.1-forge-1.1.13.jar"
+  },
+  {
+    "file": "IllagerInvasion-v8.0.5-1.20.1-Forge.jar",
+    "sha1": "f67428fe42b83f441fba39aaf18c7ad119fb054b",
+    "size": 2340943,
+    "local": {
+      "modId": "illagerinvasion",
+      "displayName": "Illager Invasion",
+      "description": "The illagers are back! Be ready to fight new foes. A port of Illager Expansion.",
+      "version": "8.0.5",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "illager-invasion",
+    "title": "Illager Invasion",
+    "description": "The illagers are back! Be ready to fight new foes. A port of Illager Expansion.",
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 7149995,
+    "project_id": "jSV9w0J5",
+    "version_id": "wPqH0RfQ",
+    "version_number": "v8.0.5-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/jSV9w0J5/versions/wPqH0RfQ/IllagerInvasion-v8.0.5-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/illagerinvasion",
+    "sha1_remote": "f67428fe42b83f441fba39aaf18c7ad119fb054b",
+    "filename": "IllagerInvasion-v8.0.5-1.20.1-Forge.jar"
+  },
+  {
+    "file": "Incendium_1.20.x_v5.3.5.jar",
+    "sha1": "484556937b1b2dde2682144e7953e79bff717104",
+    "size": 4638945,
+    "local": {
+      "modId": "incendium",
+      "displayName": "Incendium",
+      "description": "A nether biome overhaul combined with challenging structures to conquer, unique weapons to obtain, and tricky mobs to defeat.",
+      "version": "5.3.5",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "incendium",
+    "title": "Incendium Legacy",
+    "description": "A nether biome overhaul combined with challenging structures to conquer, unique weapons to obtain, and tricky mobs to defeat.",
+    "categories": [
+      "adventure",
+      "worldgen"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "LicenseRef-Stardust-Labs-License",
+    "downloads": 9169667,
+    "project_id": "ZVzW5oNS",
+    "version_id": "uUqarp2H",
+    "version_number": "5.3.5",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6"
+    ],
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge",
+      "quilt"
+    ],
+    "url": "https://cdn.modrinth.com/data/ZVzW5oNS/versions/uUqarp2H/Incendium_1.20.x_v5.3.5.jar",
+    "source_url": "https://github.com/Stardust-Labs-MC/Incendium",
+    "sha1_remote": "484556937b1b2dde2682144e7953e79bff717104",
+    "filename": "Incendium_1.20.x_v5.3.5.jar"
+  },
+  {
+    "file": "jeed-1.20-2.2.2.jar",
+    "sha1": "18c40ddddf67692aab4ec47bb8c383e06c0ed63c",
+    "size": 156368,
+    "local": {
+      "modId": "jeed",
+      "displayName": "Just Enough Effects Descriptions",
+      "description": "REI/JEI addon that shows effects and their descriptions",
+      "version": "1.20-2.2.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "just-enough-effect-descriptions-jeed",
+    "title": "Just Enough Effect Descriptions (JEED)",
+    "description": "JEI plugin that displays information on all status effects",
+    "categories": [
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 8088171,
+    "project_id": "EO27GKs1",
+    "version_id": "UsKXS9eh",
+    "version_number": "1.20-2.2.2",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/EO27GKs1/versions/UsKXS9eh/jeed-1.20-2.2.2.jar",
+    "source_url": "https://github.com/MehVahdJukaar/JustEnoughEffectDescriptions",
+    "sha1_remote": "18c40ddddf67692aab4ec47bb8c383e06c0ed63c",
+    "filename": "jeed-1.20-2.2.2.jar"
+  },
+  {
+    "file": "jei-1.20.1-forge-15.10.0.30.jar",
+    "sha1": "30599acb49c84157c60cd5400b66f22ff7e90641",
+    "size": 1311905,
+    "local": {
+      "modId": "jei",
+      "displayName": "Just Enough Items",
+      "description": "JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.",
+      "version": "15.10.0.30",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "jei",
+    "title": "Just Enough Items (JEI)",
+    "description": "View Items and Recipes",
+    "categories": [
+      "library",
+      "utility"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "MIT",
+    "downloads": 68323495,
+    "project_id": "u6dRKJwZ",
+    "version_id": "r4VxyVNu",
+    "version_number": "15.10.0.30",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/r4VxyVNu/jei-1.20.1-forge-15.10.0.30.jar",
+    "source_url": "https://github.com/mezz/JustEnoughItems",
+    "sha1_remote": "30599acb49c84157c60cd5400b66f22ff7e90641",
+    "filename": "jei-1.20.1-forge-15.10.0.30.jar"
+  },
+  {
+    "file": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+    "sha1": "7d83a56572d333ea352706872f565b8b8537085c",
+    "size": 55258,
+    "local": {
+      "modId": "legendarytooltips",
+      "displayName": "Legendary Tooltips",
+      "description": "Gives rare items a fancy tooltip and adds additional tooltip configuration options.",
+      "version": "${file.jarVersion}",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "legendary-tooltips",
+    "title": "Legendary Tooltips",
+    "description": "Give your rare items a fancier tooltip! Also adds additional tooltip configuration options.",
+    "categories": [
+      "adventure",
+      "equipment",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "CC-BY-NC-ND-4.0",
+    "downloads": 9662263,
+    "project_id": "atHH8NyV",
+    "version_id": "JhxD2e6J",
+    "version_number": "1.4.5",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/atHH8NyV/versions/JhxD2e6J/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+    "source_url": "https://github.com/AHilyard/LegendaryTooltips/",
+    "sha1_remote": "7d83a56572d333ea352706872f565b8b8537085c",
+    "filename": "LegendaryTooltips-1.20.1-forge-1.4.5.jar"
+  },
+  {
+    "file": "llibrary-1.7.20-1.12.2.jar",
+    "sha1": "fba97f9dbe750f17904c00db8ff58291595106b8",
+    "size": 884550,
+    "local": {},
+    "source": "curseforge",
+    "search_query": "llibrary",
+    "search_hits": [
+      {
+        "slug": "uranus",
+        "title": "Uranus"
+      }
+    ],
+    "title": "LLibrary (1.12.2 - obsoleto)",
+    "drop": "obsoleto-mc-1.12.2"
+  },
+  {
+    "file": "moonlight-1.20-2.6.3-forge.jar",
+    "sha1": "f75e0fcb27a1fccd5040dbc48dc2f2c624fbf127",
+    "size": 870498,
+    "local": {
+      "modId": "moonlight",
+      "displayName": "Moonlight Library",
+      "description": "A small library with many cool unique features, from dynamic asset generation to dynamic villager schedules and simple multi loader utilities",
+      "version": "1.20-2.6.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "moonlight",
+    "title": "Moonlight Lib",
+    "description": "dynamic data pack and registration, villager activities, custom map marker and a lot more",
+    "categories": [
+      "library"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-LGPL-with-additional-dependency-clause",
+    "downloads": 36657088,
+    "project_id": "twkfQtEc",
+    "version_id": "JXolKGKT",
+    "version_number": "1.20-2.6.3",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/JXolKGKT/moonlight-1.20-2.6.3-forge.jar",
+    "source_url": "https://github.com/MehVahdJukaar/Moonlight/tree/multi-loader",
+    "sha1_remote": "f75e0fcb27a1fccd5040dbc48dc2f2c624fbf127",
+    "filename": "moonlight-1.20-2.6.3-forge.jar"
+  },
+  {
+    "file": "MoreBows-1.0.13+1.20.x.forge.jar",
+    "sha1": "5d80cda6be87a51cab49c53b1fb741eb6b726458",
+    "size": 62589,
+    "local": {
+      "modId": "morebows",
+      "displayName": "More Bows Restrung",
+      "description": "A port of the More Bows mod to 1.7.10 and above!\n\nThis mod was originally created by GaussFire, and maintained + updated by iDiamondhunter. Ported by NeRd!",
+      "version": "1.0.13",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "more-bows-restrung",
+    "title": "More Bows: Restrung!",
+    "description": "A port of the More Bows mod to 1.7.10 and above!",
+    "categories": [
+      "adventure",
+      "equipment"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "CC0-1.0",
+    "downloads": 712265,
+    "project_id": "CkMS2Yh3",
+    "version_id": "2xmHvaN5",
+    "version_number": "1.0.13+1.20.x.forge",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/CkMS2Yh3/versions/2xmHvaN5/MoreBows-1.0.13%2B1.20.x.forge.jar",
+    "source_url": "https://github.com/NeRdTheNed/More-bows",
+    "sha1_remote": "5d80cda6be87a51cab49c53b1fb741eb6b726458",
+    "filename": "MoreBows-1.0.13+1.20.x.forge.jar"
+  },
+  {
+    "file": "mysticaloaktree-1.20-1.11.jar",
+    "sha1": "56dfd68a726f5d0d75e47d2518021e4a7e81b943",
+    "size": 231836,
+    "local": {
+      "modId": "mysticaloaktree",
+      "displayName": "Mystical Oak Tree",
+      "description": "If you are 25 or older you MUST play this mod!",
+      "version": "1.20-1.11",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "mystical-oak-tree",
+    "title": "Mystical Oak Tree",
+    "description": "Interactive and talking NPC-Like block with 300+ lines of lore, wisdom and facts",
+    "categories": [
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 803114,
+    "project_id": "eUma2vmY",
+    "version_id": "u2rYyWU1",
+    "version_number": "1.20-1.11",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/eUma2vmY/versions/u2rYyWU1/mysticaloaktree-1.20-1.11.jar",
+    "source_url": "https://github.com/MehVahdJukaar/mysticaloaktree-multi",
+    "sha1_remote": "56dfd68a726f5d0d75e47d2518021e4a7e81b943",
+    "filename": "mysticaloaktree-1.20-1.11.jar"
+  },
+  {
+    "file": "NetherChested-v8.0.3-1.20.1-Forge.jar",
+    "sha1": "c5c1a26f8ad6d1822515f0327f253fc4973a810d",
+    "size": 531852,
+    "local": {
+      "modId": "netherchested",
+      "displayName": "Nether Chested",
+      "description": "Use the Nether's power to store 8 times more items than usual in this chest.",
+      "version": "8.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "nether-chested",
+    "title": "Nether Chested",
+    "description": "Use the Nether's power to store 8 times more items than usual in this chest.",
+    "categories": [
+      "storage"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 6151668,
+    "project_id": "bHJp2GRg",
+    "version_id": "tVFcuxZG",
+    "version_number": "v8.0.3-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/bHJp2GRg/versions/tVFcuxZG/NetherChested-v8.0.3-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/netherchested",
+    "sha1_remote": "c5c1a26f8ad6d1822515f0327f253fc4973a810d",
+    "filename": "NetherChested-v8.0.3-1.20.1-Forge.jar"
+  },
+  {
+    "file": "PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+    "sha1": "378cc9730d1f11cd4c50add96263baccacdb4942",
+    "size": 102164,
+    "local": {
+      "modId": "pickupnotifier",
+      "displayName": "Pick Up Notifier",
+      "description": "Be notified about all the things you've just collected.",
+      "version": "8.0.0",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "pick-up-notifier",
+    "title": "Pick Up Notifier",
+    "description": "Be notified about all the things you've just collected.",
+    "categories": [
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license": "MPL-2.0",
+    "downloads": 14104969,
+    "project_id": "ZX66K16c",
+    "version_id": "LojgSWbd",
+    "version_number": "v8.0.0-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/ZX66K16c/versions/LojgSWbd/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/pickupnotifier",
+    "sha1_remote": "378cc9730d1f11cd4c50add96263baccacdb4942",
+    "filename": "PickUpNotifier-v8.0.0-1.20.1-Forge.jar"
+  },
+  {
+    "file": "Placebo-1.20.1-8.6.3.jar",
+    "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+    "size": 282474,
+    "local": {
+      "modId": "placebo",
+      "displayName": "Placebo",
+      "description": "1 (one) library boi",
+      "version": "8.6.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "placebo",
+    "title": "Placebo",
+    "description": "Placebo is a library used by most of my mods.\nIt does not provide any game-relevant features on its own (save for maybe a couple debug commands).",
+    "categories": [
+      "library"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "MIT",
+    "downloads": 525940,
+    "project_id": "tCkE8p2N",
+    "version_id": "6SkuAGoz",
+    "version_number": "8.6.3",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/6SkuAGoz/Placebo-1.20.1-8.6.3.jar",
+    "source_url": "https://github.com/Shadows-of-Fire/Placebo",
+    "sha1_remote": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+    "filename": "Placebo-1.20.1-8.6.3.jar"
+  },
+  {
+    "file": "Prism-1.20.1-forge-1.0.3.jar",
+    "sha1": "4984c81a687d37132bd95e1298d718f62e618472",
+    "size": 51612,
+    "local": {
+      "modId": "prism",
+      "displayName": "Prism",
+      "description": "A library all about color! Provides lots of color-related functionality for dependent mods.",
+      "version": "1.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "prism-lib",
+    "title": "Prism",
+    "description": "A library all about color! Provides lots of color-related functionality for dependent mods.",
+    "categories": [
+      "decoration",
+      "library",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "CC-BY-NC-ND-4.0",
+    "downloads": 16445048,
+    "project_id": "1OE8wbN0",
+    "version_id": "eXlUYTX6",
+    "version_number": "1.0.3",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/1OE8wbN0/versions/eXlUYTX6/Prism-1.20.1-forge-1.0.3.jar",
+    "source_url": "https://github.com/AHilyard/Prism/",
+    "sha1_remote": "4984c81a687d37132bd95e1298d718f62e618472",
+    "filename": "Prism-1.20.1-forge-1.0.3.jar"
+  },
+  {
+    "file": "PuzzlesLib-v8.0.24-1.20.1-Forge.jar",
+    "sha1": "69493022734c4e7c4ac6365a2c4fee7baff9affd",
+    "size": 730810,
+    "local": {
+      "modId": "puzzleslib",
+      "displayName": "Puzzles Lib",
+      "description": "Why's it called Puzzles you ask? That's the puzzle!",
+      "version": "8.0.24",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "puzzles-lib",
+    "title": "Puzzles Lib",
+    "description": "Why is it called Puzzles? That's the puzzle.",
+    "categories": [
+      "library"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "MPL-2.0",
+    "downloads": 55850523,
+    "project_id": "QAGBst4M",
+    "version_id": "Sk64RP7y",
+    "version_number": "v8.0.24-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/Sk64RP7y/PuzzlesLib-v8.0.24-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/puzzleslib",
+    "drop": "duplicado-usar-v8.1.21",
+    "sha1_remote": "69493022734c4e7c4ac6365a2c4fee7baff9affd",
+    "filename": "PuzzlesLib-v8.0.24-1.20.1-Forge.jar"
+  },
+  {
+    "file": "PuzzlesLib-v8.1.21-1.20.1-Forge.jar",
+    "sha1": "ed83455065193f0630450830c11ecd738ec231f9",
+    "size": 1000977,
+    "local": {
+      "modId": "puzzleslib",
+      "displayName": "Puzzles Lib",
+      "description": "Why's it called Puzzles you ask? That's the puzzle!",
+      "version": "8.1.21",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "puzzles-lib",
+    "title": "Puzzles Lib",
+    "description": "Why is it called Puzzles? That's the puzzle.",
+    "categories": [
+      "library"
+    ],
+    "client_side": "optional",
+    "server_side": "optional",
+    "license": "MPL-2.0",
+    "downloads": 55850523,
+    "project_id": "QAGBst4M",
+    "version_id": "z0kHAGDv",
+    "version_number": "v8.1.21-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/z0kHAGDv/PuzzlesLib-v8.1.21-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/puzzleslib",
+    "sha1_remote": "ed83455065193f0630450830c11ecd738ec231f9",
+    "filename": "PuzzlesLib-v8.1.21-1.20.1-Forge.jar"
+  },
+  {
+    "file": "resourcefulconfig-forge-1.20-2.0.0.jar",
+    "sha1": "50866f3a26bc56694a77f9720474bcb912c509bf",
+    "size": 129046,
+    "local": {
+      "modId": "resourcefulconfig",
+      "displayName": "Resourcefulconfig",
+      "description": "A library for creating config files for your mod across multiple platforms.",
+      "version": "2.0.0",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "resourceful-config",
+    "title": "Resourceful Config",
+    "description": "Resourceful Config is a mod that allows for developers to make cross-platform configs",
+    "categories": [
+      "library"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 22140586,
+    "project_id": "M1953qlQ",
+    "version_id": "n3yQ9KKD",
+    "version_number": "2.0.0",
+    "game_versions": [
+      "1.20"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/M1953qlQ/versions/n3yQ9KKD/resourcefulconfig-forge-1.20-2.0.0.jar",
+    "source_url": "https://github.com/Team-Resourceful/Resourceful-Config",
+    "sha1_remote": "50866f3a26bc56694a77f9720474bcb912c509bf",
+    "filename": "resourcefulconfig-forge-1.20-2.0.0.jar"
+  },
+  {
+    "file": "Scout-2.0.4+1.20.1.jar",
+    "sha1": "9e41e64499844b4c86689006f4cc2073427a9a61",
+    "size": 169248,
+    "local": {
+      "modId": "scout",
+      "displayName": "Scout",
+      "description": "A mod focused on \"physically\" extending the inventory (adding slots) through wearing various types of bags.",
+      "loader": "fabric"
+    },
+    "source": "modrinth",
+    "slug": "scout",
+    "title": "Scout",
+    "description": "Extending the inventory \"physically\" (adding slots) through various bags.",
+    "categories": [
+      "equipment",
+      "storage"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 354271,
+    "project_id": "QRYqnI15",
+    "version_id": "JqrnY7yM",
+    "version_number": "2.0.4+1.20.1",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/JqrnY7yM/Scout-2.0.4%2B1.20.1.jar",
+    "source_url": "https://github.com/Cynosphere-mc/Scout",
+    "drop": "fabric-only",
+    "sha1_remote": "9e41e64499844b4c86689006f4cc2073427a9a61",
+    "filename": "Scout-2.0.4+1.20.1.jar"
+  },
+  {
+    "file": "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar",
+    "sha1": "3f7b0e8594556cd861c3c3bd470f5f41da250784",
+    "size": 246865,
+    "local": {
+      "modId": "skyvillages",
+      "displayName": "Sky Villages",
+      "description": "Villages in the land of clouds!",
+      "version": "1.0.4",
+      "loader": "forge"
+    },
+    "source": "curseforge",
+    "search_query": "Sky Villages",
+    "search_hits": [
+      {
+        "slug": "create-sky-village",
+        "title": "Create: Sky Village"
+      }
+    ],
+    "title": "Sky Villages"
+  },
+  {
+    "file": "sophisticatedbackpacks-1.20.1-3.20.5.1044.jar",
+    "sha1": "82e97629d2383d87d65f6684c6270c438f95156b",
+    "size": 851750,
+    "local": {
+      "modId": "sophisticatedbackpacks",
+      "displayName": "Sophisticated Backpacks",
+      "description": "Fancy and functional backpacks.",
+      "version": "3.20.5.1044",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Sophisticated Backpacks",
+    "search_hits": [
+      {
+        "slug": "sophisticated-backpacks",
+        "title": "Sophisticated Backpacks"
+      },
+      {
+        "slug": "sophisticated-backpacks-create-integration",
+        "title": "Sophisticated Backpacks Create Integration"
+      },
+      {
+        "slug": "sophisticated-backpacks-easier-upgrade",
+        "title": "Sophisticated Backpacks easier upgrade"
+      }
+    ],
+    "slug": "sophisticated-backpacks",
+    "title": "Sophisticated Backpacks",
+    "description": "Yet another backpack mod this time with backpack you can place in world, color in different color combinations, upgrade with more inventory and enhance with many functional upgrades",
+    "categories": [
+      "forge",
+      "neoforge",
+      "storage"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 16347496,
+    "project_id": "TyCTlI4b",
+    "version_id": "OHm5UnEF",
+    "version_number": "1.20.1-3.24.63.2049",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/OHm5UnEF/sophisticatedbackpacks-1.20.1-3.24.63.2049.jar",
+    "sha1_remote": "a2a0dcde667a05fb979ad6e9f2d7eb90b5db84e5",
+    "filename": "sophisticatedbackpacks-1.20.1-3.24.63.2049.jar"
+  },
+  {
+    "file": "sophisticatedcore-1.20.1-0.6.22.611.jar",
+    "sha1": "f2f9639f50d04fa4f6ae7a2e972428f40a8f80d4",
+    "size": 1080551,
+    "local": {
+      "modId": "sophisticatedcore",
+      "displayName": "Sophisticated Core",
+      "description": "Base mod of Sophisticated mods.",
+      "version": "0.6.22.611",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "Sophisticated Core",
+    "search_hits": [
+      {
+        "slug": "sophisticated-core",
+        "title": "Sophisticated Core"
+      }
+    ],
+    "slug": "sophisticated-core",
+    "title": "Sophisticated Core",
+    "description": "Library mod for Sophisticated mods",
+    "categories": [
+      "forge",
+      "library",
+      "neoforge",
+      "storage"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 16086455,
+    "project_id": "nmoqTijg",
+    "version_id": "WJLeMmI3",
+    "version_number": "1.20.1-1.3.75.2231",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/WJLeMmI3/sophisticatedcore-1.20.1-1.3.75.2231.jar",
+    "sha1_remote": "1b322710ac11b3565976ae44684f220f207b9bec",
+    "filename": "sophisticatedcore-1.20.1-1.3.75.2231.jar"
+  },
+  {
+    "file": "SpartanWeaponry-1.20.1-forge-3.1.3-all.jar",
+    "sha1": "c5b9adca2b9d0de2afdb9a08339e8b268702880a",
+    "size": 2800831,
+    "local": {
+      "modId": "spartanweaponry",
+      "displayName": "Spartan Weaponry",
+      "description": "Weapons Galore! A whole new arsenal of weaponry made for Minecraft.",
+      "version": "3.1.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "spartan-weaponry",
+    "title": "Spartan Weaponry",
+    "description": "Weapons Galore! A whole new arsenal of weaponry made for Minecraft!",
+    "categories": [
+      "equipment",
+      "game-mechanics"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "Apache-2.0",
+    "downloads": 11445832,
+    "project_id": "icU5P2Mk",
+    "version_id": "h2sutQWT",
+    "version_number": "1.20.1-3.1.3",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/icU5P2Mk/versions/h2sutQWT/SpartanWeaponry-1.20.1-forge-3.1.3-all.jar",
+    "source_url": "https://github.com/ObliviousSpartan/SpartanWeaponry",
+    "sha1_remote": "c5b9adca2b9d0de2afdb9a08339e8b268702880a",
+    "filename": "SpartanWeaponry-1.20.1-forge-3.1.3-all.jar"
+  },
+  {
+    "file": "StorageDrawers-1.20.1-12.0.4.jar",
+    "sha1": "a2f2c402f7f234e6c93c0a7ed75a2da83b819305",
+    "size": 583521,
+    "local": {
+      "modId": "storagedrawers",
+      "displayName": "Storage Drawers",
+      "description": "Interactive bulk storage",
+      "version": "12.0.4",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "storagedrawers",
+    "title": "Storage Drawers",
+    "description": "Interactive bulk storage solution",
+    "categories": [
+      "storage"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 3418636,
+    "project_id": "guitPqEi",
+    "version_id": "F9JE95rC",
+    "version_number": "12.0.4",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/guitPqEi/versions/F9JE95rC/StorageDrawers-1.20.1-12.0.4.jar",
+    "source_url": "https://github.com/jaquadro/StorageDrawers",
+    "sha1_remote": "a2f2c402f7f234e6c93c0a7ed75a2da83b819305",
+    "filename": "StorageDrawers-1.20.1-12.0.4.jar"
+  },
+  {
+    "file": "StrawStatues-v8.0.3-1.20.1-Forge.jar",
+    "sha1": "62bb1ff595878693f507378e689cd58e056a51e1",
+    "size": 572195,
+    "local": {
+      "modId": "strawstatues",
+      "displayName": "Straw Statues",
+      "description": "Bring some life to your builds with player statues of your favorite Minecrafters!",
+      "version": "8.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "straw-statues",
+    "title": "Straw Statues",
+    "description": "Bring some life to your builds with player statues of your favorite Minecrafters!",
+    "categories": [
+      "decoration"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 704911,
+    "project_id": "2fltysAl",
+    "version_id": "1WbJR9ka",
+    "version_number": "v8.0.3-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/2fltysAl/versions/1WbJR9ka/StrawStatues-v8.0.3-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/strawstatues",
+    "sha1_remote": "62bb1ff595878693f507378e689cd58e056a51e1",
+    "filename": "StrawStatues-v8.0.3-1.20.1-Forge.jar"
+  },
+  {
+    "file": "takesapillage-1.0.3-1.20.1.jar",
+    "sha1": "058d29fcadbd5fa1fb6d92e50788329398f9467d",
+    "size": 3758273,
+    "local": {
+      "modId": "takesapillage",
+      "displayName": "It Takes A Pillage",
+      "description": "Advancing the pillager civilization.",
+      "version": "1.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "it-takes-a-pillage",
+    "title": "It Takes a Pillage",
+    "description": "The Pillager civilization has evolved.",
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 2478416,
+    "project_id": "pe7FN3d6",
+    "version_id": "unxodajn",
+    "version_number": "1.0.3",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/pe7FN3d6/versions/unxodajn/takesapillage-1.0.3-1.20.1.jar",
+    "source_url": "https://github.com/izofar/takes-a-pillage",
+    "sha1_remote": "058d29fcadbd5fa1fb6d92e50788329398f9467d",
+    "filename": "takesapillage-1.0.3-1.20.1.jar"
+  },
+  {
+    "file": "Terralith_1.20_v2.5.1.jar",
+    "sha1": "e95f3b0fe7b2f3f2475da8009f4491e48edc4b60",
+    "size": 3197597,
+    "local": {
+      "modId": "terralith",
+      "displayName": "Terralith",
+      "description": "Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain.",
+      "version": "2.5.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "terralith",
+    "title": "Terralith",
+    "description": "Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain.",
+    "categories": [
+      "worldgen"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "LicenseRef-Stardust-Labs-License",
+    "downloads": 20929570,
+    "project_id": "8oi3bsk5",
+    "version_id": "rWmFwtGy",
+    "version_number": "2.5.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6"
+    ],
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge",
+      "quilt"
+    ],
+    "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/rWmFwtGy/Terralith_1.20_v2.5.1.jar",
+    "source_url": "https://github.com/Stardust-Labs-MC/Terralith",
+    "sha1_remote": "e95f3b0fe7b2f3f2475da8009f4491e48edc4b60",
+    "filename": "Terralith_1.20_v2.5.1.jar"
+  },
+  {
+    "file": "the_bumblezone-7.4.14+1.20.1-forge.jar",
+    "sha1": "8e52df66c8dc2893ad20a20c5d13227f0a15ccfe",
+    "size": 52143634,
+    "local": {
+      "modId": "the_bumblezone",
+      "displayName": "The Bumblezone",
+      "description": "A wonderful bee dimension mod with lots of new exploration and adventuring to do! Check out the advancements for how to play the mod!",
+      "version": "7.4.14+1.20.1-forge",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "the-bumblezone",
+    "title": "The Bumblezone - NeoForge/Forge",
+    "description": "An unBEElievable dimension full of bees that becomes REALLY angry if you take their honey!",
+    "categories": [
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 3724082,
+    "project_id": "38tpSycf",
+    "version_id": "9Y214pww",
+    "version_number": "7.4.14+1.20.1-forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/38tpSycf/versions/9Y214pww/the_bumblezone-7.4.14%2B1.20.1-forge.jar",
+    "source_url": null,
+    "sha1_remote": "8e52df66c8dc2893ad20a20c5d13227f0a15ccfe",
+    "filename": "the_bumblezone-7.4.14+1.20.1-forge.jar"
+  },
+  {
+    "file": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+    "sha1": "11ae4c94aa94b38b78cf9b901dad4612b679f8ac",
+    "size": 10298153,
+    "local": {
+      "modId": "graveyard",
+      "displayName": "The Graveyard",
+      "description": "Adds new bosses, structures, mobs and blocks themed around the graveyard.",
+      "version": "3.1",
+      "loader": "forge"
+    },
+    "source": "modrinth-search",
+    "search_query": "The Graveyard",
+    "search_hits": [
+      {
+        "slug": "the-graveyard-forge",
+        "title": "The Graveyard (FORGE/NEOFORGE)"
+      },
+      {
+        "slug": "big-globe-the-graveyard-compatibility",
+        "title": "Big Globe - The Graveyard Compatibility"
+      },
+      {
+        "slug": "the-graveyard-rebalanced-loots",
+        "title": "The Graveyard - Rebalanced Loots"
+      }
+    ],
+    "slug": "the-graveyard-forge",
+    "title": "The Graveyard (FORGE/NEOFORGE)",
+    "description": "A mod that adds structures, mobs, bosses and blocks themed aroung the graveyard.",
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 1050144,
+    "project_id": "U1jdQuSf",
+    "version_id": "Q66WyQ3F",
+    "version_number": "3.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/U1jdQuSf/versions/Q66WyQ3F/The_Graveyard_3.1_%28FORGE%29_for_1.20.1.jar",
+    "sha1_remote": "3eace53024d663f159725c8d972d330631f9b974",
+    "filename": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
+  },
+  {
+    "file": "TinySkeletons-v8.0.1-1.20.1-Forge.jar",
+    "sha1": "aa27ac3af67afd192f789adc4d78e752a68d6272",
+    "size": 95935,
+    "local": {
+      "modId": "tinyskeletons",
+      "displayName": "Tiny Skeletons",
+      "description": "Teeny, tiny skeletons, send shivers down your spine...",
+      "version": "8.0.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "tiny-skeletons",
+    "title": "Tiny Skeletons",
+    "description": "Teeny, tiny skeletons, send shivers down your spine...",
+    "categories": [
+      "adventure"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 3269630,
+    "project_id": "A2xcMSUn",
+    "version_id": "bvxrcKcl",
+    "version_number": "v8.0.1-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/A2xcMSUn/versions/bvxrcKcl/TinySkeletons-v8.0.1-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/tinyskeletons",
+    "sha1_remote": "aa27ac3af67afd192f789adc4d78e752a68d6272",
+    "filename": "TinySkeletons-v8.0.1-1.20.1-Forge.jar"
+  },
+  {
+    "file": "tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
+    "sha1": "b7df8fec6b076b9b1755754f03fde08349d221d1",
+    "size": 715179,
+    "local": {
+      "modId": "tlskincape",
+      "displayName": "TLSkinCape",
+      "description": "Custom skin and cape loader for Minecraft by TLauncher",
+      "version": "1.32",
+      "loader": "forge"
+    },
+    "source": "curseforge",
+    "search_query": "TLSkinCape",
+    "search_hits": [],
+    "title": "TLSkinCape (TLauncher)"
+  },
+  {
+    "file": "torchesntrinkets-0.2-1.20.1-4.jar",
+    "sha1": "046d13ec6e9c84deaebeb8fad4c7b3a9bfa12eb2",
+    "size": 106825,
+    "local": {
+      "modId": "torchesntrinkets",
+      "displayName": "Torches 'n' Trinkets",
+      "description": "Adds new items to allow you to wear torches and lanterns on your hip!",
+      "loader": "fabric"
+    },
+    "source": "modrinth",
+    "slug": "torches-n-trinkets",
+    "title": "Torches 'n' Trinkets",
+    "description": "Adds new items to allow you to wear torches and lanterns on your hip!",
+    "categories": [
+      "adventure",
+      "game-mechanics",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 208876,
+    "project_id": "bItnQGg6",
+    "version_id": "vQc0rlkw",
+    "version_number": "0.2-1.20.1-4",
+    "game_versions": [
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "url": "https://cdn.modrinth.com/data/bItnQGg6/versions/vQc0rlkw/torchesntrinkets-0.2-1.20.1-4.jar",
+    "source_url": "https://github.com/bigmanmad/torchesntrinkets-1.20.1",
+    "drop": "fabric-only",
+    "sha1_remote": "046d13ec6e9c84deaebeb8fad4c7b3a9bfa12eb2",
+    "filename": "torchesntrinkets-0.2-1.20.1-4.jar"
+  },
+  {
+    "file": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+    "sha1": "5a28ec56457cf1bf154e993cf73dba0428a7921b",
+    "size": 2864275,
+    "local": {
+      "modId": "t_and_t",
+      "displayName": "Towns and Towers",
+      "description": "Spice up your world with new villages, pillager outposts, and even new ships!",
+      "version": "${file.jarVersion}",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "towns-and-towers",
+    "title": "Towns and Towers",
+    "description": "Spice up your world with new villages, pillager outposts, and even new ships!",
+    "categories": [
+      "adventure",
+      "worldgen"
+    ],
+    "client_side": "optional",
+    "server_side": "required",
+    "license": "CC-BY-NC-SA-4.0",
+    "downloads": 15931221,
+    "project_id": "DjLobEOy",
+    "version_id": "7ZwnSrVW",
+    "version_number": "1.12",
+    "game_versions": [
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4"
+    ],
+    "loaders": [
+      "fabric",
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/7ZwnSrVW/Towns-and-Towers-1.12-Fabric%2BForge.jar",
+    "source_url": null,
+    "sha1_remote": "5a28ec56457cf1bf154e993cf73dba0428a7921b",
+    "filename": "Towns-and-Towers-1.12-Fabric+Forge.jar"
+  },
+  {
+    "file": "TradingPost-v8.0.2-1.20.1-Forge.jar",
+    "sha1": "b5cfd0afd134d118124fb12f5e605574938ddffd",
+    "size": 123478,
+    "local": {
+      "modId": "tradingpost",
+      "displayName": "Trading Post",
+      "description": "Rule the village! Trade with every villager at once!",
+      "version": "8.0.2",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "trading-post",
+    "title": "Trading Post",
+    "description": "Rule the village! Trade with every villager at once!",
+    "categories": [
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 8328261,
+    "project_id": "8pcjMDgj",
+    "version_id": "LvveFy3w",
+    "version_number": "v8.0.2-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/8pcjMDgj/versions/LvveFy3w/TradingPost-v8.0.2-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/tradingpost",
+    "sha1_remote": "b5cfd0afd134d118124fb12f5e605574938ddffd",
+    "filename": "TradingPost-v8.0.2-1.20.1-Forge.jar"
+  },
+  {
+    "file": "VillagersPlus_3.1_(FORGE)_for_1.20.1.jar",
+    "sha1": "062d0d77120a1d76605657ce4ec1ec364851a112",
+    "size": 362336,
+    "local": {
+      "modId": "villagersplus",
+      "displayName": "VillagersPlus",
+      "description": "New villagers, new trades and new beautiful and useful workstations.",
+      "version": "3.1",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "villagersplus",
+    "title": "VillagersPlus",
+    "description": "A villager extension mod, adding new villager types, trades and beautiful workstations.",
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "GPL-3.0-only",
+    "downloads": 7887609,
+    "project_id": "oHGMwNDR",
+    "version_id": "Oc5T4c7q",
+    "version_number": "3.1",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/oHGMwNDR/versions/Oc5T4c7q/VillagersPlus_3.1_%28FORGE%29_for_1.20.1.jar",
+    "source_url": "https://github.com/finallion/VillagersPlus_-FABRIC-",
+    "sha1_remote": "062d0d77120a1d76605657ce4ec1ec364851a112",
+    "filename": "VillagersPlus_3.1_(FORGE)_for_1.20.1.jar"
+  },
+  {
+    "file": "VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+    "sha1": "7ebf579edcf2440eadf1ed6c8c895e1bc2d77bf1",
+    "size": 82055,
+    "local": {
+      "modId": "visualworkbench",
+      "displayName": "Visual Workbench",
+      "description": "Items stay inside crafting tables and are also rendered on top. It's really fancy!",
+      "version": "8.0.0",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "visual-workbench",
+    "title": "Visual Workbench",
+    "description": "Items stay inside of crafting tables and are also rendered on top. It's really fancy!",
+    "categories": [
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MPL-2.0",
+    "downloads": 23706640,
+    "project_id": "kfqD1JRw",
+    "version_id": "c22Z4rsv",
+    "version_number": "v8.0.0-1.20.1-Forge",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/c22Z4rsv/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+    "source_url": "https://github.com/Fuzss/visualworkbench",
+    "sha1_remote": "7ebf579edcf2440eadf1ed6c8c895e1bc2d77bf1",
+    "filename": "VisualWorkbench-v8.0.0-1.20.1-Forge.jar"
+  },
+  {
+    "file": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+    "sha1": "9fe819dc110461f55909dabbed73e4fe3bdde158",
+    "size": 283977,
+    "local": {
+      "modId": "weaponmaster_ydm",
+      "displayName": "YDM's Weapon Master",
+      "description": "With this Mod your Hotbar items will be visible on your Character, with a unique location for a your Shield, Banner and offhand item.\n\nYou can turn on or off the visibility for all of them one-by-one.\n\nThere you can set things like rotation, position, size, etc.\n\nIf the item you want to show up is not visible by default then you have to add it to your whitelist or\nif there is an item you dont want to show up then add it to your blacklist.\n\nYou can change the position, rotation, size of the items by default in the detailed window.\nIf you dont like the item settings then you can change that items pos, rot, size in the unique item settings window.\n\nMore info at website.\n\nIf you find any errors please let me know.\nYou can find me on curseforge: YourDailyModderx\nor\nWrite in the discord server:\nhttps://discord.gg/FcD5KwQXSK\n\nThanks for downloading my mod!",
+      "version": "4.2.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "weaponmaster",
+    "title": "YDM's Weapon Master",
+    "description": "With this Mod your Hotbar items will be visible on your Character, with a unique location for a Shield and Banner.",
+    "categories": [
+      "decoration"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license": "CC0-1.0",
+    "downloads": 6179856,
+    "project_id": "qi1sj2da",
+    "version_id": "D7JWWIQX",
+    "version_number": "1.20.1+forge+4.2.3",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/qi1sj2da/versions/D7JWWIQX/weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+    "source_url": null,
+    "sha1_remote": "9fe819dc110461f55909dabbed73e4fe3bdde158",
+    "filename": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar"
+  },
+  {
+    "file": "Xaeros_Minimap_24.2.0_Forge_1.20.jar",
+    "sha1": "efd26080924cf77a8e0b9f440e09c470e3285e70",
+    "size": 1470572,
+    "local": {
+      "modId": "xaerominimap",
+      "displayName": "Xaero's Minimap",
+      "description": "The most vanilla-looking minimap for Minecraft.",
+      "version": "24.2.0",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "xaeros-minimap",
+    "title": "Xaero's Minimap",
+    "description": "Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.",
+    "categories": [
+      "adventure",
+      "transportation",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 100188449,
+    "project_id": "1bokaNcj",
+    "version_id": "zst4834Y",
+    "version_number": "24.2.0_Forge_1.20",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/zst4834Y/Xaeros_Minimap_24.2.0_Forge_1.20.jar",
+    "source_url": null,
+    "sha1_remote": "efd26080924cf77a8e0b9f440e09c470e3285e70",
+    "filename": "Xaeros_Minimap_24.2.0_Forge_1.20.jar"
+  },
+  {
+    "file": "XaerosWorldMap_1.38.8_Forge_1.20.jar",
+    "sha1": "a7e0a8a5fc1e31bfff5fb733c51b361ffb1fb5da",
+    "size": 928120,
+    "local": {
+      "modId": "xaeroworldmap",
+      "displayName": "Xaero's World Map",
+      "description": "A self-writing fullscreen map which also works as an add-on to Xaero's Minimap.",
+      "version": "1.38.8",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "xaeros-world-map",
+    "title": "Xaero's World Map",
+    "description": "Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.",
+    "categories": [
+      "adventure",
+      "transportation",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "optional",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "downloads": 87693585,
+    "project_id": "NcUtCpym",
+    "version_id": "3t3qLyne",
+    "version_number": "1.38.8_Forge_1.20",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/3t3qLyne/XaerosWorldMap_1.38.8_Forge_1.20.jar",
+    "source_url": null,
+    "sha1_remote": "a7e0a8a5fc1e31bfff5fb733c51b361ffb1fb5da",
+    "filename": "XaerosWorldMap_1.38.8_Forge_1.20.jar"
+  },
+  {
+    "file": "xptome-1.20.1-2.2.1.jar",
+    "sha1": "078831ad10ea6fa5750e3c6049915beca8401a88",
+    "size": 22972,
+    "local": {
+      "modId": "xpbook",
+      "displayName": "XP Tome",
+      "description": "Adds a book that can store a configurable amount of XP.",
+      "version": "${file.jarVersion}",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "xp-tome",
+    "title": "XP Tome",
+    "description": "Adds a book that can store a configurable amount of XP.",
+    "categories": [
+      "adventure",
+      "storage",
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "MIT",
+    "downloads": 2461425,
+    "project_id": "AnpW69o3",
+    "version_id": "SYfBGaA3",
+    "version_number": "v2.2.1",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "url": "https://cdn.modrinth.com/data/AnpW69o3/versions/SYfBGaA3/xptome-1.20.1-2.2.1.jar",
+    "source_url": "https://github.com/bl4ckscor3/XP-Tome",
+    "sha1_remote": "078831ad10ea6fa5750e3c6049915beca8401a88",
+    "filename": "xptome-1.20.1-2.2.1.jar"
+  },
+  {
+    "file": "YungsApi-1.20-Forge-4.0.5.jar",
+    "sha1": "c3a989fdf8429828bd784e35e83f89c0786b43de",
+    "size": 365910,
+    "local": {
+      "modId": "yungsapi",
+      "displayName": "YUNG's API",
+      "description": "API Library for YUNG's minecraft mods.",
+      "version": "1.20-Forge-4.0.5",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-api",
+    "title": "YUNG's API",
+    "description": "Library mod for YUNG's mods.",
+    "categories": [
+      "library",
+      "worldgen"
+    ],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 31676227,
+    "project_id": "Ua7DFN59",
+    "version_id": "aMs83SRk",
+    "version_number": "1.20-Forge-4.0.5",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/aMs83SRk/YungsApi-1.20-Forge-4.0.5.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-API",
+    "sha1_remote": "c3a989fdf8429828bd784e35e83f89c0786b43de",
+    "filename": "YungsApi-1.20-Forge-4.0.5.jar"
+  },
+  {
+    "file": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+    "sha1": "31b386b2dbaa4933e0a10ccdfb25f56da16931a6",
+    "size": 918012,
+    "local": {
+      "modId": "betterdeserttemples",
+      "displayName": "YUNG's Better Desert Temples",
+      "description": "A complete redesign of Minecraft's desert temples!",
+      "version": "1.20-Forge-3.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-desert-temples",
+    "title": "YUNG's Better Desert Temples",
+    "description": "A complete redesign of Minecraft's desert temples!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 15177157,
+    "project_id": "XNlO7sBv",
+    "version_id": "lRK2ZA9U",
+    "version_number": "1.20-Forge-3.0.3",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/XNlO7sBv/versions/lRK2ZA9U/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Desert-Temples",
+    "sha1_remote": "31b386b2dbaa4933e0a10ccdfb25f56da16931a6",
+    "filename": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar"
+  },
+  {
+    "file": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+    "sha1": "67a9e1c2ff126ab54cea8e0709d178915243039e",
+    "size": 792381,
+    "local": {
+      "modId": "betterdungeons",
+      "displayName": "YUNG's Better Dungeons",
+      "description": "A complete redesign of Minecraft's dungeons",
+      "version": "1.20-Forge-4.0.4",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-dungeons",
+    "title": "YUNG's Better Dungeons",
+    "description": "A complete redesign of Minecraft's dungeons!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 19931165,
+    "project_id": "o1C1Dkj5",
+    "version_id": "kPiQ6v4q",
+    "version_number": "1.20-Forge-4.0.4",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/o1C1Dkj5/versions/kPiQ6v4q/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Dungeons",
+    "sha1_remote": "67a9e1c2ff126ab54cea8e0709d178915243039e",
+    "filename": "YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+  },
+  {
+    "file": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+    "sha1": "4e7bf109981593061b8100bc8bf23e1c9bbcbb76",
+    "size": 387111,
+    "local": {
+      "modId": "betterendisland",
+      "displayName": "YUNG's Better End Island",
+      "description": "A complete redesign of the End island, making the Ender Dragon fight much more fun and interesting!",
+      "version": "1.20-Forge-2.0.6",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-end-island",
+    "title": "YUNG's Better End Island",
+    "description": "An overhaul of the main End Island where the dragon fight takes place!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 17961933,
+    "project_id": "2BwBOmBQ",
+    "version_id": "Izqhg3Va",
+    "version_number": "1.20-Forge-2.0.6",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/2BwBOmBQ/versions/Izqhg3Va/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+    "source_url": "https://github.com/yungnickyoung/YUNGs-Better-End-Island",
+    "sha1_remote": "4e7bf109981593061b8100bc8bf23e1c9bbcbb76",
+    "filename": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar"
+  },
+  {
+    "file": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+    "sha1": "0b3c8556983895fea980247bb4d437ca535e7259",
+    "size": 806652,
+    "local": {
+      "modId": "betterjungletemples",
+      "displayName": "YUNG's Better Jungle Temples",
+      "description": "A complete redesign of Minecraft's Jungle Temples!",
+      "version": "1.20-Forge-2.0.5",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-jungle-temples",
+    "title": "YUNG's Better Jungle Temples",
+    "description": "A complete redesign of Minecraft's jungle temples!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 18486974,
+    "project_id": "z9Ve58Ih",
+    "version_id": "CXQc6EnZ",
+    "version_number": "1.20-Forge-2.0.5",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/z9Ve58Ih/versions/CXQc6EnZ/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Jungle-Temples",
+    "sha1_remote": "0b3c8556983895fea980247bb4d437ca535e7259",
+    "filename": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar"
+  },
+  {
+    "file": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+    "sha1": "e2cbc574807a994bb9610184eb4bbfe29a6c0774",
+    "size": 492998,
+    "local": {
+      "modId": "bettermineshafts",
+      "displayName": "YUNG's Better Mineshafts",
+      "description": "The long-awaited and much-needed abandoned mineshaft overhaul!",
+      "version": "1.20-Forge-4.0.4",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-mineshafts",
+    "title": "YUNG's Better Mineshafts",
+    "description": "A long-awaited and much-needed abandoned mineshaft overhaul!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 18500362,
+    "project_id": "HjmxVlSr",
+    "version_id": "kVO57zxB",
+    "version_number": "1.20-Forge-4.0.4",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/HjmxVlSr/versions/kVO57zxB/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Mineshafts",
+    "sha1_remote": "e2cbc574807a994bb9610184eb4bbfe29a6c0774",
+    "filename": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
+  },
+  {
+    "file": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+    "sha1": "889cd16a93764d1d6af2e2dda5bbc286a2683e7a",
+    "size": 619255,
+    "local": {
+      "modId": "betterfortresses",
+      "displayName": "YUNG's Better Nether Fortresses",
+      "description": "A complete redesign of Minecraft's Nether Fortresses!",
+      "version": "1.20-Forge-2.0.6",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-nether-fortresses",
+    "title": "YUNG's Better Nether Fortresses",
+    "description": "A complete redesign of Minecraft's Nether fortresses!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 20799045,
+    "project_id": "Z2mXHnxP",
+    "version_id": "2nUEz0zq",
+    "version_number": "1.20-Forge-2.0.6",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/Z2mXHnxP/versions/2nUEz0zq/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Fortresses",
+    "sha1_remote": "889cd16a93764d1d6af2e2dda5bbc286a2683e7a",
+    "filename": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar"
+  },
+  {
+    "file": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+    "sha1": "d8e74ed19903752a97ed0e1d2b1a8bf378bc252f",
+    "size": 1033262,
+    "local": {
+      "modId": "betteroceanmonuments",
+      "displayName": "YUNG's Better Ocean Monuments",
+      "description": "A complete redesign of Minecraft's ocean monuments!",
+      "version": "1.20-Forge-3.0.4",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-ocean-monuments",
+    "title": "YUNG's Better Ocean Monuments",
+    "description": "A complete redesign of Minecraft's ocean monuments!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 19984600,
+    "project_id": "3dT9sgt4",
+    "version_id": "SN4iZ7wf",
+    "version_number": "1.20-Forge-3.0.4",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/3dT9sgt4/versions/SN4iZ7wf/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Ocean-Monuments",
+    "sha1_remote": "d8e74ed19903752a97ed0e1d2b1a8bf378bc252f",
+    "filename": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
+  },
+  {
+    "file": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+    "sha1": "3730238c56edca4bb5b2238e1314aec572ced385",
+    "size": 473564,
+    "local": {
+      "modId": "betterstrongholds",
+      "displayName": "YUNG's Better Strongholds",
+      "description": "A complete redesign of Minecraft's strongholds!",
+      "version": "1.20-Forge-4.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-strongholds",
+    "title": "YUNG's Better Strongholds",
+    "description": "A complete redesign of Minecraft's strongholds!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 16704844,
+    "project_id": "kidLKymU",
+    "version_id": "rwiShgsc",
+    "version_number": "1.20-Forge-4.0.3",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/kidLKymU/versions/rwiShgsc/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Strongholds",
+    "sha1_remote": "3730238c56edca4bb5b2238e1314aec572ced385",
+    "filename": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar"
+  },
+  {
+    "file": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+    "sha1": "71fee574f920c6b05004f100ba07e9b8d5844169",
+    "size": 179190,
+    "local": {
+      "modId": "betterwitchhuts",
+      "displayName": "YUNG's Better Witch Huts",
+      "description": "Adds new and improved witch huts to swamps!",
+      "version": "1.20-Forge-3.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-better-witch-huts",
+    "title": "YUNG's Better Witch Huts",
+    "description": "Adds overhauled witch huts to swamps!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 16173532,
+    "project_id": "t5FRdP87",
+    "version_id": "mwlYB7rq",
+    "version_number": "1.20-Forge-3.0.3",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/t5FRdP87/versions/mwlYB7rq/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Better-Witch-Huts",
+    "sha1_remote": "71fee574f920c6b05004f100ba07e9b8d5844169",
+    "filename": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar"
+  },
+  {
+    "file": "YungsBridges-1.20-Forge-4.0.3.jar",
+    "sha1": "88467fe87b95e6cf7a432822033cf74dd8586254",
+    "size": 136236,
+    "local": {
+      "modId": "yungsbridges",
+      "displayName": "YUNG's Bridges",
+      "description": "Adds naturally occurring bridges throughout the world!",
+      "version": "1.20-Forge-4.0.3",
+      "loader": "forge"
+    },
+    "source": "modrinth",
+    "slug": "yungs-bridges",
+    "title": "YUNG's Bridges",
+    "description": "Adds beautiful naturally generated bridges throughout the world!",
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "client_side": "unsupported",
+    "server_side": "required",
+    "license": "LGPL-3.0-only",
+    "downloads": 14566902,
+    "project_id": "Ht4BfYp6",
+    "version_id": "KgO1gfM2",
+    "version_number": "1.20-Forge-4.0.3",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/Ht4BfYp6/versions/KgO1gfM2/YungsBridges-1.20-Forge-4.0.3.jar",
+    "source_url": "https://github.com/YUNG-GANG/YUNGs-Bridges",
+    "sha1_remote": "88467fe87b95e6cf7a432822033cf74dd8586254",
+    "filename": "YungsBridges-1.20-Forge-4.0.3.jar"
+  },
+  {
+    "file": "Zoomify-2.14.0+1.20.1.jar",
+    "sha1": "dfe59801284268aed6ac63cfb8476c6c84965675",
+    "size": 809496,
+    "local": {
+      "modId": "zoomify",
+      "displayName": "Zoomify",
+      "description": "A zoom mod with infinite customizability.",
+      "loader": "fabric"
+    },
+    "source": "modrinth",
+    "slug": "zoomify",
+    "title": "Zoomify (Zoom)",
+    "description": "A zoom mod with infinite customizability.",
+    "categories": [
+      "utility"
+    ],
+    "client_side": "required",
+    "server_side": "unsupported",
+    "license": "LGPL-3.0-only",
+    "downloads": 59916892,
+    "project_id": "w7ThoJFB",
+    "version_id": "8VBKUY5S",
+    "version_number": "2.14.0+1.20.1",
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/8VBKUY5S/Zoomify-2.14.0%2B1.20.1.jar",
+    "source_url": "https://github.com/isXander/Zoomify",
+    "drop": "fabric-only",
+    "sha1_remote": "dfe59801284268aed6ac63cfb8476c6c84965675",
+    "filename": "Zoomify-2.14.0+1.20.1.jar"
+  }
+]

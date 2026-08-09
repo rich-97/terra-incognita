@@ -1,0 +1,11 @@
+# Los mods se descargan con sync.py, nunca se commitean
+mods/
+*.jar
+*.zip
+
+# Basura de instancias de Minecraft
+logs/
+saves/
+crash-reports/
+config/
+.DS_Store
