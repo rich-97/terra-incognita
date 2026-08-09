@@ -4662,5 +4662,31 @@
     "url": "https://cdn.modrinth.com/data/Z6cnZeGU/versions/AwVu5ygs/Visual%20Titles%201.3.zip",
     "sha1_remote": "80a1efaf621d7b376b0ce8e5fab7462ed10b9ce3",
     "filename": "Visual Titles 1.3.zip"
+  },
+  {
+    "type": "mod",
+    "file": "amendments-1.20-2.2.5.jar",
+    "sha1": "5d5a1d7d2d2dd37c578fdea2495757baaa624092",
+    "size": 1301022,
+    "source": "modrinth",
+    "slug": "amendments",
+    "title": "Amendments",
+    "description": "Many changes to vanilla blocks",
+    "categories": [],
+    "client_side": "required",
+    "server_side": "required",
+    "license": "LicenseRef-Supplementaries-Team-License-1.1",
+    "project_id": "6iTJugQR",
+    "version_id": "73W8UHX3",
+    "version_number": "1.20-2.2.5",
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "url": "https://cdn.modrinth.com/data/6iTJugQR/versions/73W8UHX3/amendments-1.20-2.2.5.jar",
+    "sha1_remote": "5d5a1d7d2d2dd37c578fdea2495757baaa624092",
+    "filename": "amendments-1.20-2.2.5.jar"
   }
 ]

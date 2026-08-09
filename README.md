@@ -2,23 +2,23 @@
 
 > *«…y de aquí en adelante, tierra desconocida.»*
 
-Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 111 mods que rehacen
+Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 112 mods que rehacen
 el mundo vanilla entero — cada estructura, las tres dimensiones y buena parte de los mobs.
 Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-421 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+422 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 111 (117 automáticos + 6 manuales) |
+| **Mods** | 112 (118 automáticos + 6 manuales) |
 | **Resource packs** | 10 |
 | **Shaders** | 2 (opcional, uno por sistema) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~421 MB |
+| **Peso en disco** | ~422 MB |
 
 ---
 
@@ -182,11 +182,12 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ### 🪂 Mecánicas, movilidad y ambiente
 
-*Cosas nuevas para hacer y ver.* — **9 mods**
+*Cosas nuevas para hacer y ver.* — **10 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
 | [AmbientSounds](https://modrinth.com/mod/ambientsounds) | Sonido ambiente dinámico según bioma, clima y hora. Solo cliente, y es el jar más pesado (85 MB). | Modrinth · cliente |
+| [Amendments](https://modrinth.com/mod/amendments) | Faroles de pared, velas de calavera, macetas y estandartes de techo. Salieron de Supplementaries en su 2.8.0 y viven acá. | Modrinth |
 | [Comforts](https://modrinth.com/mod/comforts) | Sacos de dormir (dormís sin cambiar el punto de respawn) y hamacas. | Modrinth |
 | [Diagonal Fences](https://modrinth.com/mod/diagonal-fences) | Las cercas conectan en diagonal. Suena tonto hasta que construís algo. | Modrinth |
 | [Do a Barrel Roll](https://modrinth.com/mod/do-a-barrel-roll) | Control de vuelo con elytra tipo simulador: alabeo, giros y acrobacias. | Modrinth |

@@ -74,6 +74,7 @@ D = {
  # --- Calidad de vida e interfaz ---
  "travelers-titles": ("qol", "Títulos tipo RPG al entrar a un bioma o dimensión. Es lo que le faltaba al resource pack Visual Titles."),
  "inventory-essentials": ("qol", "Ordena el inventario y cualquier cofre con una tecla. También mover y tirar stacks completos de un golpe."),
+ "amendments": ("gameplay", "Faroles de pared, velas de calavera, macetas y estandartes de techo. Salieron de Supplementaries en su 2.8.0 y viven acá."),
  "supplementaries": ("gameplay", "Vanilla+ enorme: jarros, carteles indicadores, veletas, faroles de cuerda, pizarras y decenas de bloques más."),
  "balm": ("lib", "Librería de abstracción entre loaders. La necesita Inventory Essentials."),
  "jei": ("qol", "Buscador de ítems y recetas. Imprescindible en cualquier pack con 100 mods."),

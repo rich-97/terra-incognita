@@ -36,7 +36,12 @@ def satisface(ver, rango):
     if not rango.strip() or rango.strip() == "*":    # '*' = cualquier versión
         return True
     v = vkey(ver)
-    for parte in re.findall(r"[\[(][^\[\]()]*[\])]", rango) or [rango]:
+    partes = re.findall(r"[\[(][^\[\]()]*[\])]", rango)
+    if not partes:
+        # sin corchetes es una "versión recomendada" de Maven: vale como mínimo,
+        # no como exacta. Forge la trata igual. Ej: amendments pide '1.20-2.16.0'.
+        return v >= vkey(rango)
+    for parte in partes:
         abre, cierra, cuerpo = parte[0], parte[-1], parte[1:-1]
         lo, _, hi = cuerpo.partition(",")
         if not _:                                    # '[1.2]' = exacto
@@ -114,7 +119,10 @@ def autotest():
              ("15.10.0.30", "[15.20.0.106,)", False), ("15.48.0.180", "[15.20.0.106,)", True),
              ("8.1.4", "*", True), ("1.0", "", True), ("1.5", "[1.0,2.0)", True),
              ("2.0", "[1.0,2.0)", False), ("2.0", "[1.0,2.0]", True),
-             ("1.0", "(1.0,2.0]", False), ("47.4.20", "[47,)", True)]
+             ("1.0", "(1.0,2.0]", False), ("47.4.20", "[47,)", True),
+             # sin corchetes = mínimo, no exacto (Maven "recommended version")
+             ("1.20-2.16.34", "1.20-2.16.0", True), ("1.20-2.15.0", "1.20-2.16.0", False),
+             ("2.16.0", "2.16.0", True)]
     for ver, rango, esperado in casos:
         assert satisface(ver, rango) is esperado, f"satisface({ver!r}, {rango!r})"
     print(f"  {len(casos)} casos OK")
