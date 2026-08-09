@@ -269,6 +269,17 @@ No están en Modrinth, hay que bajarlos a mano de CurseForge y ponerlos en `./mo
 2. Abrí la carpeta de la instancia y copiá las tres carpetas adentro.
 3. Subí la RAM a 6–8 GB en las opciones de la instancia.
 
+**O de una sola vez, sin copiar nada a mano:**
+
+```bash
+python3 sync.py --install                          # descarga y copia, detecta .minecraft solo
+python3 sync.py --install "/ruta/a/tu/instancia"    # CurseForge App/Prism/MultiMC/Modrinth App
+```
+
+Copia `mods/`, `resourcepacks/` y `shaderpacks/` a la carpeta indicada. No borra nada
+que no sea de este pack, y si apagaste un mod con `.disabled` (ver más abajo) lo
+propaga también al destino en vez de duplicarlo.
+
 ### 4. Activar los resource packs
 
 Los resource packs se descargan pero **no se activan solos**. Dentro del juego:
@@ -347,6 +358,33 @@ Dos formas de bajarle el volumen sin llegar a eso:
 
 - **RAM**: 6 GB, no más. En una máquina de 16 GB, darle 9 deja al sistema sin aire y encima
   alarga las pausas del recolector de basura. Más heap no es más FPS.
+
+---
+
+## Datapacks
+
+Un datapack es una carpeta de JSON sin código que Minecraft carga por mundo, desde
+`saves/<mundo>/datapacks/`. A diferencia de mods y resource packs, no se instala una
+sola vez en `.minecraft`: hay que ponerlo en cada mundo que lo necesite.
+
+### skyvillages-fix
+
+**Sky Villages** ubica sus aldeas sumando 150 bloques a la altura del terreno. En las
+islas flotantes de **Terralith (Skylands)**, que ya están a 150–250 de altura, eso se
+acumula y las aldeas terminan a 300–400+. No hay config in-game para esto — está fijo
+en el worldgen del mod. `datapacks/skyvillages-fix/` sobreescribe ese archivo con una
+altura fija de **180**, sin proyectarla sobre el terreno.
+
+```bash
+python3 install_datapack.py "Nombre de tu mundo"
+python3 install_datapack.py "Nombre de tu mundo" --dest "/ruta/a/tu/instancia"
+```
+
+Detecta `.minecraft` igual que `sync.py --install`. Si el nombre del mundo no
+matchea, lista los que sí encontró.
+
+> Solo afecta a chunks generados de ahí en más — las Sky Villages ya generadas quedan
+> como están. Corré `/reload` (o volvé a entrar al mundo) y explorá terreno nuevo.
 
 ---
 

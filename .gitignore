@@ -11,3 +11,7 @@ saves/
 crash-reports/
 config/
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc

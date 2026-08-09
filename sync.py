@@ -5,12 +5,13 @@
   python3 sync.py --prune    además borra lo que ya no está en mods.json
   python3 sync.py --verify   solo re-verifica hashes, no descarga nada
   python3 sync.py --deps     valida que cada mod tenga la versión de sus dependencias
+  python3 sync.py --install [ruta]   además, copia todo a .minecraft (auto-detecta si falta ruta)
   python3 sync.py --test     autotest de la lógica de rangos de versión
 
 ponytail: 70 líneas en vez de packwiz porque el pack es 100% Modrinth salvo 6 mods.
 Si algún día hace falta exportar .mrpack o meter CurseForge de verdad -> usar packwiz.
 """
-import hashlib, io, json, pathlib, re, sys, tomllib, urllib.request, zipfile
+import hashlib, io, json, os, pathlib, platform, re, shutil, sys, tempfile, tomllib, urllib.request, zipfile
 
 ROOT = pathlib.Path(__file__).parent
 DEST = {"mod": "mods", "resourcepack": "resourcepacks", "shaderpack": "shaderpacks"}
@@ -113,6 +114,61 @@ def revisar_deps():
     return 1 if fallos else 0
 
 
+def minecraft_dir(sistema=None):
+    """Carpeta .minecraft estándar según el SO. CurseForge App/Prism/MultiMC/
+    Modrinth App usan carpetas por instancia: para esos, pasar la ruta a mano
+    con --install <ruta>."""
+    sistema = sistema or platform.system()
+    home = pathlib.Path.home()
+    if sistema == "Darwin":
+        return home / "Library" / "Application Support" / "minecraft"
+    if sistema == "Windows":
+        return pathlib.Path(os.environ.get("APPDATA", str(home))) / ".minecraft"
+    return home / ".minecraft"          # Linux y cualquier otro *nix
+
+
+def instalar(destino, origen_root=ROOT):
+    """Copia mods/resourcepacks/shaderpacks ya sincronizados a una carpeta
+    .minecraft real. No borra nada del destino que no sea de este pack: lo que
+    el usuario haya agregado a mano en su carpeta real queda intacto. Si un
+    archivo pasó a .disabled (o volvió) en el repo, lo renombra del lado del
+    destino en vez de duplicarlo."""
+    if destino.resolve() == origen_root.resolve():
+        print("  el destino es este mismo repo, no tiene sentido")
+        return 1
+    if not destino.is_dir():
+        print(f"  no existe {destino} -- pasá la ruta correcta con --install <ruta> "
+              f"(CurseForge App/Prism/MultiMC/Modrinth App usan carpetas por instancia)")
+        return 1
+    copiados = renombrados = al_dia = 0
+    for carpeta in DEST.values():
+        origen = origen_root / carpeta
+        if not origen.is_dir():
+            continue
+        objetivo = destino / carpeta
+        objetivo.mkdir(exist_ok=True)
+        for src in sorted(origen.iterdir()):
+            if not src.is_file() or src.name == ".DS_Store":
+                continue
+            base = src.name.removesuffix(".disabled")
+            apagado = src.name != base
+            dst = objetivo / src.name
+            opuesto = objetivo / (base if apagado else base + ".disabled")
+            if opuesto.exists() and not dst.exists():
+                print(f"  renombrando (.disabled)  {opuesto.name} -> {dst.name}")
+                opuesto.rename(dst)
+                renombrados += 1
+            if dst.exists() and sha1(dst) == sha1(src):
+                al_dia += 1
+                continue
+            print(f"  copiando  {carpeta}/{src.name}")
+            shutil.copy2(src, dst)
+            copiados += 1
+    print(f"\n{copiados} copiados / {renombrados} renombrados (.disabled) / "
+          f"{al_dia} ya al día -> {destino}")
+    return 0
+
+
 def autotest():
     """Los rangos de versión son la única lógica no obvia acá. Que falle fuerte."""
     casos = [("2.11.33", "[2.12.36,)", False), ("2.12.36", "[2.12.36,)", True),
@@ -126,6 +182,35 @@ def autotest():
     for ver, rango, esperado in casos:
         assert satisface(ver, rango) is esperado, f"satisface({ver!r}, {rango!r})"
     print(f"  {len(casos)} casos OK")
+
+    home = pathlib.Path.home()
+    assert minecraft_dir("Darwin") == home / "Library" / "Application Support" / "minecraft"
+    assert minecraft_dir("Linux") == home / ".minecraft"
+    assert minecraft_dir("Windows").name == ".minecraft"
+    print("  minecraft_dir(): 3 casos OK")
+
+    with tempfile.TemporaryDirectory() as t:
+        t = pathlib.Path(t)
+        origen, destino = t / "repo", t / "minecraft"
+        (origen / "mods").mkdir(parents=True)
+        destino.mkdir()
+        jar = origen / "mods" / "Foo.jar"
+        jar.write_bytes(b"contenido")
+
+        assert instalar(t / "no-existe", origen_root=origen) == 1
+        assert instalar(destino, origen_root=origen) == 0
+        assert (destino / "mods" / "Foo.jar").read_bytes() == b"contenido"
+
+        jar.rename(origen / "mods" / "Foo.jar.disabled")
+        instalar(destino, origen_root=origen)
+        assert (destino / "mods" / "Foo.jar.disabled").exists()
+        assert not (destino / "mods" / "Foo.jar").exists()
+
+        (origen / "mods" / "Foo.jar.disabled").rename(origen / "mods" / "Foo.jar")
+        instalar(destino, origen_root=origen)
+        assert (destino / "mods" / "Foo.jar").exists()
+        assert not (destino / "mods" / "Foo.jar.disabled").exists()
+    print("  instalar(): copiar + toggle .disabled sin duplicar OK")
     return 0
 
 
@@ -185,7 +270,15 @@ def main(argv):
         print(f"\nDescargar a mano en ./mods (solo están en CurseForge):")
         for r in manual:
             print(f"  - {r['title']}")
-    return 1 if bad else 0
+
+    codigo = 1 if bad else 0
+    if "--install" in argv:
+        i = argv.index("--install")
+        ruta = argv[i + 1] if i + 1 < len(argv) and not argv[i + 1].startswith("--") else None
+        destino = pathlib.Path(ruta).expanduser() if ruta else minecraft_dir()
+        print()
+        codigo = instalar(destino) or codigo
+    return codigo
 
 
 if __name__ == "__main__":
