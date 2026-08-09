@@ -84,6 +84,14 @@ def leer_mod(datos):
     return salida
 
 
+def sobrantes(carpetas, conocidos):
+    """Archivos en `carpetas` que mods.json no reclama (ni bajados ni manuales)."""
+    return [p for d in carpetas for p in d.iterdir()
+            if p.is_file() and p.name != ".DS_Store"
+            and p.name not in conocidos
+            and p.name.removesuffix(".disabled") not in conocidos]
+
+
 def revisar_deps():
     """Compara lo que cada mod exige contra lo que hay instalado en ./mods."""
     instalado, exige, ilegibles = {}, [], []
@@ -211,6 +219,14 @@ def autotest():
         assert (destino / "mods" / "Foo.jar").exists()
         assert not (destino / "mods" / "Foo.jar.disabled").exists()
     print("  instalar(): copiar + toggle .disabled sin duplicar OK")
+
+    with tempfile.TemporaryDirectory() as t:
+        carpeta = pathlib.Path(t)
+        for n in ("Bajado.jar", "Manual.jar", "Huerfano.jar"):
+            (carpeta / n).write_bytes(b"x")
+        resultado = {p.name for p in sobrantes([carpeta], {"Bajado.jar", "Manual.jar"})}
+        assert resultado == {"Huerfano.jar"}, resultado
+    print("  sobrantes(): un mod manual (sin url) no es sobrante OK")
     return 0
 
 
@@ -223,6 +239,9 @@ def main(argv):
     rows = json.loads((ROOT / "mods.json").read_text(encoding="utf-8"))
     wanted = {r["filename"]: r for r in rows if r.get("url")}
     manual = [r for r in rows if not r.get("url")]
+    # los manuales no tienen "filename" (no hay URL de la que derivarlo): el nombre
+    # que hay que respetar es "file", el que ya está en mods.json a mano.
+    conocidos = set(wanted) | {r["file"] for r in manual}
     for d in DEST.values():
         (ROOT / d).mkdir(exist_ok=True)
 
@@ -253,10 +272,7 @@ def main(argv):
         dest.write_bytes(data)
         new += 1
 
-    strays = [p for d in DEST.values() for p in (ROOT / d).iterdir()
-              if p.is_file() and p.name != ".DS_Store"
-              and p.name not in wanted
-              and p.name.removesuffix(".disabled") not in wanted]
+    strays = sobrantes([ROOT / d for d in DEST.values()], conocidos)
     for p in strays:
         if prune:
             print(f"  borrando sobrante  {p.name}")
