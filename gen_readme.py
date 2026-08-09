@@ -74,6 +74,7 @@ D = {
  # --- Calidad de vida e interfaz ---
  "travelers-titles": ("qol", "Títulos tipo RPG al entrar a un bioma o dimensión. Es lo que le faltaba al resource pack Visual Titles."),
  "inventory-essentials": ("qol", "Ordena el inventario y cualquier cofre con una tecla. También mover y tirar stacks completos de un golpe."),
+ "distanthorizons": ("gameplay", "Render distance enorme: genera y dibuja terreno simplificado (LOD) mucho más allá de tu distancia normal. **Opcional** — mirá la nota abajo."),
  "amendments": ("gameplay", "Faroles de pared, velas de calavera, macetas y estandartes de techo. Salieron de Supplementaries en su 2.8.0 y viven acá."),
  "supplementaries": ("gameplay", "Vanilla+ enorme: jarros, carteles indicadores, veletas, faroles de cuerda, pizarras y decenas de bloques más."),
  "balm": ("lib", "Librería de abstracción entre loaders. La necesita Inventory Essentials."),
@@ -143,6 +144,7 @@ RP = {
  "better-dogs": "Razas de perro reales para los lobos domesticados, cada una con su textura.",
  "enhanced-boss-bars": "Texturas para el mod Enhanced Boss Bars: una barra distinta por jefe.",
  "eclectic-trove-legendary-tooltips": "Marcos de tooltip para Legendary Tooltips, uno por nivel de rareza.",
+ "fire-rekindled": "Fuego, antorchas y lava reanimados, con más cuadros y mejor color. Cubre también los bloques de Supplementaries.",
  "visual-travelers-titles": "Los títulos de Traveler's Titles con tipografía y animación propias, en vez del texto plano de vanilla.",
  "icon-xaeros": "Iconos propios para las entidades y waypoints del minimapa de Xaero's.",
 }
@@ -181,6 +183,8 @@ def tabla(files):
         src = "Modrinth" if r.get("slug") else "CurseForge"
         if r.get("server_side") == "unsupported":
             src += " · cliente"
+        if r.get("opcional"):
+            src += " · **opcional**"
         out.append(f'| {link(r)} | {D[f][1]} | {src} |')
     return "\n".join(out)
 
@@ -285,6 +289,32 @@ Los {len(packs)} son compatibles con 1.20.1 y con los mods de este pack. Todos o
 
 > **Fresh Animations y Better Dogs necesitan EMF + ETF**, que ya están incluidos en los mods.
 > Son el reemplazo de OptiFine en Forge — sin ellos los packs se instalan pero no hacen nada.
+
+---
+
+## Apagar un mod sin sacarlo del pack
+
+Agregale `.disabled` al final del nombre del archivo:
+
+```bash
+mv mods/DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar{{,.disabled}}
+```
+
+Forge ignora nativamente cualquier `.jar.disabled`, y `sync.py` lo respeta: no te lo
+vuelve a bajar ni lo borra con `--prune`. Te lo reporta como *apagado*. Para prenderlo
+de vuelta, sacale el sufijo.
+
+**Distant Horizons** es el candidato obvio: genera terreno lejano usando el generador de
+chunks del juego, y con Terralith + Incendium + los mods de estructuras eso es caro. Las
+primeras horas de un mundo nuevo va a estar trabajando fuerte. Si te molesta, se apaga.
+
+Dos formas de bajarle el volumen sin llegar a eso:
+
+- **Desde el juego**: Opciones → Distant Horizons → *Enable Rendering*. Se apaga el
+  dibujado sin tocar archivos.
+- **Ajustando**: en un M-series con 16 GB, empezá con render distance de Minecraft en
+  8–12 chunks y el LOD distance de DH en 64–96 (no 512), y limitale los threads de
+  generación a 3–4 en vez de dejarlo tomar todos los núcleos.
 
 ---
 

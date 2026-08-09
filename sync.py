@@ -141,9 +141,14 @@ def main(argv):
     for d in DEST.values():
         (ROOT / d).mkdir(exist_ok=True)
 
-    ok = bad = new = 0
+    ok = bad = new = off = 0
     for name, r in sorted(wanted.items()):
         dest = ROOT / DEST[r.get("type", "mod")] / name
+        # Forge ignora los .jar.disabled: es la forma nativa de apagar un mod
+        # sin sacarlo del pack. Si está así, no lo bajamos de nuevo.
+        if dest.with_name(name + ".disabled").exists():
+            off += 1
+            continue
         if dest.exists() and sha1(dest) == r["sha1_remote"]:
             ok += 1
             continue
@@ -164,7 +169,9 @@ def main(argv):
         new += 1
 
     strays = [p for d in DEST.values() for p in (ROOT / d).iterdir()
-              if p.is_file() and p.name not in wanted and p.name != ".DS_Store"]
+              if p.is_file() and p.name != ".DS_Store"
+              and p.name not in wanted
+              and p.name.removesuffix(".disabled") not in wanted]
     for p in strays:
         if prune:
             print(f"  borrando sobrante  {p.name}")
@@ -173,7 +180,7 @@ def main(argv):
             print(f"  sobrante (usa --prune para borrar)  {p.name}")
 
     print(f"\n{ok} ya estaban / {new} descargados / {bad} con problemas / "
-          f"{len(strays)} sobrantes")
+          f"{len(strays)} sobrantes" + (f" / {off} apagados (.disabled)" if off else ""))
     if manual:
         print(f"\nDescargar a mano en ./mods (solo están en CurseForge):")
         for r in manual:

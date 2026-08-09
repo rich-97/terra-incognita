@@ -2,23 +2,23 @@
 
 > *«…y de aquí en adelante, tierra desconocida.»*
 
-Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 112 mods que rehacen
+Modpack de exploración para **Minecraft 1.20.1** con **Forge**: 113 mods que rehacen
 el mundo vanilla entero — cada estructura, las tres dimensiones y buena parte de los mobs.
 Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-422 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+450 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 112 (118 automáticos + 6 manuales) |
-| **Resource packs** | 10 |
+| **Mods** | 113 (120 automáticos + 6 manuales) |
+| **Resource packs** | 11 |
 | **Shaders** | 2 (opcional, uno por sistema) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~422 MB |
+| **Peso en disco** | ~450 MB |
 
 ---
 
@@ -182,7 +182,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ### 🪂 Mecánicas, movilidad y ambiente
 
-*Cosas nuevas para hacer y ver.* — **10 mods**
+*Cosas nuevas para hacer y ver.* — **11 mods**
 
 | Mod | Qué hace | Fuente |
 |---|---|---|
@@ -190,6 +190,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 | [Amendments](https://modrinth.com/mod/amendments) | Faroles de pared, velas de calavera, macetas y estandartes de techo. Salieron de Supplementaries en su 2.8.0 y viven acá. | Modrinth |
 | [Comforts](https://modrinth.com/mod/comforts) | Sacos de dormir (dormís sin cambiar el punto de respawn) y hamacas. | Modrinth |
 | [Diagonal Fences](https://modrinth.com/mod/diagonal-fences) | Las cercas conectan en diagonal. Suena tonto hasta que construís algo. | Modrinth |
+| [Distant Horizons](https://modrinth.com/mod/distanthorizons) | Render distance enorme: genera y dibuja terreno simplificado (LOD) mucho más allá de tu distancia normal. **Opcional** — mirá la nota abajo. | Modrinth · **opcional** |
 | [Do a Barrel Roll](https://modrinth.com/mod/do-a-barrel-roll) | Control de vuelo con elytra tipo simulador: alabeo, giros y acrobacias. | Modrinth |
 | [Easy Emerald](https://modrinth.com/mod/easy-emerald) | Forma sencilla de craftear esmeraldas, más bloques y herramientas de esmeralda. | Modrinth |
 | [Exposure](https://modrinth.com/mod/exposure) | Cámara de fotos con revelado real: sacás fotos y las colgás como cuadros. | Modrinth |
@@ -228,7 +229,7 @@ Opciones → Resource Packs → moverlos a la derecha. El orden importa: **Faith
 
 ## Resource packs
 
-Los 10 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
+Los 11 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
 
 | Resource pack | Qué hace |
 |---|---|
@@ -236,6 +237,7 @@ Los 10 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
 | [Eclectic Trove (Legendary Tooltips)](https://modrinth.com/resourcepack/eclectic-trove-legendary-tooltips) | Marcos de tooltip para Legendary Tooltips, uno por nivel de rareza. |
 | [Enhanced Boss Bars](https://modrinth.com/resourcepack/enhanced-boss-bars) | Texturas para el mod Enhanced Boss Bars: una barra distinta por jefe. |
 | [Faithful 32x](https://modrinth.com/resourcepack/faithful-32x) | Las texturas vanilla al doble de resolución, respetando el estilo original. La base sobre la que van los demás. |
+| [Fire Rekindled](https://modrinth.com/resourcepack/fire-rekindled) | Fuego, antorchas y lava reanimados, con más cuadros y mejor color. Cubre también los bloques de Supplementaries. |
 | [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) | Animaciones nuevas para todos los mobs vanilla: giran la cabeza, parpadean, reaccionan. Cambia muchísimo cómo se siente el mundo. |
 | [Icon Xaero's](https://modrinth.com/resourcepack/icon-xaeros) | Iconos propios para las entidades y waypoints del minimapa de Xaero's. |
 | [Ore Variants](https://modrinth.com/resourcepack/ore-variants) | Cada mineral se ve distinto según la piedra en la que está (piedra, deepslate, nether). |
@@ -245,6 +247,32 @@ Los 10 son compatibles con 1.20.1 y con los mods de este pack. Todos opcionales.
 
 > **Fresh Animations y Better Dogs necesitan EMF + ETF**, que ya están incluidos en los mods.
 > Son el reemplazo de OptiFine en Forge — sin ellos los packs se instalan pero no hacen nada.
+
+---
+
+## Apagar un mod sin sacarlo del pack
+
+Agregale `.disabled` al final del nombre del archivo:
+
+```bash
+mv mods/DistantHorizons-2.4.5-b-1.20.1-fabric-forge.jar{,.disabled}
+```
+
+Forge ignora nativamente cualquier `.jar.disabled`, y `sync.py` lo respeta: no te lo
+vuelve a bajar ni lo borra con `--prune`. Te lo reporta como *apagado*. Para prenderlo
+de vuelta, sacale el sufijo.
+
+**Distant Horizons** es el candidato obvio: genera terreno lejano usando el generador de
+chunks del juego, y con Terralith + Incendium + los mods de estructuras eso es caro. Las
+primeras horas de un mundo nuevo va a estar trabajando fuerte. Si te molesta, se apaga.
+
+Dos formas de bajarle el volumen sin llegar a eso:
+
+- **Desde el juego**: Opciones → Distant Horizons → *Enable Rendering*. Se apaga el
+  dibujado sin tocar archivos.
+- **Ajustando**: en un M-series con 16 GB, empezá con render distance de Minecraft en
+  8–12 chunks y el LOD distance de DH en 64–96 (no 512), y limitale los threads de
+  generación a 3–4 en vez de dejarlo tomar todos los núcleos.
 
 ---
 
