@@ -8,17 +8,17 @@ Sin tech ni automatización. Solo salir a ver qué hay, y sobrevivirlo.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`mods.json`](mods.json)) y un script que los descarga. Así el repo pesa kilobytes en vez de
-373 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+375 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 1.20.1 |
 | **Mod loader** | Forge 47.x (última recomendada) |
-| **Mods** | 112 (118 automáticos + 6 manuales) |
+| **Mods** | 112 (119 automáticos + 6 manuales) |
 | **Resource packs** | 11 |
-| **Shaders** | 1 (opcional) |
+| **Shaders** | 2 (opcional, uno por sistema) |
 | **RAM recomendada** | 6 GB mínimo, 8 GB cómodo |
-| **Peso en disco** | ~373 MB |
+| **Peso en disco** | ~375 MB |
 
 ---
 
@@ -269,14 +269,15 @@ Forge ignora nativamente cualquier `.jar.disabled`, y `sync.py` lo respeta: no t
 vuelve a bajar ni lo borra con `--prune`. Te lo reporta como *apagado*. Para prenderlo
 de vuelta, sacale el sufijo.
 
-> ### DH + shaders en Forge: pendiente
+> ### Si DH no dibuja nada, sospechá de otro mod
 >
-> DH funciona bien solo, y **con BSL también**. Con **Bliss** rompía el cielo y las zonas sin
-> cargar, y probar DH 2.3.6 (la versión contemporánea de Bliss 2.1.2) no lo arregló, así que
-> la cronología no era la causa. Bliss quedó fuera del pack por eso.
+> DH generaba los LOD pero no los dibujaba, y además rompía el cielo con Bliss. La causa era
+> **Alex's Caves**: su `LightTextureMixin` sobreescribe la textura de luz del juego. Sacarlo
+> arregló las dos cosas de golpe. Por eso no está en el pack — ver los issues del repo.
 >
-> El indicio bueno: la misma combinación **funciona con Iris**, el original de Fabric. Apunta
-> a que el problema está en **Oculus**, el port de Iris a Forge, y no en DH ni en el shader.
+> El síntoma a reconocer: DH avisa en el log y en el chat del juego cuando detecta un mod
+> incompatible. Buscá `Partially Incompatible Distant Horizons mod detected` en
+> `logs/latest.log` antes de sospechar del shader.
 >
 > Si cambiás de versión de DH, puede que tengas que borrar `DistantHorizons.sqlite` de la
 > carpeta del mundo — el formato no siempre es compatible hacia atrás. Se regenera solo.
@@ -309,26 +310,28 @@ Dos formas de bajarle el volumen sin llegar a eso:
 
 ## Shaders
 
-| Shader | Qué es |
-|---|---|
-| [BSL Shaders v8.2.09](https://modrinth.com/shader/bsl-shaders) | El mejor equilibrio entre cómo se ve y cuánto cuesta, con un menú de configuración enorme para bajarle cosas si te pesa. |
+Van los dos, elegís según en qué máquina estés jugando:
 
-Funciona gracias a **Oculus** (el port de Iris para Forge) + **Embeddium** (el port de Sodium),
+| Shader | Dónde corre | Qué es |
+|---|---|---|
+| [Bliss Shaders v2.1.2](https://modrinth.com/shader/bliss-shader) | **Windows / Linux** | Edit de Chocapic13. Más bonito y más caro que BSL: mejor agua, volumétricos y cielo. |
+| [BSL Shaders v8.2.09](https://modrinth.com/shader/bsl-shaders) | **Cualquiera, incluido macOS** | El mejor equilibrio entre cómo se ve y cuánto cuesta, con un menú de configuración enorme para bajarle cosas si te pesa. |
+
+Funcionan gracias a **Oculus** (el port de Iris para Forge) + **Embeddium** (el port de Sodium),
 que ya están en la lista de mods. Embeddium por sí solo sube los FPS aunque nunca actives un shader.
 
-Se activa en Opciones → Video Settings → Shader Packs.
+Se activan en Opciones → Video Settings → Shader Packs.
 
-> ### ⚠️ La versión de BSL está fijada a propósito
+> ### ⚠️ Por qué hay uno para cada sistema
 >
 > Los shaders modernos usan **compute shaders**, que necesitan **OpenGL 4.3**. macOS tope en
 > **4.1** y Apple ya no lo actualiza, así que en Mac no arrancan — no importa qué GPU tengas.
 >
-> **BSL v8.2.09 usa cero**, así que anda en todos lados. La v10.x los agregó: actualizarla
-> rompería el pack en Mac. Por lo mismo quedaron afuera **Aurora's Shaders**, **Bloop** y
-> **Bliss**.
+> - **Bliss v2.1.2** usa 8 → Windows y Linux, donde se ve mejor.
+> - **BSL v8.2.09** usa 0 → anda en todos lados, incluido macOS. Está **fijada a propósito**:
+>   la v10.x agregó compute shaders, así que actualizarla la rompería en Mac.
 >
-> Si dejás de jugar en Mac, podés subir BSL a la última cambiándole `version_number`, `url`,
-> `sha1_remote` y `filename` en `mods.json`.
+> Por lo mismo quedaron afuera **Aurora's Shaders** y **Bloop**.
 
 ---
 
