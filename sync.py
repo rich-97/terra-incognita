@@ -5,7 +5,8 @@
   python3 sync.py --prune    además borra lo que ya no está en mods.json
   python3 sync.py --verify   solo re-verifica hashes, no descarga nada
   python3 sync.py --deps     valida que cada mod tenga la versión de sus dependencias
-  python3 sync.py --install [ruta]   además, copia todo a .minecraft (auto-detecta si falta ruta)
+  python3 sync.py --install [ruta]     además, copia todo a .minecraft (auto-detecta si falta ruta)
+  python3 sync.py --uninstall [ruta]   borra de .minecraft solo lo que puso este pack
   python3 sync.py --test     autotest de la lógica de rangos de versión
 
 ponytail: 70 líneas en vez de packwiz porque el pack es 100% Modrinth salvo 6 mods.
@@ -177,6 +178,32 @@ def instalar(destino, origen_root=ROOT):
     return 0
 
 
+def desinstalar(destino, rows=None):
+    """Borra de una carpeta .minecraft real solo lo que este pack reclama en
+    mods.json (bajados o manuales, activos o .disabled). No toca nada más: ni
+    otros mods que el usuario haya puesto a mano, ni mundos, ni configs."""
+    if not destino.is_dir():
+        print(f"  no existe {destino}")
+        return 1
+    if rows is None:
+        rows = json.loads((ROOT / "mods.json").read_text(encoding="utf-8"))
+    conocidos = ({r["filename"] for r in rows if r.get("url")}
+                 | {r["file"] for r in rows if not r.get("url")})
+    borrados = 0
+    for carpeta in DEST.values():
+        objetivo = destino / carpeta
+        if not objetivo.is_dir():
+            continue
+        for nombre in conocidos:
+            for candidato in (objetivo / nombre, objetivo / (nombre + ".disabled")):
+                if candidato.exists():
+                    print(f"  borrando  {carpeta}/{candidato.name}")
+                    candidato.unlink()
+                    borrados += 1
+    print(f"\n{borrados} archivos borrados de {destino}")
+    return 0
+
+
 def autotest():
     """Los rangos de versión son la única lógica no obvia acá. Que falle fuerte."""
     casos = [("2.11.33", "[2.12.36,)", False), ("2.12.36", "[2.12.36,)", True),
@@ -227,6 +254,20 @@ def autotest():
         resultado = {p.name for p in sobrantes([carpeta], {"Bajado.jar", "Manual.jar"})}
         assert resultado == {"Huerfano.jar"}, resultado
     print("  sobrantes(): un mod manual (sin url) no es sobrante OK")
+
+    with tempfile.TemporaryDirectory() as t:
+        destino = pathlib.Path(t)
+        (destino / "mods").mkdir()
+        (destino / "mods" / "DelPack.jar").write_bytes(b"x")
+        (destino / "mods" / "ManualDelPack.jar.disabled").write_bytes(b"x")
+        (destino / "mods" / "DeOtroMod.jar").write_bytes(b"x")     # no es de este pack
+        rows_falsas = [{"filename": "DelPack.jar", "url": "https://x"},
+                       {"file": "ManualDelPack.jar"}]
+        assert desinstalar(destino, rows=rows_falsas) == 0
+        assert not (destino / "mods" / "DelPack.jar").exists()
+        assert not (destino / "mods" / "ManualDelPack.jar.disabled").exists()
+        assert (destino / "mods" / "DeOtroMod.jar").exists()
+    print("  desinstalar(): borra lo del pack, no toca lo demás OK")
     return 0
 
 
@@ -235,6 +276,11 @@ def main(argv):
         return autotest()
     if "--deps" in argv:
         return revisar_deps()
+    if "--uninstall" in argv:
+        i = argv.index("--uninstall")
+        ruta = argv[i + 1] if i + 1 < len(argv) and not argv[i + 1].startswith("--") else None
+        destino = pathlib.Path(ruta).expanduser() if ruta else minecraft_dir()
+        return desinstalar(destino)
     prune, verify = "--prune" in argv, "--verify" in argv
     rows = json.loads((ROOT / "mods.json").read_text(encoding="utf-8"))
     wanted = {r["filename"]: r for r in rows if r.get("url")}

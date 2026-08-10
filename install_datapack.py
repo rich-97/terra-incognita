@@ -3,6 +3,7 @@
 
   python3 install_datapack.py "Nombre del mundo"
   python3 install_datapack.py "Nombre del mundo" --dest /ruta/a/tu/instancia
+  python3 install_datapack.py "Nombre del mundo" --uninstall   saca los de este pack
 
 ponytail: aparte de sync.py porque los datapacks son por-mundo, no globales a toda
 la instalación de Minecraft como mods/resourcepacks/shaderpacks.
@@ -38,6 +39,22 @@ def main(argv):
         return 1
 
     destino = saves / mundo / "datapacks"
+
+    if "--uninstall" in argv:
+        sacados = []
+        if destino.is_dir():
+            for dp in sorted(p for p in (ROOT / "datapacks").iterdir() if p.is_dir()):
+                objetivo = destino / dp.name
+                if objetivo.is_dir():
+                    shutil.rmtree(objetivo)
+                    sacados.append(dp.name)
+        print(f"\n{len(sacados)} datapack(s) sacado(s) de {destino}:")
+        for n in sacados:
+            print(f"  - {n}")
+        print("\nSolo afecta a los chunks que se generen de ahora en más — lo que "
+              "ya está generado con la altura fija queda como está.")
+        return 0
+
     destino.mkdir(exist_ok=True)
     instalados = []
     for dp in sorted(p for p in (ROOT / "datapacks").iterdir() if p.is_dir()):

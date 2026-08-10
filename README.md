@@ -397,6 +397,31 @@ Después corré `gen_readme.py` para que la lista de acá arriba siga al día.
 
 ---
 
+## Desinstalar
+
+Para volver a **Forge 1.20.1 vanilla**, sin este pack:
+
+```bash
+python3 sync.py --uninstall
+python3 sync.py --uninstall "/ruta/a/tu/instancia"    # CurseForge App/Prism/MultiMC/Modrinth App
+```
+
+Borra de `.minecraft` (auto-detectado igual que `--install`) únicamente los archivos
+que `mods.json` reclama como propios — nada más. Si agregaste algún mod o resource
+pack por tu cuenta en esa misma carpeta, no lo toca.
+
+Esto deja **Forge instalado pero sin mods**, que es lo más cercano a vanilla que se
+puede lograr sin tocar el propio launcher: no borra la versión de Forge del launcher
+ni tus mundos.
+
+Si también instalaste el datapack de Sky Villages en algún mundo:
+
+```bash
+python3 install_datapack.py "Nombre de tu mundo" --uninstall
+```
+
+---
+
 ## Notas
 
 - Todo el pack es **Forge 1.20.1**. Antes de agregar un mod, confirmá que su página
